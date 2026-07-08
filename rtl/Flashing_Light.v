@@ -1,6 +1,6 @@
 module flashing_lights (
-    input  sdq_refclkp_q0_i,
-    input  sdq_refclkn_q0_i,
+    input  sdq_refclkp_q1_i,
+    input  sdq_refclkn_q1_i,
 
     input  Switch1,
     input  Switch2,
@@ -21,6 +21,8 @@ assign F_SFP1_TX_DISABLE = 1'b0;
 
 // The Versa DIP switches and LEDs are active-low at the board level.
 // Internally, switch_value uses the intuitive meaning: switch on = 1.
+// Set this to 0 after link bring-up to return LEDs to switch-data display.
+localparam DEBUG_STATUS_LEDS = 1'b1;
 
 wire tx_clk;
 wire rx_clk;
@@ -92,7 +94,12 @@ always @* begin
     LED3 = 1'b1;
     LED4 = 1'b1;
 
-    if (have_rx_data) begin
+    if (DEBUG_STATUS_LEDS) begin
+        LED1 = ~mpcs_phyrdy;
+        LED2 = ~mpcs_ready;
+        LED3 = ~mpcs_lsync;
+        LED4 = ~mpcs_rxval;
+    end else if (have_rx_data) begin
         case (rx_data)
             2'b00: LED1 = 1'b0;
             2'b01: LED2 = 1'b0;
@@ -113,10 +120,10 @@ MPCS_ex u_mpcs (
     .diffioclksel_i(1'b0),
     .clksel_i(2'b00),
 
-    .sdq_refclkp_q0_i(sdq_refclkp_q0_i),
-    .sdq_refclkn_q0_i(sdq_refclkn_q0_i),
-    .sdq_refclkp_q1_i(1'b0),
-    .sdq_refclkn_q1_i(1'b0),
+    .sdq_refclkp_q0_i(1'b0),
+    .sdq_refclkn_q0_i(1'b0),
+    .sdq_refclkp_q1_i(sdq_refclkp_q1_i),
+    .sdq_refclkn_q1_i(sdq_refclkn_q1_i),
     .sd_ext_0_refclk_i(1'b0),
     .sd_ext_1_refclk_i(1'b0),
     .pll_0_refclk_i(1'b0),
