@@ -21,8 +21,11 @@ assign F_SFP1_TX_DISABLE = 1'b0;
 
 // The Versa DIP switches and LEDs are active-low at the board level.
 // Internally, switch_value uses the intuitive meaning: switch on = 1.
-// Set this to 0 after link bring-up to return LEDs to switch-data display.
-localparam DEBUG_STATUS_LEDS = 1'b1;
+// LED_MODE:
+//   0 = normal SFP loopback data display
+//   1 = MPCS status display: phyrdy, ready, lsync, rxval
+//   2 = local switch sanity check, bypassing MPCS data
+localparam [1:0] LED_MODE = 2'd0;
 
 wire tx_clk;
 wire rx_clk;
@@ -94,25 +97,46 @@ always @* begin
     LED3 = 1'b1;
     LED4 = 1'b1;
 
-    if (DEBUG_STATUS_LEDS) begin
-        LED1 = ~mpcs_phyrdy;
-        LED2 = ~mpcs_ready;
-        LED3 = ~mpcs_lsync;
-        LED4 = ~mpcs_rxval;
-    end else if (have_rx_data) begin
-        case (rx_data)
-            2'b00: LED1 = 1'b0;
-            2'b01: LED2 = 1'b0;
-            2'b10: LED3 = 1'b0;
-            2'b11: LED4 = 1'b0;
-            default: begin
-                LED1 = 1'b1;
-                LED2 = 1'b1;
-                LED3 = 1'b1;
-                LED4 = 1'b1;
+    case (LED_MODE)
+        2'd1: begin
+            LED1 = ~mpcs_phyrdy;
+            LED2 = ~mpcs_ready;
+            LED3 = ~mpcs_lsync;
+            LED4 = ~mpcs_rxval;
+        end
+
+        2'd2: begin
+            case (switch_value)
+                2'b00: LED1 = 1'b0;
+                2'b01: LED2 = 1'b0;
+                2'b10: LED3 = 1'b0;
+                2'b11: LED4 = 1'b0;
+                default: begin
+                    LED1 = 1'b1;
+                    LED2 = 1'b1;
+                    LED3 = 1'b1;
+                    LED4 = 1'b1;
+                end
+            endcase
+        end
+
+        default: begin
+            if (have_rx_data) begin
+                case (rx_data)
+                    2'b00: LED1 = 1'b0;
+                    2'b01: LED2 = 1'b0;
+                    2'b10: LED3 = 1'b0;
+                    2'b11: LED4 = 1'b0;
+                    default: begin
+                        LED1 = 1'b1;
+                        LED2 = 1'b1;
+                        LED3 = 1'b1;
+                        LED4 = 1'b1;
+                    end
+                endcase
             end
-        endcase
-    end
+        end
+    endcase
 end
 
 MPCS_ex u_mpcs (
