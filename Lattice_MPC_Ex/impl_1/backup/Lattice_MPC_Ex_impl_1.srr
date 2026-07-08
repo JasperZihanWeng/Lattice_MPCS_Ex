@@ -1,0 +1,1880 @@
+#Build: Synplify Pro (R) W-2025.03LR-SP1, Build 178R, Nov 11 2025
+#install: C:\lscc\radiant\2025.2.1\synpbase
+#OS: Windows 10 or later
+#Hostname: ECE-OP7010PC2
+
+# Wed Jul  8 12:38:56 2026
+
+#Implementation: impl_1
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1
+Install: C:\lscc\radiant\2025.2.1\synpbase
+OS: Windows 10 or later
+Hostname: ECE-OP7010PC2
+
+Implementation : impl_1
+Synopsys HDL Compiler, Version comp202503synp2, Build 238R, Built Jan 28 2026 09:24:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1
+Install: C:\lscc\radiant\2025.2.1\synpbase
+OS: Windows 10 or later
+Hostname: ECE-OP7010PC2
+
+Implementation : impl_1
+Synopsys VHDL Compiler, Version comp202503synp2, Build 238R, Built Jan 28 2026 09:24:53, @
+
+@N|Running in 64-bit mode
+@N:Can't find top module!
+Top entity isn't set yet!
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.vhd'.
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 148MB peak: 148MB)
+
+
+Process completed successfully.
+# Wed Jul  8 12:38:57 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1
+Install: C:\lscc\radiant\2025.2.1\synpbase
+OS: Windows 10 or later
+Hostname: ECE-OP7010PC2
+
+Implementation : impl_1
+Synopsys Verilog Compiler, Version comp202503synp2, Build 238R, Built Jan 28 2026 09:24:53, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\radiant\2025.2.1\synpbase\lib\lucent\lfcpnx.v" (library work)
+@I::"C:\lscc\radiant\2025.2.1\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\radiant\2025.2.1\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_addsub.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_addsub.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":313:13:313:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":333:13:333:24|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_add.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_add.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/adder/rtl\lscc_adder.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_complex_mult.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_complex_mult.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_complex_mult.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_complex_mult.v":101:11:101:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_counter.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_counter.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/counter/rtl\lscc_cntr.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":129:13:129:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":143:13:143:24|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_dpram.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_dpram.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/distributed_dpram/rtl\lscc_distributed_dpram.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_spram.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_spram.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/distributed_spram/rtl\lscc_distributed_spram.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_rom.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_rom.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/distributed_rom/rtl\lscc_distributed_rom.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_shift_reg.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_shift_reg.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_shift_reg.v":126:11:126:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_shift_reg.v":135:11:135:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_fifo.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_fifo.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3275:17:3275:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3282:17:3282:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3339:17:3339:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3346:17:3346:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3401:17:3401:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3408:17:3408:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_fifo_dc.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5142:25:5142:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5146:25:5146:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5177:29:5177:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5181:29:5181:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":170:17:170:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":178:17:178:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":222:25:222:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":226:25:226:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_ecc.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":634:25:634:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":648:25:648:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":752:29:752:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":756:29:756:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":857:29:857:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":862:29:862:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":991:29:991:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":995:29:995:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1200:29:1200:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1204:29:1204:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1296:29:1296:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1301:29:1301:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1435:29:1435:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1439:29:1439:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1713:29:1713:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1717:29:1717:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1762:29:1762:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1766:29:1766:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v":145:17:145:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v":149:17:149:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v":150:17:150:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v":155:17:155:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_prim.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":212:25:212:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":216:25:216:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":257:29:257:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":261:29:261:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":289:29:289:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":293:29:293:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_output_logic.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v":152:17:152:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v":157:17:157:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_wr_ctrl_logic.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v":347:25:347:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v":352:25:352:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v":185:25:185:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v":189:25:189:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v":167:25:167:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v":171:25:171:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mac.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mac.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mac.v":94:11:94:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mac.v":109:11:109:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsubsum.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsubsum.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":210:13:210:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":227:13:227:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsubsum.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsubsum.v":93:11:93:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsub.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsub.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsub.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsub.v":100:11:100:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mult.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mult.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mult.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mult.v":96:11:96:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1060:25:1060:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1064:25:1064:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1095:29:1095:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1099:29:1099:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_behavioral.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_lut_decode.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_functions.vh" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":1147:17:1147:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":1152:17:1152:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3696:25:3696:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3700:25:3700:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3929:17:3929:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3933:17:3933:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_be.v":194:11:194:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_be.v":203:11:203:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_true.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_true.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1880:29:1880:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1885:29:1885:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1916:33:1916:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1920:33:1920:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1953:29:1953:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1958:29:1958:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1988:33:1988:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1992:33:1992:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2502:29:2502:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2507:29:2507:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2538:33:2538:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2542:33:2542:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2575:29:2575:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2580:29:2580:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2611:33:2611:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2615:33:2615:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3097:29:3097:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3102:29:3102:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3133:33:3133:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3137:33:3137:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3170:29:3170:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3175:29:3175:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3206:33:3206:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3210:33:3210:44|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_true.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_impl.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_behavioral.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_lut_decode.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_functions.vh" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1485:25:1485:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1491:25:1491:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq_be.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq_be.v":100:11:100:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_rom.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_rom.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/rom/rtl\lscc_rom.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/rom/rtl\lscc_rom.v":970:25:970:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/rom/rtl\lscc_rom.v":976:25:976:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_sub.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_sub.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" (library work)
+@I::"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v" (library work)
+@I::"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 210MB peak: 210MB)
+
+
+Process completed successfully.
+# Wed Jul  8 12:38:58 2026
+
+###########################################################]
+###########################################################[
+@I::"C:\lscc\radiant\2025.2.1\synpbase\lib\lucent\lfcpnx.v" (library work)
+@I::"C:\lscc\radiant\2025.2.1\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\radiant\2025.2.1\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_addsub.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_addsub.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":313:13:313:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":333:13:333:24|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_add.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_add.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/adder/rtl\lscc_adder.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_complex_mult.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_complex_mult.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_complex_mult.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_complex_mult.v":101:11:101:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_counter.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_counter.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/counter/rtl\lscc_cntr.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":129:13:129:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":143:13:143:24|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_dpram.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_dpram.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/distributed_dpram/rtl\lscc_distributed_dpram.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_spram.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_spram.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/distributed_spram/rtl\lscc_distributed_spram.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_rom.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_rom.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/distributed_rom/rtl\lscc_distributed_rom.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_shift_reg.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_shift_reg.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_shift_reg/rtl\lscc_shift_register.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_shift_reg.v":126:11:126:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_distributed_shift_reg.v":135:11:135:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_fifo.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_fifo.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3275:17:3275:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3282:17:3282:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3339:17:3339:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3346:17:3346:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3401:17:3401:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3408:17:3408:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_fifo_dc.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5142:25:5142:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5146:25:5146:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5177:29:5177:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5181:29:5181:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":170:17:170:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":178:17:178:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":222:25:222:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":226:25:226:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_ecc.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":634:25:634:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":648:25:648:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":752:29:752:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":756:29:756:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":857:29:857:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":862:29:862:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":991:29:991:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":995:29:995:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1200:29:1200:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1204:29:1204:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1296:29:1296:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1301:29:1301:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1435:29:1435:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1439:29:1439:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1713:29:1713:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1717:29:1717:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1762:29:1762:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1766:29:1766:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v":145:17:145:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v":149:17:149:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v":150:17:150:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v":155:17:155:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_prim.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":212:25:212:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":216:25:216:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":257:29:257:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":261:29:261:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":289:29:289:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":293:29:293:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_output_logic.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v":152:17:152:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v":157:17:157:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_wr_ctrl_logic.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v":347:25:347:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v":352:25:352:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v":185:25:185:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v":189:25:189:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v":167:25:167:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v":171:25:171:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mac.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mac.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mac.v":94:11:94:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mac.v":109:11:109:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsubsum.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsubsum.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":210:13:210:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":227:13:227:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsubsum.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsubsum.v":93:11:93:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsub.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsub.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsub.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_multaddsub.v":100:11:100:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mult.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mult.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mult.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_mult.v":96:11:96:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1060:25:1060:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1064:25:1064:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1095:29:1095:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1099:29:1099:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_behavioral.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_lut_decode.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_functions.vh" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":1147:17:1147:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":1152:17:1152:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3696:25:3696:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3700:25:3700:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3929:17:3929:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3933:17:3933:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_be.v":194:11:194:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_be.v":203:11:203:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_true.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_true.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1880:29:1880:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1885:29:1885:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1916:33:1916:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1920:33:1920:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1953:29:1953:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1958:29:1958:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1988:33:1988:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":1992:33:1992:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2502:29:2502:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2507:29:2507:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2538:33:2538:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2542:33:2542:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2575:29:2575:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2580:29:2580:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2611:33:2611:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":2615:33:2615:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3097:29:3097:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3102:29:3102:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3133:33:3133:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3137:33:3137:44|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3170:29:3170:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3175:29:3175:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3206:33:3206:45|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dp_true/rtl\lscc_ram_dp_true.v":3210:33:3210:44|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dp_true.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_impl.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_behavioral.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_lut_decode.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_impl.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dp_true/rtl\lscc_lfmxo4_ram_dp_true_functions.vh" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1485:25:1485:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1491:25:1491:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq_be.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_ram_dq_be.v":100:11:100:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_rom.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_rom.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/rom/rtl\lscc_rom.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/rom/rtl\lscc_rom.v":970:25:970:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2025.2.1\ip\pmi\../common/rom/rtl\lscc_rom.v":976:25:976:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v":"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_sub.v" (library work)
+@I:"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_sub.v":"C:\lscc\radiant\2025.2.1\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" (library work)
+@I::"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v" (library work)
+@I::"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"C:\lscc\radiant\2025.2.1\synpbase\lib\lucent\lfcpnx.v":3985:7:3985:15|Synthesizing module PCSREFMUX in library work.
+Running optimization stage 1 on PCSREFMUX .......
+Finished optimization stage 1 on PCSREFMUX (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 213MB)
+@N: CG364 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1402:7:1402:33|Synthesizing module MPCS_ex_ipgen_lscc_mpcs_top in library work.
+
+	MODESEL=32'b00000000000000000000000000000000
+	NUM_LANES=32'b00000000000000000000000000000001
+	PROTOCOL=56'b00110001010010110100001001000001010100110100010101011000
+	PCS_BYPASS=32'b00000000000000000000000000000000
+	LANE_ID=32'b01000001010101010101010001001111
+	TX_RX_BOND_MODE_Q0=56'b00110000011000100011000000110001001100010011000000110000
+	TX_RX_BOND_MODE_Q1=56'b00110000011000100011000000110000001100000011000000110000
+	GRP_NAME=112'b0100110101010000010000110101001101011111011001010111100001011111010100000100001101010011010001110101001001010000
+	GSR=56'b01000101010011100100000101000010010011000100010101000100
+	MODE=72'b010100100111100001011111011000010110111001100100010111110101010001111000
+	PCS_64B66B_NOFPLL=64'b0100010001001001010100110100000101000010010011000100010101000100
+	REFCLK=80'b00110001001100100011010100101110001100000011000000110000001100000011000000110000
+	DATARATE=32'b00110001001011100011001000110101
+	DATARATE_BYPASS=40'b0011001100101110001100010011001000110101
+	BUS_WIDTH=32'b00000000000000000000000000001010
+	GEAR_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEAR_CONV=32'b00000000000000000000000000000001
+	CLK_OUT=80'b00110001001100100011010100101110001100000011000000110000001100000011000000110000
+	TX_RX_DIVMODE_0=32'b00000000000000000000000000000001
+	TX_RX_M_A=32'b00000000000000000000000000001000
+	TX_RX_F_A=32'b00000000000000000000000000000001
+	TX_RX_N_A=32'b00000000000000000000000000001010
+	TX_RX_DIVMODE_1=32'b00000000000000000000000000000001
+	TX_RX_M_B=32'b00000000000000000000000000000010
+	TX_RX_F_B=32'b00000000000000000000000000000100
+	TX_RX_N_B=32'b00000000000000000000000000001010
+	TX_RX_DIVMODE_2=32'b00000000000000000000000000000001
+	TX_RX_M_C=32'b00000000000000000000000000000010
+	TX_RX_F_C=32'b00000000000000000000000000000100
+	TX_RX_N_C=32'b00000000000000000000000000001010
+	TX_AMP_RATIO_MARGIN0_FULL_DEC=32'b00000000000000000000000010000000
+	TX_AMP_RATIO_MARGIN0_FULL=80'b00110000011000100011000100110000001100000011000000110000001100000011000000110000
+	TX_IMPED_RATIO=80'b00110000011000100011000100110000001100000011000000110000001100000011000000110000
+	RX_IMPED_RATIO=80'b00110000011000100011000100110000001100000011000000110000001100000011000000110000
+	RXEQ_ENABLE=40'b0011000001100010001100010011000000110000
+	RXEQ_ENABLE_DEC=32'b00000000000000000000000000000100
+	RXEQ_ALGO=40'b0011000001100010001100010011000100110001
+	RXEQ_ALGO_DEC=32'b00000000000000000000000000000111
+	GEN3_ENA_PREA0=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEN12_ENA_PREA0=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEN3_ENA_POST_A0=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEN12_ENA_POST_A0=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEN3_ENA_POST_A1A2=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEN12_ENA_POST_A1A2=64'b0100010001001001010100110100000101000010010011000100010101000100
+	TX_POLINV=48'b010011100100111101010010010011010100000101001100
+	RX_POLINV=48'b010011100100111101010010010011010100000101001100
+	TX_PRE_RATIO_DEC=32'b00000000000000000000000000000000
+	TX_PRE_RATIO=80'b00110000011000100011000000110000001100000011000000110000001100000011000000110000
+	TX_PST_RATIO_DEC=32'b00000000000000000000000000010101
+	TX_PST_RATIO=80'b00110000011000100011000000110000001100000011000100110000001100010011000000110001
+	CNT250NS_MAX_DEC=32'b00000000000000000000000000011111
+	CNT250NS_MAX=88'b0011000001100010001100000011000000110000001100000011000100110001001100010011000100110001
+	TX_FIFO_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	ENC_8B10B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	TX_PMFIFO_DIS=64'b0100010001001001010100110100000101000010010011000100010101000100
+	RX_FIFO_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	DEC_8B10B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	WA_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	WA_PTN_20B=88'b0011000100110000010000100100100101010100010111110101011101001001010001000101010001001000
+	PRI_WA_PTN_DEC=32'b00000000000000000000000101111100
+	PRI_WA_PTN=176'b00110000011000100011000000110000001100000011000000110000001100000011000000110000001100000011000000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	SEC_WA_PTN_DEC=32'b00000000000000000000001010000011
+	SEC_WA_PTN=176'b00110000011000100011000000110000001100000011000000110000001100000011000000110000001100000011000000110001001100000011000100110000001100000011000000110000001100000011000100110001
+	WA_MASK_CODE_DEC=32'b00000000000000000000000000000000
+	WA_MASK_CODE=176'b00110000011000100011000000110000001100000011000000110000001100000011000000110000001100000011000000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SYNC_PTN_LEN=8'b00110001
+	SYNC_PTN_ALIGN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	SYNC_PTN_10B=64'b0011000100110000010000100101111101000011010011110100010001000101
+	SEC_SYNC_PTN_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	PRE_SDPTN_B0_DEC=32'b00000000000000000000001010000011
+	PRE_SDPTN_B1_DEC=32'b00000000000000000000000000000000
+	PRE_SDPTN_B2_DEC=32'b00000000000000000000000000000000
+	PRE_SDPTN_B3_DEC=32'b00000000000000000000000000000000
+	PRE_SDPTN_BYTE0=96'b001100000110001000110001001100000011000100110000001100000011000000110000001100000011000100110001
+	PRE_SDPTN_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRE_SDPTN_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRE_SDPTN_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SDPTN_B0_DEC=32'b00000000000000000000000101111100
+	SEC_SDPTN_B1_DEC=32'b00000000000000000000000000000000
+	SEC_SDPTN_B2_DEC=32'b00000000000000000000000000000000
+	SEC_SDPTN_B3_DEC=32'b00000000000000000000000000000000
+	SEC_SDPTN_BYTE0=96'b001100000110001000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	SEC_SDPTN_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SDPTN_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SDPTN_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SDPTN_MASK_B0_DEC=32'b00000000000000000000000000000000
+	SDPTN_MASK_B1_DEC=32'b00000000000000000000000000000000
+	SDPTN_MASK_B2_DEC=32'b00000000000000000000000000000000
+	SDPTN_MASK_B3_DEC=32'b00000000000000000000000000000000
+	SDPTN_MASK_BYTE0=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SDPTN_MASK_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SDPTN_MASK_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SDPTN_MASK_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	RX_DBUS_20=88'b0011000100110000010000100100100101010100010111110101011101001001010001000101010001001000
+	LALIGN_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	SEC_LAPTN_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	LALIGN_MASK_CODE=48'b001100000110001000110000001100000011000000110001
+	HIGH_WATER_LINE_DEC=32'b00000000000000000000000000010110
+	LOW_WATER_LINE_DEC=32'b00000000000000000000000000001010
+	HIGH_WATER_LINE=56'b00110000011000100011000100110000001100010011000100110000
+	LOW_WATER_LINE=56'b00110000011000100011000000110001001100000011000100110000
+	RFIFO_COM_ALIGN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	AUTO_WA_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	SEC_WAPTN_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	ALIGN_2BYTE_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	SYNCDET_FSM_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	VAL_SYNC=32'b00000000000000000000000000000011
+	NUM_VAL_SYNC=80'b00110000011000100011000000110000001100000011000000110000001100000011000100110001
+	BAD_CODE=32'b00000000000000000000000000000100
+	NUM_BAD_CODE=64'b0011000001100010001100000011000000110000001100010011000000110000
+	GOOD_CODE=32'b00000000000000000000000000000100
+	NUM_GOOD_CODE=80'b00110000011000100011000000110000001100000011000000110000001100010011000000110000
+	LALIGN_10B=56'b00111000010000100101111101000011010011110100010001000101
+	LALIGN_PTN_LEN=48'b001100010101111101000010010110010101010001000101
+	MAX_LSKEW=56'b01001110010011110101111101010011010010110100010101010111
+	PRI_LAPTN_B0_DEC=32'b00000000000000000000000101111100
+	PRI_LAPTN_B1_DEC=32'b00000000000000000000000000000000
+	PRI_LAPTN_B2_DEC=32'b00000000000000000000000000000000
+	PRI_LAPTN_B3_DEC=32'b00000000000000000000000000000000
+	PRI_LAPTN_BYTE0=96'b001100000110001000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	PRI_LAPTN_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRI_LAPTN_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRI_LAPTN_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_LAPTN_B0_DEC=32'b00000000000000000000000101111100
+	SEC_LAPTN_B1_DEC=32'b00000000000000000000000000000000
+	SEC_LAPTN_B2_DEC=32'b00000000000000000000000000000000
+	SEC_LAPTN_B3_DEC=32'b00000000000000000000000000000000
+	SEC_LAPTN_BYTE0=96'b001100000110001000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	SEC_LAPTN_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_LAPTN_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_LAPTN_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	CTC_FIFO_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	MISC_CTRL=8'b00110000
+	CLK_COMP_10B=56'b00111000010000100101111101000011010011110100010001000101
+	SKIP_PTN_LEN=48'b001100010101111101000010010110010101010001000101
+	PRI_SKIP_B0_DEC=32'b00000000000000000000000101111100
+	PRI_SKIP_B1_DEC=32'b00000000000000000000000000000000
+	PRI_SKIP_B2_DEC=32'b00000000000000000000000000000000
+	PRI_SKIP_B3_DEC=32'b00000000000000000000000000000000
+	PRI_SKIP_BYTE0=96'b001100000110001000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	PRI_SKIP_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRI_SKIP_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRI_SKIP_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SKIP_B0_DEC=32'b00000000000000000000000101111100
+	SEC_SKIP_B1_DEC=32'b00000000000000000000000000000000
+	SEC_SKIP_B2_DEC=32'b00000000000000000000000000000000
+	SEC_SKIP_B3_DEC=32'b00000000000000000000000000000000
+	SEC_SKIP_BYTE0=96'b001100000110001000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	SEC_SKIP_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SKIP_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SKIP_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SKIP_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	SKP_MASK_CODE=48'b001100000110001000110000001100000011000000110000
+	CLK_COMP_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	TX_OVRD=32'b00000000000000000000000000000000
+	RX_OVRD=32'b00000000000000000000000000000000
+	SRC_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	END_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	FIFO_AF=32'b00000000000000000000000000001100
+	TX_FIFO_AF=48'b001100000110001000110001001100010011000000110000
+	FIFO_AE=32'b00000000000000000000000000000100
+	TX_FIFO_AE=48'b001100000110001000110000001100010011000000110000
+	DESCR_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	DEC_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	CTC_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	BALIGN_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	LOOPBACK_MODE=64'b0100010001001001010100110100000101000010010011000100010101000100
+	PCIELL_MODESEL=3'b101
+	ATXICP_RATE0_DEC=32'b00000000000000000000000000000101
+	ATXICP_RATE1_DEC=32'b00000000000000000000000000000101
+	ATXICP_RATE2_DEC=32'b00000000000000000000000000000101
+	ARXICP_RATE0_DEC=32'b00000000000000000000000000000011
+	ARXICP_RATE1_DEC=32'b00000000000000000000000000000011
+	ARXICP_RATE2_DEC=32'b00000000000000000000000000000011
+	ARXCDRICP_RATE0_DEC=32'b00000000000000000000000000000110
+	ARXCDRICP_RATE1_DEC=32'b00000000000000000000000000000110
+	ARXCDRICP_RATE2_DEC=32'b00000000000000000000000000000110
+	ARXRSVCTL_DEC=32'b00000000000000000000000010000000
+	ATXICP_RATE0=40'b0011000001100010001100010011000000110001
+	ATXICP_RATE1=40'b0011000001100010001100010011000000110001
+	ATXICP_RATE2=40'b0011000001100010001100010011000000110001
+	ARXICP_RATE0=40'b0011000001100010001100000011000100110001
+	ARXICP_RATE1=40'b0011000001100010001100000011000100110001
+	ARXICP_RATE2=40'b0011000001100010001100000011000100110001
+	ARXCDRICP_RATE0=40'b0011000001100010001100010011000100110000
+	ARXCDRICP_RATE1=40'b0011000001100010001100010011000100110000
+	ARXCDRICP_RATE2=40'b0011000001100010001100010011000100110000
+	ARXRSVCTL=80'b00110000011000100011000100110000001100000011000000110000001100000011000000110000
+	FAMILY=48'b010011000100011001000011010100000100111001011000
+	PIPE=1'b0
+	MODE_SEL=80'b00000000000000000000000000000000000000000000000000000000010100000100001101010011
+	TXRX_PCSMODE_SEL=120'b000000000101000001001101010000010101111100111000010000100101111100110001001100000100001001011111010100000100001101010011
+	TX_PCS_MODE_OVRD=184'b0000000000000000000000000000000001010101010100110100010101011111010011010100001100110001010111110101000001000011010100110100110101001111010001000100010101011111010100110100010101001100
+	RX_PCS_MODE_OVRD=184'b0000000000000000000000000000000001010101010100110100010101011111010011010100001100110001010111110101000001000011010100110100110101001111010001000100010101011111010100110100010101001100
+	PIPE_CH0_LANE_EN=56'b01000101010011100100000101000010010011000100010101000100
+	PIPE_CH1_LANE_EN=64'b0000000001000101010011100100000101000010010011000100010101000100
+	PIPE_CH2_LANE_EN=64'b0000000001000101010011100100000101000010010011000100010101000100
+	PIPE_CH3_LANE_EN=64'b0000000001000101010011100100000101000010010011000100010101000100
+	TX_DBUS_20=88'b0011000100110000010000100100100101010100010111110101011101001001010001000101010001001000
+	DATARATE_PCS=40'b0000000000110001001011100011001000110101
+	MULTIRATE=32'b00000000000000000000000000000000
+	TX_DIVMODE0=32'b00110000011000100011000000110000
+	RX_DIVMODE0=40'b0100010001001001010101100101111100110001
+	TXRX_M_A=32'b00110000011000100011000100110001
+	TXRX_F_A=48'b001100000110001000110000001100000011000000110000
+	TXRX_N_A=56'b00110000011000100011000000110001001100000011000000110001
+	TX_DIVMODE1=32'b00110000011000100011000000110000
+	RX_DIVMODE1=32'b00110000011000100011000000110000
+	TXRX_M_B=32'b00110000011000100011000000110001
+	TXRX_F_B=48'b001100000110001000110000001100000011000100110001
+	TXRX_N_B=56'b00110000011000100011000000110001001100000011000000110001
+	TX_DIVMODE2=32'b00110000011000100011000000110000
+	RX_DIVMODE2=32'b00110000011000100011000000110000
+	TXRX_M_C=32'b00110000011000100011000000110001
+	TXRX_F_C=48'b001100000110001000110000001100000011000100110001
+	TXRX_N_C=56'b00110000011000100011000000110001001100000011000000110001
+	NUM_LANES_10GE=32'b00000000000000000000000000000001
+	NUM_LANES_PIPE=32'b00000000000000000000000000000100
+	NUM_LANES_LANEID=32'b00000000000000000000000000000001
+	NUM_LANES_SEL=32'b00000000000000000000000000000001
+	REFCLK_QUAD0=32'b00000000000000000000000000000001
+	NEAR_LP_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	FAR_LP_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	LPBK_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	MESO_LPBK=64'b0100010001001001010100110100000101000010010011000100010101000100
+	EXCL_BONDMODE=32'b00000000000000000000000000000000
+	LANE_ID_10GE_L6_L7=32'b01000001010101010101010001001111
+   Generated name = MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0
+@N: CG364 :"C:\lscc\radiant\2025.2.1\synpbase\lib\lucent\lfcpnx.v":3996:7:3996:11|Synthesizing module PCSX1 in library work.
+Running optimization stage 1 on PCSX1 .......
+Finished optimization stage 1 on PCSX1 (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1653:11:1653:30|Removing wire lmmi_rdata_valid_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1654:11:1654:30|Removing wire lmmi_rdata_valid_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1655:11:1655:30|Removing wire lmmi_rdata_valid_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1656:11:1656:30|Removing wire lmmi_rdata_valid_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1657:11:1657:30|Removing wire lmmi_rdata_valid_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1658:11:1658:30|Removing wire lmmi_rdata_valid_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1659:11:1659:30|Removing wire lmmi_rdata_valid_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1661:11:1661:24|Removing wire lmmi_ready_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1662:11:1662:24|Removing wire lmmi_ready_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1663:11:1663:24|Removing wire lmmi_ready_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1664:11:1664:24|Removing wire lmmi_ready_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1665:11:1665:24|Removing wire lmmi_ready_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1666:11:1666:24|Removing wire lmmi_ready_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1667:11:1667:24|Removing wire lmmi_ready_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1669:17:1669:30|Removing wire lmmi_rdata_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1670:17:1670:30|Removing wire lmmi_rdata_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1671:17:1671:30|Removing wire lmmi_rdata_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1672:17:1672:30|Removing wire lmmi_rdata_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1673:17:1673:30|Removing wire lmmi_rdata_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1674:17:1674:30|Removing wire lmmi_rdata_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1675:17:1675:30|Removing wire lmmi_rdata_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1706:11:1706:18|Removing wire sd7txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1707:11:1707:18|Removing wire sd6txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1708:11:1708:18|Removing wire sd5txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1709:11:1709:18|Removing wire sd4txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1710:11:1710:18|Removing wire sd3txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1711:11:1711:18|Removing wire sd2txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1712:11:1712:18|Removing wire sd1txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1714:11:1714:18|Removing wire sd7txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1715:11:1715:18|Removing wire sd6txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1716:11:1716:18|Removing wire sd5txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1717:11:1717:18|Removing wire sd4txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1718:11:1718:18|Removing wire sd3txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1719:11:1719:18|Removing wire sd2txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1720:11:1720:18|Removing wire sd1txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1789:11:1789:29|Removing wire mpcs_rx_out_clk_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1790:11:1790:29|Removing wire mpcs_rx_out_clk_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1791:11:1791:29|Removing wire mpcs_rx_out_clk_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1792:11:1792:29|Removing wire mpcs_rx_out_clk_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1793:11:1793:29|Removing wire mpcs_rx_out_clk_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1794:11:1794:29|Removing wire mpcs_rx_out_clk_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1795:11:1795:29|Removing wire mpcs_rx_out_clk_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1797:11:1797:29|Removing wire mpcs_tx_out_clk_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1798:11:1798:29|Removing wire mpcs_tx_out_clk_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1799:11:1799:29|Removing wire mpcs_tx_out_clk_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1800:11:1800:29|Removing wire mpcs_tx_out_clk_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1801:11:1801:29|Removing wire mpcs_tx_out_clk_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1802:11:1802:29|Removing wire mpcs_tx_out_clk_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1803:11:1803:29|Removing wire mpcs_tx_out_clk_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1821:17:1821:35|Removing wire mpcs_tx_fifo_st_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1822:17:1822:35|Removing wire mpcs_tx_fifo_st_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1823:17:1823:35|Removing wire mpcs_tx_fifo_st_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1824:17:1824:35|Removing wire mpcs_tx_fifo_st_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1825:17:1825:35|Removing wire mpcs_tx_fifo_st_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1826:17:1826:35|Removing wire mpcs_tx_fifo_st_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1827:17:1827:35|Removing wire mpcs_tx_fifo_st_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1829:18:1829:36|Removing wire mpcs_rx_ch_dout_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1830:18:1830:36|Removing wire mpcs_rx_ch_dout_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1831:18:1831:36|Removing wire mpcs_rx_ch_dout_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1832:18:1832:36|Removing wire mpcs_rx_ch_dout_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1833:18:1833:36|Removing wire mpcs_rx_ch_dout_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1834:18:1834:36|Removing wire mpcs_rx_ch_dout_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1835:18:1835:36|Removing wire mpcs_rx_ch_dout_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1837:17:1837:35|Removing wire mpcs_rx_fifo_st_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1838:17:1838:35|Removing wire mpcs_rx_fifo_st_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1839:17:1839:35|Removing wire mpcs_rx_fifo_st_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1840:17:1840:35|Removing wire mpcs_rx_fifo_st_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1841:17:1841:35|Removing wire mpcs_rx_fifo_st_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1842:17:1842:35|Removing wire mpcs_rx_fifo_st_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1843:17:1843:35|Removing wire mpcs_rx_fifo_st_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1845:11:1845:29|Removing wire mpcs_ebuf_empty_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1846:11:1846:29|Removing wire mpcs_ebuf_empty_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1847:11:1847:29|Removing wire mpcs_ebuf_empty_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1848:11:1848:29|Removing wire mpcs_ebuf_empty_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1849:11:1849:29|Removing wire mpcs_ebuf_empty_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1850:11:1850:29|Removing wire mpcs_ebuf_empty_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1851:11:1851:29|Removing wire mpcs_ebuf_empty_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1853:11:1853:28|Removing wire mpcs_ebuf_full_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1854:11:1854:28|Removing wire mpcs_ebuf_full_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1855:11:1855:28|Removing wire mpcs_ebuf_full_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1856:11:1856:28|Removing wire mpcs_ebuf_full_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1857:11:1857:28|Removing wire mpcs_ebuf_full_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1858:11:1858:28|Removing wire mpcs_ebuf_full_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1859:11:1859:28|Removing wire mpcs_ebuf_full_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1877:11:1877:28|Removing wire mpcs_get_lsync_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1878:11:1878:28|Removing wire mpcs_get_lsync_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1879:11:1879:28|Removing wire mpcs_get_lsync_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1880:11:1880:28|Removing wire mpcs_get_lsync_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1881:11:1881:28|Removing wire mpcs_get_lsync_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1882:11:1882:28|Removing wire mpcs_get_lsync_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1883:11:1883:28|Removing wire mpcs_get_lsync_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1885:11:1885:32|Removing wire mpcs_rx_get_lalign_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1886:11:1886:32|Removing wire mpcs_rx_get_lalign_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1887:11:1887:32|Removing wire mpcs_rx_get_lalign_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1888:11:1888:32|Removing wire mpcs_rx_get_lalign_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1889:11:1889:32|Removing wire mpcs_rx_get_lalign_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1890:11:1890:32|Removing wire mpcs_rx_get_lalign_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1891:11:1891:32|Removing wire mpcs_rx_get_lalign_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1901:11:1901:28|Removing wire mpcs_rx_hi_ber_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1902:11:1902:28|Removing wire mpcs_rx_hi_ber_o_6, as there is no assignment to it.
+
+Only the first 100 messages of id 'CG360' are reported. To see all messages use 'report_messages -log C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\synlog\Lattice_MPC_Ex_impl_1_compiler.srr -id CG360' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG360} -count unlimited' in the Tcl shell.
+Running optimization stage 1 on MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 .......
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1653:11:1653:30|*Output lmmi_rdata_valid_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1654:11:1654:30|*Output lmmi_rdata_valid_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1655:11:1655:30|*Output lmmi_rdata_valid_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1656:11:1656:30|*Output lmmi_rdata_valid_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1657:11:1657:30|*Output lmmi_rdata_valid_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1658:11:1658:30|*Output lmmi_rdata_valid_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1659:11:1659:30|*Output lmmi_rdata_valid_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1661:11:1661:24|*Output lmmi_ready_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1662:11:1662:24|*Output lmmi_ready_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1663:11:1663:24|*Output lmmi_ready_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1664:11:1664:24|*Output lmmi_ready_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1665:11:1665:24|*Output lmmi_ready_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1666:11:1666:24|*Output lmmi_ready_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1667:11:1667:24|*Output lmmi_ready_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1669:17:1669:30|*Output lmmi_rdata_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1670:17:1670:30|*Output lmmi_rdata_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1671:17:1671:30|*Output lmmi_rdata_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1672:17:1672:30|*Output lmmi_rdata_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1673:17:1673:30|*Output lmmi_rdata_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1674:17:1674:30|*Output lmmi_rdata_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1675:17:1675:30|*Output lmmi_rdata_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1706:11:1706:18|*Output sd7txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1707:11:1707:18|*Output sd6txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1708:11:1708:18|*Output sd5txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1709:11:1709:18|*Output sd4txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1710:11:1710:18|*Output sd3txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1711:11:1711:18|*Output sd2txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1712:11:1712:18|*Output sd1txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1714:11:1714:18|*Output sd7txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1715:11:1715:18|*Output sd6txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1716:11:1716:18|*Output sd5txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1717:11:1717:18|*Output sd4txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1718:11:1718:18|*Output sd3txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1719:11:1719:18|*Output sd2txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1720:11:1720:18|*Output sd1txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1789:11:1789:29|*Output mpcs_rx_out_clk_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1790:11:1790:29|*Output mpcs_rx_out_clk_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1791:11:1791:29|*Output mpcs_rx_out_clk_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1792:11:1792:29|*Output mpcs_rx_out_clk_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1793:11:1793:29|*Output mpcs_rx_out_clk_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1794:11:1794:29|*Output mpcs_rx_out_clk_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1795:11:1795:29|*Output mpcs_rx_out_clk_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1797:11:1797:29|*Output mpcs_tx_out_clk_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1798:11:1798:29|*Output mpcs_tx_out_clk_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1799:11:1799:29|*Output mpcs_tx_out_clk_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1800:11:1800:29|*Output mpcs_tx_out_clk_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1801:11:1801:29|*Output mpcs_tx_out_clk_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1802:11:1802:29|*Output mpcs_tx_out_clk_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1803:11:1803:29|*Output mpcs_tx_out_clk_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1821:17:1821:35|*Output mpcs_tx_fifo_st_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1822:17:1822:35|*Output mpcs_tx_fifo_st_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1823:17:1823:35|*Output mpcs_tx_fifo_st_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1824:17:1824:35|*Output mpcs_tx_fifo_st_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1825:17:1825:35|*Output mpcs_tx_fifo_st_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1826:17:1826:35|*Output mpcs_tx_fifo_st_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1827:17:1827:35|*Output mpcs_tx_fifo_st_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1829:18:1829:36|*Output mpcs_rx_ch_dout_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1830:18:1830:36|*Output mpcs_rx_ch_dout_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1831:18:1831:36|*Output mpcs_rx_ch_dout_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1832:18:1832:36|*Output mpcs_rx_ch_dout_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1833:18:1833:36|*Output mpcs_rx_ch_dout_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1834:18:1834:36|*Output mpcs_rx_ch_dout_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1835:18:1835:36|*Output mpcs_rx_ch_dout_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1837:17:1837:35|*Output mpcs_rx_fifo_st_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1838:17:1838:35|*Output mpcs_rx_fifo_st_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1839:17:1839:35|*Output mpcs_rx_fifo_st_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1840:17:1840:35|*Output mpcs_rx_fifo_st_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1841:17:1841:35|*Output mpcs_rx_fifo_st_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1842:17:1842:35|*Output mpcs_rx_fifo_st_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1843:17:1843:35|*Output mpcs_rx_fifo_st_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1845:11:1845:29|*Output mpcs_ebuf_empty_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1846:11:1846:29|*Output mpcs_ebuf_empty_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1847:11:1847:29|*Output mpcs_ebuf_empty_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1848:11:1848:29|*Output mpcs_ebuf_empty_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1849:11:1849:29|*Output mpcs_ebuf_empty_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1850:11:1850:29|*Output mpcs_ebuf_empty_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1851:11:1851:29|*Output mpcs_ebuf_empty_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1853:11:1853:28|*Output mpcs_ebuf_full_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1854:11:1854:28|*Output mpcs_ebuf_full_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1855:11:1855:28|*Output mpcs_ebuf_full_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1856:11:1856:28|*Output mpcs_ebuf_full_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1857:11:1857:28|*Output mpcs_ebuf_full_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1858:11:1858:28|*Output mpcs_ebuf_full_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1859:11:1859:28|*Output mpcs_ebuf_full_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1877:11:1877:28|*Output mpcs_get_lsync_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1878:11:1878:28|*Output mpcs_get_lsync_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1879:11:1879:28|*Output mpcs_get_lsync_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1880:11:1880:28|*Output mpcs_get_lsync_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1881:11:1881:28|*Output mpcs_get_lsync_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1882:11:1882:28|*Output mpcs_get_lsync_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1883:11:1883:28|*Output mpcs_get_lsync_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1885:11:1885:32|*Output mpcs_rx_get_lalign_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1886:11:1886:32|*Output mpcs_rx_get_lalign_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1887:11:1887:32|*Output mpcs_rx_get_lalign_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1888:11:1888:32|*Output mpcs_rx_get_lalign_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1889:11:1889:32|*Output mpcs_rx_get_lalign_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1890:11:1890:32|*Output mpcs_rx_get_lalign_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1891:11:1891:32|*Output mpcs_rx_get_lalign_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1901:11:1901:28|*Output mpcs_rx_hi_ber_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1902:11:1902:28|*Output mpcs_rx_hi_ber_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+
+Only the first 100 messages of id 'CL318' are reported. To see all messages use 'report_messages -log C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\synlog\Lattice_MPC_Ex_impl_1_compiler.srr -id CL318' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL318} -count unlimited' in the Tcl shell.
+Finished optimization stage 1 on MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+@N: CG364 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":11:66:11:72|Synthesizing module MPCS_ex in library work.
+Running optimization stage 1 on MPCS_ex .......
+Finished optimization stage 1 on MPCS_ex (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+@N: CG364 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":1:7:1:21|Synthesizing module flashing_lights in library work.
+Running optimization stage 1 on flashing_lights .......
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Optimizing register bit tx_payload[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 30 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 28 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 26 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 24 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 22 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 20 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 18 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 16 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 14 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 12 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 10 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 8 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bit 6 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on flashing_lights (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 216MB)
+Running optimization stage 2 on flashing_lights .......
+@W: CL279 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bits 5 to 3 of tx_payload[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning register bits 3 to 2 of tx_control[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Register bit tx_control[1] is always 0.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[7]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[9]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[11]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[13]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[15]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[17]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[19]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[21]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[23]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[25]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[27]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[29]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":77:0:77:5|Pruning unused register tx_payload[31]. Make sure that there are no unused intermediate registers.
+Finished optimization stage 2 on flashing_lights (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
+Running optimization stage 2 on MPCS_ex .......
+Finished optimization stage 2 on MPCS_ex (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
+Running optimization stage 2 on PCSX1 .......
+Finished optimization stage 2 on PCSX1 (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
+Running optimization stage 2 on MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 .......
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1605:10:1605:21|Input lmmi_clk_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1606:10:1606:21|Input lmmi_clk_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1607:10:1607:21|Input lmmi_clk_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1608:10:1608:21|Input lmmi_clk_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1609:10:1609:21|Input lmmi_clk_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1610:10:1610:21|Input lmmi_clk_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1611:10:1611:21|Input lmmi_clk_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1613:10:1613:24|Input lmmi_resetn_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1614:10:1614:24|Input lmmi_resetn_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1615:10:1615:24|Input lmmi_resetn_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1616:10:1616:24|Input lmmi_resetn_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1617:10:1617:24|Input lmmi_resetn_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1618:10:1618:24|Input lmmi_resetn_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1619:10:1619:24|Input lmmi_resetn_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1621:10:1621:25|Input lmmi_request_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1622:10:1622:25|Input lmmi_request_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1623:10:1623:25|Input lmmi_request_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1624:10:1624:25|Input lmmi_request_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1625:10:1625:25|Input lmmi_request_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1626:10:1626:25|Input lmmi_request_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1627:10:1627:25|Input lmmi_request_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1629:10:1629:24|Input lmmi_wr_rdn_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1630:10:1630:24|Input lmmi_wr_rdn_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1631:10:1631:24|Input lmmi_wr_rdn_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1632:10:1632:24|Input lmmi_wr_rdn_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1633:10:1633:24|Input lmmi_wr_rdn_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1634:10:1634:24|Input lmmi_wr_rdn_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1635:10:1635:24|Input lmmi_wr_rdn_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1637:16:1637:30|Input lmmi_offset_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1638:16:1638:30|Input lmmi_offset_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1639:16:1639:30|Input lmmi_offset_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1640:16:1640:30|Input lmmi_offset_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1641:16:1641:30|Input lmmi_offset_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1642:16:1642:30|Input lmmi_offset_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1643:16:1643:30|Input lmmi_offset_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1645:16:1645:29|Input lmmi_wdata_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1646:16:1646:29|Input lmmi_wdata_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1647:16:1647:29|Input lmmi_wdata_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1648:16:1648:29|Input lmmi_wdata_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1649:16:1649:29|Input lmmi_wdata_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1650:16:1650:29|Input lmmi_wdata_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1651:16:1651:29|Input lmmi_wdata_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1688:10:1688:25|Input sdq_refclkp_q1_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1689:10:1689:25|Input sdq_refclkn_q1_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1690:10:1690:17|Input sd7rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1691:10:1691:17|Input sd6rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1692:10:1692:17|Input sd5rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1693:10:1693:17|Input sd4rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1694:10:1694:17|Input sd3rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1695:10:1695:17|Input sd2rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1696:10:1696:17|Input sd1rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1698:10:1698:17|Input sd7rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1699:10:1699:17|Input sd6rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1700:10:1700:17|Input sd5rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1701:10:1701:17|Input sd4rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1702:10:1702:17|Input sd3rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1703:10:1703:17|Input sd2rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1704:10:1704:17|Input sd1rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1722:10:1722:19|Input sd7_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1723:10:1723:19|Input sd6_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1724:10:1724:19|Input sd5_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1725:10:1725:19|Input sd4_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1726:10:1726:19|Input sd3_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1727:10:1727:19|Input sd2_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1728:10:1728:19|Input sd1_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1730:10:1730:21|Input sd7_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1731:10:1731:21|Input sd6_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1732:10:1732:21|Input sd5_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1733:10:1733:21|Input sd4_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1734:10:1734:21|Input sd3_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1735:10:1735:21|Input sd2_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1736:10:1736:21|Input sd1_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1749:10:1749:28|Input mpcs_rx_usr_clk_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1750:10:1750:28|Input mpcs_rx_usr_clk_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1751:10:1751:28|Input mpcs_rx_usr_clk_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1752:10:1752:28|Input mpcs_rx_usr_clk_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1753:10:1753:28|Input mpcs_rx_usr_clk_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1754:10:1754:28|Input mpcs_rx_usr_clk_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1755:10:1755:28|Input mpcs_rx_usr_clk_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1757:10:1757:28|Input mpcs_tx_usr_clk_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1758:10:1758:28|Input mpcs_tx_usr_clk_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1759:10:1759:28|Input mpcs_tx_usr_clk_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1760:10:1760:28|Input mpcs_tx_usr_clk_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1761:10:1761:28|Input mpcs_tx_usr_clk_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1762:10:1762:28|Input mpcs_tx_usr_clk_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1763:10:1763:28|Input mpcs_tx_usr_clk_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1765:10:1765:29|Input mpcs_tx_pcs_rstn_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1766:10:1766:29|Input mpcs_tx_pcs_rstn_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1767:10:1767:29|Input mpcs_tx_pcs_rstn_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1768:10:1768:29|Input mpcs_tx_pcs_rstn_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1769:10:1769:29|Input mpcs_tx_pcs_rstn_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1770:10:1770:29|Input mpcs_tx_pcs_rstn_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1771:10:1771:29|Input mpcs_tx_pcs_rstn_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1773:10:1773:29|Input mpcs_rx_pcs_rstn_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1774:10:1774:29|Input mpcs_rx_pcs_rstn_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1775:10:1775:29|Input mpcs_rx_pcs_rstn_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1776:10:1776:29|Input mpcs_rx_pcs_rstn_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1777:10:1777:29|Input mpcs_rx_pcs_rstn_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1778:10:1778:29|Input mpcs_rx_pcs_rstn_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1779:10:1779:29|Input mpcs_rx_pcs_rstn_i_1 is unused.
+
+Only the first 100 messages of id 'CL159' are reported. To see all messages use 'report_messages -log C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\synlog\Lattice_MPC_Ex_impl_1_compiler.srr -id CL159' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL159} -count unlimited' in the Tcl shell.
+Finished optimization stage 2 on MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
+Running optimization stage 2 on PCSREFMUX .......
+Finished optimization stage 2 on PCSREFMUX (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 218MB peak: 218MB)
+
+
+Process completed successfully.
+# Wed Jul  8 12:39:00 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1
+Install: C:\lscc\radiant\2025.2.1\synpbase
+OS: Windows 10 or later
+Hostname: ECE-OP7010PC2
+
+Implementation : impl_1
+Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 178R, Built Nov 11 2025 09:38:30, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 159MB peak: 159MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jul  8 12:39:01 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\synwork\Lattice_MPC_Ex_impl_1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 84MB peak: 87MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jul  8 12:39:01 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1
+Install: C:\lscc\radiant\2025.2.1\synpbase
+OS: Windows 10 or later
+Hostname: ECE-OP7010PC2
+
+Implementation : impl_1
+Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 178R, Built Nov 11 2025 09:38:30, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jul  8 12:39:03 2026
+
+###########################################################]
+Premap Report
+
+# Wed Jul  8 12:39:05 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1
+Install: C:\lscc\radiant\2025.2.1\synpbase
+OS: Windows 10 or later
+Hostname: ECE-OP7010PC2
+
+Implementation : impl_1
+Synopsys Lattice Technology Pre-mapping, Version map202503latsp1, Build 129R, Built Jan 28 2026 06:38:14, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 200MB)
+
+Reading constraint file: C:\lscc\radiant\2025.2.1\scripts\tcl\flow\radiant_synplify_vars.tcl
+Reading constraint file: C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\Lattice_MPC_Ex_impl_1_cpe.ldc
+@L: C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\Lattice_MPC_Ex_impl_1_scck.rpt 
+See clock summary report "C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\Lattice_MPC_Ex_impl_1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 205MB peak: 205MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 205MB peak: 206MB)
+
+Reading custom part data from path: C:\lscc\radiant\2025.2.1\synpbase\lib\lattice_custom\radiant_custom_partdata.txt
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 218MB peak: 218MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 218MB peak: 220MB)
+
+NConnInternalConnection caching is on
+@N: FX493 |Applying initial value "00000000" on instance reset_shift[7:0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 272MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 272MB)
+
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2636:11:2636:24|Tristate driver acjtagnout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2635:11:2635:24|Tristate driver acjtagnout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2634:11:2634:24|Tristate driver acjtagnout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2633:11:2633:24|Tristate driver acjtagnout_o_4 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_4 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2632:11:2632:24|Tristate driver acjtagnout_o_5 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_5 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2631:11:2631:24|Tristate driver acjtagnout_o_6 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_6 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2630:11:2630:24|Tristate driver acjtagnout_o_7 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_7 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2628:11:2628:24|Tristate driver acjtagpout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2627:11:2627:24|Tristate driver acjtagpout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2626:11:2626:24|Tristate driver acjtagpout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 272MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 273MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 273MB peak: 273MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 274MB peak: 274MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=208 on top level netlist flashing_lights 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 274MB peak: 275MB)
+
+@W: MT688 :"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":3:0:3:0|No path from master pin (-source) to source of clock u_mpcs_mpcs_tx_out_clk_o_0 due to black box u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1 
+@W: MT688 :"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":5:0:5:0|No path from master pin (-source) to source of clock u_mpcs_mpcs_rx_out_clk_o_0 due to black box u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1 
+@W: Z241 :"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":3:0:3:0|Source for clock u_mpcs_mpcs_tx_out_clk_o_0 should be moved to net u_mpcs.lscc_mpcs_top_inst.pcs_tx_out_clk_o_w[0] connected to driving cell pin u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1.PIPE_PCS_TXCLKOUT 
+@W: Z241 :"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":5:0:5:0|Source for clock u_mpcs_mpcs_rx_out_clk_o_0 should be moved to net u_mpcs.lscc_mpcs_top_inst.pcs_rx_out_clk_o_w[0] connected to driving cell pin u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1.RXOUTCLK 
+
+
+Clock Summary
+******************
+
+          Start                                Requested     Requested     Clock                                                 Clock                     Clock
+Level     Clock                                Frequency     Period        Type                                                  Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                               200.0 MHz     5.000         system                                                system_clkgroup           0    
+                                                                                                                                                                
+0 -       flashing_lights|sdq_refclkp_q0_i     200.0 MHz     5.000         inferred                                              Inferred_clkgroup_0_1     8    
+1 .         u_mpcs_mpcs_tx_out_clk_o_0         200.0 MHz     5.000         generated (from flashing_lights|sdq_refclkp_q0_i)     Inferred_clkgroup_0_1     7    
+1 .         u_mpcs_mpcs_rx_out_clk_o_0         200.0 MHz     5.000         generated (from flashing_lights|sdq_refclkp_q0_i)     Inferred_clkgroup_0_1     3    
+================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                     Clock     Source                                                                     Clock Pin            Non-clock Pin     Non-clock Pin                             
+Clock                                Load      Pin                                                                        Seq Example          Seq Example       Comb Example                              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                               0         -                                                                          -                    -                 -                                         
+                                                                                                                                                                                                           
+flashing_lights|sdq_refclkp_q0_i     8         sdq_refclkp_q0_i(port)                                                     reset_shift[0].C     -                 u_mpcs.sdq_refclkp_q0_i_keep.I[0](keepbuf)
+u_mpcs_mpcs_tx_out_clk_o_0           7         u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1.PIPE_PCS_TXCLKOUT(PCSX1)     switch1_meta.C       -                 -                                         
+u_mpcs_mpcs_rx_out_clk_o_0           3         u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1.RXOUTCLK(PCSX1)              have_rx_data.C       -                 -                                         
+===========================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v":29:0:29:5|Found inferred clock flashing_lights|sdq_refclkp_q0_i which controls 8 sequential elements including reset_shift[7]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 8 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 10 clock pin(s) of sequential element(s)
+0 instances converted, 10 sequential instances remain driven by gated/generated clocks
+
+============================ Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance
+----------------------------------------------------------------------------------------
+@KP:ckid0_0       sdq_refclkp_q0_i     port                   8          reset_shift[7] 
+========================================================================================
+=============================================================================== Gated/Generated Clocks ================================================================================
+Clock Tree ID     Driving Element                                   Drive Element Type                        Unconverted Fanout     Sample Instance     Explanation                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       u_mpcs.lscc_mpcs_top_inst.mpcs_tx_out_clk_o_0     MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0     7                      switch2_sync        Clock Optimization not enabled
+@KP:ckid0_2       u_mpcs.lscc_mpcs_top_inst.mpcs_rx_out_clk_o_0     MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0     3                      rx_data[1:0]        Clock Optimization not enabled
+=======================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 275MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 275MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\Lattice_MPC_Ex_impl_1_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 273MB peak: 275MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 275MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul  8 12:39:07 2026
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Jul  8 12:39:07 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1
+Install: C:\lscc\radiant\2025.2.1\synpbase
+OS: Windows 10 or later
+Hostname: ECE-OP7010PC2
+
+Implementation : impl_1
+Synopsys Lattice Technology Mapper, Version map202503latsp1, Build 129R, Built Jan 28 2026 06:38:14, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 200MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 200MB)
+
+Reading custom part data from path: C:\lscc\radiant\2025.2.1\synpbase\lib\lattice_custom\radiant_custom_partdata.txt
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 199MB peak: 200MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 201MB peak: 202MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2636:11:2636:24|Tristate driver acjtagnout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2635:11:2635:24|Tristate driver acjtagnout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2634:11:2634:24|Tristate driver acjtagnout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2633:11:2633:24|Tristate driver acjtagnout_o_4 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_4 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2632:11:2632:24|Tristate driver acjtagnout_o_5 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_5 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2631:11:2631:24|Tristate driver acjtagnout_o_6 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_6 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2630:11:2630:24|Tristate driver acjtagnout_o_7 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_7 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2628:11:2628:24|Tristate driver acjtagpout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2627:11:2627:24|Tristate driver acjtagpout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2626:11:2626:24|Tristate driver acjtagpout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 267MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
+
+@N: FX493 |Applying initial value "0" on instance reset_shift[0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance reset_shift[1].
+@N: FX493 |Applying initial value "0" on instance reset_shift[2].
+@N: FX493 |Applying initial value "0" on instance reset_shift[3].
+@N: FX493 |Applying initial value "0" on instance reset_shift[4].
+@N: FX493 |Applying initial value "0" on instance reset_shift[5].
+@N: FX493 |Applying initial value "0" on instance reset_shift[6].
+@N: FX493 |Applying initial value "0" on instance reset_shift[7].
+
+Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     2.68ns		  14 /        18
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 269MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 269MB peak: 269MB)
+
+@W: FX310 |Ignoring option "-dcc_insertion" since the technology does not support DCC. 
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 269MB peak: 269MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 269MB peak: 270MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 208MB peak: 270MB)
+
+Writing Analyst data base C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\synwork\Lattice_MPC_Ex_impl_1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 270MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 270MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 270MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 270MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 270MB)
+
+@W: MT246 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":6194:63:6194:69|Blackbox PCSX1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":6035:14:6035:24|Blackbox PCSREFMUX is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock flashing_lights|sdq_refclkp_q0_i with period 5.00ns. Please declare a user-defined clock on port sdq_refclkp_q0_i.
+@N: MT615 |Found clock u_mpcs_mpcs_tx_out_clk_o_0 with period 5.00ns 
+@N: MT615 |Found clock u_mpcs_mpcs_rx_out_clk_o_0 with period 5.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Jul  8 12:39:10 2026
+#
+
+
+Top view:               flashing_lights
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\lscc\radiant\2025.2.1\scripts\tcl\flow\radiant_synplify_vars.tcl
+                       C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\Lattice_MPC_Ex_impl_1_cpe.ldc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 2.833
+
+                                     Requested     Estimated      Requested     Estimated               Clock                                                 Clock                
+Starting Clock                       Frequency     Frequency      Period        Period        Slack     Type                                                  Group                
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+flashing_lights|sdq_refclkp_q0_i     200.0 MHz     953.3 MHz      5.000         1.049         3.951     inferred                                              Inferred_clkgroup_0_1
+u_mpcs_mpcs_rx_out_clk_o_0           200.0 MHz     695.9 MHz      5.000         1.437         3.563     generated (from flashing_lights|sdq_refclkp_q0_i)     Inferred_clkgroup_0_1
+u_mpcs_mpcs_tx_out_clk_o_0           200.0 MHz     765.1 MHz      5.000         1.307         3.693     generated (from flashing_lights|sdq_refclkp_q0_i)     Inferred_clkgroup_0_1
+System                               200.0 MHz     5952.4 MHz     5.000         0.168         4.832     system                                                system_clkgroup      
+===================================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                          Ending                            |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+System                            System                            |  5.000       4.832  |  No paths    -      |  No paths    -      |  No paths    -    
+System                            u_mpcs_mpcs_tx_out_clk_o_0        |  5.000       4.434  |  No paths    -      |  No paths    -      |  No paths    -    
+System                            u_mpcs_mpcs_rx_out_clk_o_0        |  5.000       3.315  |  No paths    -      |  No paths    -      |  No paths    -    
+flashing_lights|sdq_refclkp_q0_i  System                            |  5.000       2.833  |  No paths    -      |  No paths    -      |  No paths    -    
+flashing_lights|sdq_refclkp_q0_i  flashing_lights|sdq_refclkp_q0_i  |  5.000       3.951  |  No paths    -      |  No paths    -      |  No paths    -    
+u_mpcs_mpcs_tx_out_clk_o_0        System                            |  5.000       4.059  |  No paths    -      |  No paths    -      |  No paths    -    
+u_mpcs_mpcs_tx_out_clk_o_0        u_mpcs_mpcs_tx_out_clk_o_0        |  5.000       3.693  |  No paths    -      |  No paths    -      |  No paths    -    
+u_mpcs_mpcs_rx_out_clk_o_0        u_mpcs_mpcs_rx_out_clk_o_0        |  5.000       3.563  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: flashing_lights|sdq_refclkp_q0_i
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                                    Arrival          
+Instance           Reference                            Type        Pin     Net                Time        Slack
+                   Clock                                                                                        
+----------------------------------------------------------------------------------------------------------------
+reset_shift[0]     flashing_lights|sdq_refclkp_q0_i     FD1P3IX     Q       reset_shift[0]     0.798       2.833
+reset_shift[1]     flashing_lights|sdq_refclkp_q0_i     FD1P3IX     Q       reset_shift[1]     0.798       2.833
+reset_shift[2]     flashing_lights|sdq_refclkp_q0_i     FD1P3IX     Q       reset_shift[2]     0.798       2.833
+reset_shift[5]     flashing_lights|sdq_refclkp_q0_i     FD1P3IX     Q       reset_shift[5]     0.798       2.833
+reset_shift[6]     flashing_lights|sdq_refclkp_q0_i     FD1P3IX     Q       reset_shift[6]     0.798       2.833
+reset_shift[7]     flashing_lights|sdq_refclkp_q0_i     FD1P3IX     Q       reset_shift[7]     0.753       2.878
+reset_shift[3]     flashing_lights|sdq_refclkp_q0_i     FD1P3IX     Q       reset_shift[3]     0.838       3.361
+reset_shift[4]     flashing_lights|sdq_refclkp_q0_i     FD1P3IX     Q       reset_shift[4]     0.838       3.361
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                                              Required          
+Instance                                          Reference                            Type        Pin               Net                Time         Slack
+                                                  Clock                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     flashing_lights|sdq_refclkp_q0_i     PCSX1       MPCS_RX_URSTN     un1_resetn         5.000        2.833
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     flashing_lights|sdq_refclkp_q0_i     PCSX1       LMMIRESETN        resetn             5.000        3.001
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     flashing_lights|sdq_refclkp_q0_i     PCSX1       MPCS_TX_URSTN     resetn             5.000        3.001
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     flashing_lights|sdq_refclkp_q0_i     PCSX1       PERSTN            resetn             5.000        3.001
+reset_shift[4]                                    flashing_lights|sdq_refclkp_q0_i     FD1P3IX     D                 reset_shift[3]     4.789        3.951
+reset_shift[5]                                    flashing_lights|sdq_refclkp_q0_i     FD1P3IX     D                 reset_shift[4]     4.789        3.951
+reset_shift[1]                                    flashing_lights|sdq_refclkp_q0_i     FD1P3IX     D                 reset_shift[0]     4.789        3.991
+reset_shift[2]                                    flashing_lights|sdq_refclkp_q0_i     FD1P3IX     D                 reset_shift[1]     4.789        3.991
+reset_shift[3]                                    flashing_lights|sdq_refclkp_q0_i     FD1P3IX     D                 reset_shift[2]     4.789        3.991
+reset_shift[6]                                    flashing_lights|sdq_refclkp_q0_i     FD1P3IX     D                 reset_shift[5]     4.789        3.991
+==========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      2.167
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     2.833
+
+    Number of logic level(s):                3
+    Starting point:                          reset_shift[0] / Q
+    Ending point:                            u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1 / MPCS_RX_URSTN
+    The start point is clocked by            flashing_lights|sdq_refclkp_q0_i [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                Pin               Pin               Arrival     No. of    
+Name                                              Type        Name              Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+reset_shift[0]                                    FD1P3IX     Q                 Out     0.798     0.798 r     -         
+reset_shift[0]                                    Net         -                 -       -         -           2         
+resetn_4                                          LUT4        A                 In      0.000     0.798 r     -         
+resetn_4                                          LUT4        Z                 Out     0.568     1.366 r     -         
+resetn_4                                          Net         -                 -       -         -           2         
+resetn                                            LUT4        D                 In      0.000     1.366 r     -         
+resetn                                            LUT4        Z                 Out     0.633     1.999 r     -         
+resetn                                            Net         -                 -       -         -           4         
+un1_resetn                                        LUT4        B                 In      0.000     1.999 r     -         
+un1_resetn                                        LUT4        Z                 Out     0.168     2.167 r     -         
+un1_resetn                                        Net         -                 -       -         -           1         
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     PCSX1       MPCS_RX_URSTN     In      0.000     2.167 r     -         
+========================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: u_mpcs_mpcs_rx_out_clk_o_0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                            Arrival          
+Instance         Reference                      Type        Pin     Net              Time        Slack
+                 Clock                                                                                
+------------------------------------------------------------------------------------------------------
+have_rx_data     u_mpcs_mpcs_rx_out_clk_o_0     FD1P3DX     Q       have_rx_data     0.883       3.563
+======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                                       Required          
+Instance         Reference                      Type        Pin     Net         Time         Slack
+                 Clock                                                                            
+--------------------------------------------------------------------------------------------------
+have_rx_data     u_mpcs_mpcs_rx_out_clk_o_0     FD1P3DX     D       N_112_0     4.789        3.563
+==================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      1.226
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.563
+
+    Number of logic level(s):                1
+    Starting point:                          have_rx_data / Q
+    Ending point:                            have_rx_data / D
+    The start point is clocked by            u_mpcs_mpcs_rx_out_clk_o_0 [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            u_mpcs_mpcs_rx_out_clk_o_0 [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+have_rx_data       FD1P3DX     Q        Out     0.883     0.883 r     -         
+have_rx_data       Net         -        -       -         -           5         
+have_rx_data_0     LUT4        A        In      0.000     0.883 r     -         
+have_rx_data_0     LUT4        Z        Out     0.343     1.226 r     -         
+N_112_0            Net         -        -       -         -           1         
+have_rx_data       FD1P3DX     D        In      0.000     1.226 r     -         
+================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: u_mpcs_mpcs_tx_out_clk_o_0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                             Arrival          
+Instance          Reference                      Type        Pin     Net               Time        Slack
+                  Clock                                                                                 
+--------------------------------------------------------------------------------------------------------
+switch1_sync      u_mpcs_mpcs_tx_out_clk_o_0     FD1P3BX     Q       switch1_sync      0.753       3.693
+switch2_sync      u_mpcs_mpcs_tx_out_clk_o_0     FD1P3BX     Q       switch2_sync      0.753       3.693
+switch1_meta      u_mpcs_mpcs_tx_out_clk_o_0     FD1P3BX     Q       switch1_meta      0.753       4.036
+switch2_meta      u_mpcs_mpcs_tx_out_clk_o_0     FD1P3BX     Q       switch2_meta      0.753       4.036
+tx_payload[2]     u_mpcs_mpcs_tx_out_clk_o_0     FD1P3DX     Q       tx_payload[2]     0.941       4.059
+tx_payload[0]     u_mpcs_mpcs_tx_out_clk_o_0     FD1P3DX     Q       tx_payload[0]     0.753       4.247
+tx_payload[1]     u_mpcs_mpcs_tx_out_clk_o_0     FD1P3DX     Q       tx_payload[1]     0.753       4.247
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                                                        Required          
+Instance                                          Reference                      Type        Pin                              Net                 Time         Slack
+                                                  Clock                                                                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+tx_payload[0]                                     u_mpcs_mpcs_tx_out_clk_o_0     FD1P3DX     D                                tx_payload_3[0]     4.789        3.693
+tx_payload[1]                                     u_mpcs_mpcs_tx_out_clk_o_0     FD1P3DX     D                                tx_payload_3[1]     4.789        3.693
+switch1_sync                                      u_mpcs_mpcs_tx_out_clk_o_0     FD1P3BX     D                                switch1_meta        4.789        4.036
+switch2_sync                                      u_mpcs_mpcs_tx_out_clk_o_0     FD1P3BX     D                                switch2_meta        4.789        4.036
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     u_mpcs_mpcs_tx_out_clk_o_0     PCSX1       PIPE_TX_DATAK_PCS_TX_DATA[1]     tx_payload[2]       5.000        4.059
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     u_mpcs_mpcs_tx_out_clk_o_0     PCSX1       PIPE_TX_DATAK_PCS_TX_DATA[3]     tx_payload[2]       5.000        4.059
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     u_mpcs_mpcs_tx_out_clk_o_0     PCSX1       PIPE_TX_DATA_PCS_TX_DATA[2]      tx_payload[2]       5.000        4.059
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     u_mpcs_mpcs_tx_out_clk_o_0     PCSX1       PIPE_TX_DATA_PCS_TX_DATA[3]      tx_payload[2]       5.000        4.059
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     u_mpcs_mpcs_tx_out_clk_o_0     PCSX1       PIPE_TX_DATA_PCS_TX_DATA[4]      tx_payload[2]       5.000        4.059
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     u_mpcs_mpcs_tx_out_clk_o_0     PCSX1       PIPE_TX_DATA_PCS_TX_DATA[5]      tx_payload[2]       5.000        4.059
+====================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      1.096
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.693
+
+    Number of logic level(s):                1
+    Starting point:                          switch1_sync / Q
+    Ending point:                            tx_payload[1] / D
+    The start point is clocked by            u_mpcs_mpcs_tx_out_clk_o_0 [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            u_mpcs_mpcs_tx_out_clk_o_0 [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+switch1_sync        FD1P3BX     Q        Out     0.753     0.753 r     -         
+switch1_sync        Net         -        -       -         -           1         
+tx_payload_3[1]     LUT4        B        In      0.000     0.753 r     -         
+tx_payload_3[1]     LUT4        Z        Out     0.343     1.096 f     -         
+tx_payload_3[1]     Net         -        -       -         -           1         
+tx_payload[1]       FD1P3DX     D        In      0.000     1.096 f     -         
+=================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                  Starting                                                                             Arrival          
+Instance                                          Reference     Type          Pin                                  Net                 Time        Slack
+                                                  Clock                                                                                                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1         PIPE_PHY_STATUS                      mpcs_phyrdy         0.000       3.315
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1         PIPE_RX_CLKREQ                       mpcs_ready          0.000       3.315
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1         PIPE_LOCAL_GET_TX_PRESET_COEF[1]     mpcs_lsync          0.000       3.838
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1         PIPE_RX_DATA_PCS_RX_DATA[8]          mpcs_rx_word[8]     0.000       3.838
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1         PIPE_RX_START_BLOCK                  mpcs_rxval          0.000       3.838
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1         PIPE_RX_DATA_PCS_RX_DATA[0]          mpcs_rx_word[0]     0.000       4.789
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1         PIPE_RX_DATA_PCS_RX_DATA[1]          mpcs_rx_word[1]     0.000       4.789
+u_mpcs.lscc_mpcs_top_inst.u_pcsrefmux             System        PCSREFMUX     CLKOUT                               alt_clk_in_w        0.000       5.000
+========================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                        Required          
+Instance                                          Reference     Type        Pin               Net                 Time         Slack
+                                                  Clock                                                                             
+------------------------------------------------------------------------------------------------------------------------------------
+have_rx_data                                      System        FD1P3DX     D                 N_112_0             4.789        3.315
+rx_data[0]                                        System        FD1P3DX     SP                rx_data_valid       4.817        3.686
+rx_data[1]                                        System        FD1P3DX     SP                rx_data_valid       4.817        3.686
+tx_payload[2]                                     System        FD1P3DX     D                 mpcs_lsync_i        4.789        4.434
+tx_payload[0]                                     System        FD1P3DX     D                 tx_payload_3[0]     4.789        4.446
+tx_payload[1]                                     System        FD1P3DX     D                 tx_payload_3[1]     4.789        4.446
+rx_data[0]                                        System        FD1P3DX     D                 mpcs_rx_word[0]     4.789        4.789
+rx_data[1]                                        System        FD1P3DX     D                 mpcs_rx_word[1]     4.789        4.789
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       MPCS_RX_URSTN     un1_resetn          5.000        4.832
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       ALTCLKIN          alt_clk_in_w        5.000        5.000
+====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.789
+
+    - Propagation time:                      1.474
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 3.315
+
+    Number of logic level(s):                3
+    Starting point:                          u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1 / PIPE_PHY_STATUS
+    Ending point:                            have_rx_data / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            u_mpcs_mpcs_rx_out_clk_o_0 [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                Pin                 Pin               Arrival     No. of    
+Name                                              Type        Name                Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     PCSX1       PIPE_PHY_STATUS     Out     0.000     0.000 r     -         
+mpcs_phyrdy                                       Net         -                   -       -         -           2         
+rx_data_valid_1                                   LUT4        A                   In      0.000     0.000 r     -         
+rx_data_valid_1                                   LUT4        Z                   Out     0.523     0.523 r     -         
+rx_data_valid_1                                   Net         -                   -       -         -           1         
+rx_data_valid                                     LUT4        D                   In      0.000     0.523 r     -         
+rx_data_valid                                     LUT4        Z                   Out     0.608     1.131 r     -         
+rx_data_valid                                     Net         -                   -       -         -           3         
+have_rx_data_0                                    LUT4        B                   In      0.000     1.131 r     -         
+have_rx_data_0                                    LUT4        Z                   Out     0.343     1.474 r     -         
+N_112_0                                           Net         -                   -       -         -           1         
+have_rx_data                                      FD1P3DX     D                   In      0.000     1.474 r     -         
+==========================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 270MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 270MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfcpnx_100-9
+
+Register bits: 18 of 79872 (0%)
+PIC Latch:       0
+I/O cells:       7
+
+
+Details:
+FD1P3BX:        4
+FD1P3DX:        6
+FD1P3IX:        8
+GSR:            1
+IB:             2
+INV:            1
+LUT4:           14
+OB:             5
+PCSREFMUX:      1
+PCSX1:          1
+VHI:            3
+VLO:            3
+
+Resource Usage inside macros:
+Registers: 0
+LUTs: 0
+EBRs: 0
+LRAMs: 0
+DSPs: 0
+Distributed RAMs: 0
+Carry Chains: 0
+Blackboxes: 0
+
+Mapping Summary:
+Total number of registers: 18 + 0 = 18 of 79872 (0.02%)
+Total number of LUTs: 14 + 0 = 14 
+Total number of EBRs: 0 + 0 = 0 of 208 (0.00%)
+Total number of LRAMs: 0 + 0 = 0 of 7 (0.00%)
+Total number of DSPs: 0 + 0 = 0 of 156 (0.00%)
+Total number of Distributed RAMs: 0 + 0 = 0 
+Total number of Carry Chains: 0 + 0 = 0 
+Total number of BlackBoxes: 9 + 0 = 9 
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 128MB peak: 270MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Wed Jul  8 12:39:10 2026
+
+###########################################################]

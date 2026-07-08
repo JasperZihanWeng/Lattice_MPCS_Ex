@@ -1,0 +1,126 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1
+Install: C:\lscc\radiant\2025.2.1\synpbase
+OS: Windows 10 or later
+Hostname: ECE-OP7010PC2
+
+Implementation : impl_1
+
+#### START OF AREA REPORT #####[
+
+Part:			LFCPNX_100-9 (Lattice)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   flashing_lights   ########
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3IX         6                                       
+FD1P3JX         4                                       
+                                                        
+Total FLOPS     10                 100 %                
+========================================================
+Total SEQUENTIAL ELEMENTS in the block flashing_lights:	10 (27.78 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           9                                       
+INV            1                                       
+                                                       
+Total LUTS     10                 100 %                
+=======================================================
+Total COMBINATIONAL LOGIC in the block flashing_lights:	10 (27.78 % Utilization)
+
+
+IO PADS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+OB           5                                       
+IB           2                                       
+                                                     
+Total IO     7                  100 %                
+=====================================================
+Total IO PADS in the block flashing_lights:	7 (19.44 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 3                                       
+VLO                 3                                       
+GSR                 1                                       
+PCSX1               1                                       
+PCSREFMUX           1                                       
+                                                            
+Total BLACK BOX     9                  100 %                
+============================================================
+Total BLACKBOX in the block flashing_lights:	9 (25.00 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   MPCS_ex   ########
+Instance path:   u_mpcs                                      
+=============================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            1                                       
+                                                       
+Total LUTS     1                  10 %                 
+=======================================================
+Total COMBINATIONAL LOGIC in the block u_mpcs:	1 (2.78 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 2                                       
+VLO                 2                                       
+PCSX1               1                                       
+PCSREFMUX           1                                       
+                                                            
+Total BLACK BOX     6                  66.7 %               
+============================================================
+Total BLACKBOX in the block u_mpcs:	6 (16.67 % Utilization)
+
+-------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0   ########
+Instance path:   u_mpcs.lscc_mpcs_top_inst                                                 
+Parent Instance:   u_mpcs                                                                  
+===========================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            1                                       
+                                                       
+Total LUTS     1                  10 %                 
+=======================================================
+Total COMBINATIONAL LOGIC in the block u_mpcs.lscc_mpcs_top_inst:	1 (2.78 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+PCSX1               1                                       
+PCSREFMUX           1                                       
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     4                  44.4 %               
+============================================================
+Total BLACKBOX in the block u_mpcs.lscc_mpcs_top_inst:	4 (11.11 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

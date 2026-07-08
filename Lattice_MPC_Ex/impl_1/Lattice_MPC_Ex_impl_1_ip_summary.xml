@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LatticeIPSummary>
+    <IpInfo IP_Module_Name="MPCS_ex" IP_Name="MPCS" License_Feature="-" License_Status="-" Vendor="latticesemi.com" Version="1.9.0" Vlnv="latticesemi.com:module:mpcs:1.9.0"/>
+</LatticeIPSummary>

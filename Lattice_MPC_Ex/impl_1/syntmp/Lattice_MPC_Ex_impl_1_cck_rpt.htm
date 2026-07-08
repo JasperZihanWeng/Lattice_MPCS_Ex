@@ -1,0 +1,110 @@
+<html><body><samp><pre>
+<!@TC:1783533775>
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1
+Install: C:\lscc\radiant\2025.2.1\synpbase
+OS: Windows 10 or later
+Hostname: ECE-OP7010PC2
+
+Implementation : impl_1
+
+# Written on Wed Jul  8 13:03:00 2026
+
+##### DESIGN INFO #######################################################
+
+Top View:                "flashing_lights"
+Constraint File(s):      "C:\lscc\radiant\2025.2.1\scripts\tcl\flow\radiant_synplify_vars.tcl"
+                         "C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\Lattice_MPC_Ex_impl_1_cpe.ldc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 2 issues in 2 out of 3 constraints
+
+
+##### DETAILS ############################################################
+
+
+Clock Summary
+*************
+
+          Start     Requested     Requested     Clock     Clock     Clock
+Level     Clock     Frequency     Period        Type      Group     Load 
+-------------------------------------------------------------------------
+=========================================================================
+
+
+Clock Load Summary
+******************
+
+          Clock     Source     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock     Load      Pin        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------
+==============================================================================
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+System       System     |     5.000            |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+<a name=UnconstrainedStartEndPointsCCK40></a>Unconstrained Start/End Points</a>
+******************************
+
+p:F_SFP1_TX_DISABLE
+p:LED1
+p:LED2
+p:LED3
+p:LED4
+p:Switch1
+p:Switch2
+p:sd0rxn_i
+p:sd0rxp_i
+p:sd0txn_o
+p:sd0txp_o
+p:sdq_refclkn_q0_i
+p:sdq_refclkp_q0_i
+
+
+<a name=InapplicableconstraintsCCK41></a>Inapplicable constraints</a>
+************************
+
+create_generated_clock -name u_mpcs_mpcs_tx_out_clk_o_0 -source [get_pins u_mpcs/sdq_refclkp_q0_i] -divide_by 1000 -multiply_by 1000 [get_pins u_mpcs/mpcs_tx_out_clk_o_*]
+	@E:MT549:"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":3:0:3:0|Master source pin for clock u_mpcs_mpcs_tx_out_clk_o_0 not found in netlist.
+create_generated_clock -name u_mpcs_mpcs_rx_out_clk_o_0 -source [get_pins u_mpcs/sdq_refclkp_q0_i] -divide_by 1000 -multiply_by 1000 [get_pins u_mpcs/mpcs_rx_out_clk_o_*]
+	@E:MT549:"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":5:0:5:0|Master source pin for clock u_mpcs_mpcs_rx_out_clk_o_0 not found in netlist.
+
+<a name=ApplicableConstraintsWithIssuesCCK42></a>Applicable constraints with issues</a>
+**********************************
+
+(none)
+
+
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK43></a>Constraints with matching wildcard expressions</a>
+**********************************************
+
+(none)
+
+
+<a name=LibraryReportCCK44></a>Library Report</a>
+**************
+
+
+# End of Constraint Checker Report
+
+</pre></samp></body></html>

@@ -1,0 +1,5 @@
+-gui
+-msgset "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/Lattice_MPC_Ex/promote.xml"
+-ipeval
+
+-g REGISTER_INIT:ON

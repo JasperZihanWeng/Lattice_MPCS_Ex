@@ -1,0 +1,4 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: FX310 |Ignoring option "-dcc_insertion" since the technology does not support DCC. 
+@W: MT246 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":6194:63:6194:69|Blackbox PCSX1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":6035:14:6035:24|Blackbox PCSREFMUX is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)

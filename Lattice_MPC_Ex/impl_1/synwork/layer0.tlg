@@ -1,0 +1,597 @@
+@N: CG364 :"C:\lscc\radiant\2025.2.1\synpbase\lib\lucent\lfcpnx.v":3985:7:3985:15|Synthesizing module PCSREFMUX in library work.
+Running optimization stage 1 on PCSREFMUX .......
+Finished optimization stage 1 on PCSREFMUX (CPU Time 0h:00m:00s, Memory Used current: 213MB peak: 213MB)
+@N: CG364 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1402:7:1402:33|Synthesizing module MPCS_ex_ipgen_lscc_mpcs_top in library work.
+
+	MODESEL=32'b00000000000000000000000000000000
+	NUM_LANES=32'b00000000000000000000000000000001
+	PROTOCOL=56'b00110001010010110100001001000001010100110100010101011000
+	PCS_BYPASS=32'b00000000000000000000000000000000
+	LANE_ID=8'b00110110
+	TX_RX_BOND_MODE_Q0=56'b00110000011000100011000000110001001100010011000000110000
+	TX_RX_BOND_MODE_Q1=56'b00110000011000100011000000110000001100000011000000110000
+	GRP_NAME=112'b0100110101010000010000110101001101011111011001010111100001011111010100000100001101010011010001110101001001010000
+	GSR=56'b01000101010011100100000101000010010011000100010101000100
+	MODE=72'b010100100111100001011111011000010110111001100100010111110101010001111000
+	PCS_64B66B_NOFPLL=64'b0100010001001001010100110100000101000010010011000100010101000100
+	REFCLK=80'b00110001001100100011010100101110001100000011000000110000001100000011000000110000
+	DATARATE=32'b00110001001011100011001000110101
+	DATARATE_BYPASS=40'b0011001100101110001100010011001000110101
+	BUS_WIDTH=32'b00000000000000000000000000001010
+	GEAR_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEAR_CONV=32'b00000000000000000000000000000001
+	CLK_OUT=80'b00110001001100100011010100101110001100000011000000110000001100000011000000110000
+	TX_RX_DIVMODE_0=32'b00000000000000000000000000000001
+	TX_RX_M_A=32'b00000000000000000000000000001000
+	TX_RX_F_A=32'b00000000000000000000000000000001
+	TX_RX_N_A=32'b00000000000000000000000000001010
+	TX_RX_DIVMODE_1=32'b00000000000000000000000000000001
+	TX_RX_M_B=32'b00000000000000000000000000000010
+	TX_RX_F_B=32'b00000000000000000000000000000100
+	TX_RX_N_B=32'b00000000000000000000000000001010
+	TX_RX_DIVMODE_2=32'b00000000000000000000000000000001
+	TX_RX_M_C=32'b00000000000000000000000000000010
+	TX_RX_F_C=32'b00000000000000000000000000000100
+	TX_RX_N_C=32'b00000000000000000000000000001010
+	TX_AMP_RATIO_MARGIN0_FULL_DEC=32'b00000000000000000000000010000000
+	TX_AMP_RATIO_MARGIN0_FULL=80'b00110000011000100011000100110000001100000011000000110000001100000011000000110000
+	TX_IMPED_RATIO=80'b00110000011000100011000100110000001100000011000000110000001100000011000000110000
+	RX_IMPED_RATIO=80'b00110000011000100011000100110000001100000011000000110000001100000011000000110000
+	RXEQ_ENABLE=40'b0011000001100010001100010011000000110000
+	RXEQ_ENABLE_DEC=32'b00000000000000000000000000000100
+	RXEQ_ALGO=40'b0011000001100010001100010011000100110001
+	RXEQ_ALGO_DEC=32'b00000000000000000000000000000111
+	GEN3_ENA_PREA0=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEN12_ENA_PREA0=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEN3_ENA_POST_A0=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEN12_ENA_POST_A0=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEN3_ENA_POST_A1A2=64'b0100010001001001010100110100000101000010010011000100010101000100
+	GEN12_ENA_POST_A1A2=64'b0100010001001001010100110100000101000010010011000100010101000100
+	TX_POLINV=48'b010011100100111101010010010011010100000101001100
+	RX_POLINV=48'b010011100100111101010010010011010100000101001100
+	TX_PRE_RATIO_DEC=32'b00000000000000000000000000000000
+	TX_PRE_RATIO=80'b00110000011000100011000000110000001100000011000000110000001100000011000000110000
+	TX_PST_RATIO_DEC=32'b00000000000000000000000000010101
+	TX_PST_RATIO=80'b00110000011000100011000000110000001100000011000100110000001100010011000000110001
+	CNT250NS_MAX_DEC=32'b00000000000000000000000000011111
+	CNT250NS_MAX=88'b0011000001100010001100000011000000110000001100000011000100110001001100010011000100110001
+	TX_FIFO_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	ENC_8B10B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	TX_PMFIFO_DIS=64'b0100010001001001010100110100000101000010010011000100010101000100
+	RX_FIFO_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	DEC_8B10B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	WA_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	WA_PTN_20B=88'b0011000100110000010000100100100101010100010111110101011101001001010001000101010001001000
+	PRI_WA_PTN_DEC=32'b00000000000000000000000101111100
+	PRI_WA_PTN=176'b00110000011000100011000000110000001100000011000000110000001100000011000000110000001100000011000000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	SEC_WA_PTN_DEC=32'b00000000000000000000001010000011
+	SEC_WA_PTN=176'b00110000011000100011000000110000001100000011000000110000001100000011000000110000001100000011000000110001001100000011000100110000001100000011000000110000001100000011000100110001
+	WA_MASK_CODE_DEC=32'b00000000000000000000000000000000
+	WA_MASK_CODE=176'b00110000011000100011000000110000001100000011000000110000001100000011000000110000001100000011000000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SYNC_PTN_LEN=8'b00110001
+	SYNC_PTN_ALIGN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	SYNC_PTN_10B=64'b0011000100110000010000100101111101000011010011110100010001000101
+	SEC_SYNC_PTN_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	PRE_SDPTN_B0_DEC=32'b00000000000000000000001010000011
+	PRE_SDPTN_B1_DEC=32'b00000000000000000000000000000000
+	PRE_SDPTN_B2_DEC=32'b00000000000000000000000000000000
+	PRE_SDPTN_B3_DEC=32'b00000000000000000000000000000000
+	PRE_SDPTN_BYTE0=96'b001100000110001000110001001100000011000100110000001100000011000000110000001100000011000100110001
+	PRE_SDPTN_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRE_SDPTN_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRE_SDPTN_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SDPTN_B0_DEC=32'b00000000000000000000000101111100
+	SEC_SDPTN_B1_DEC=32'b00000000000000000000000000000000
+	SEC_SDPTN_B2_DEC=32'b00000000000000000000000000000000
+	SEC_SDPTN_B3_DEC=32'b00000000000000000000000000000000
+	SEC_SDPTN_BYTE0=96'b001100000110001000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	SEC_SDPTN_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SDPTN_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SDPTN_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SDPTN_MASK_B0_DEC=32'b00000000000000000000000000000000
+	SDPTN_MASK_B1_DEC=32'b00000000000000000000000000000000
+	SDPTN_MASK_B2_DEC=32'b00000000000000000000000000000000
+	SDPTN_MASK_B3_DEC=32'b00000000000000000000000000000000
+	SDPTN_MASK_BYTE0=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SDPTN_MASK_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SDPTN_MASK_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SDPTN_MASK_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	RX_DBUS_20=88'b0011000100110000010000100100100101010100010111110101011101001001010001000101010001001000
+	LALIGN_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	SEC_LAPTN_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	LALIGN_MASK_CODE=48'b001100000110001000110000001100000011000000110001
+	HIGH_WATER_LINE_DEC=32'b00000000000000000000000000010110
+	LOW_WATER_LINE_DEC=32'b00000000000000000000000000001010
+	HIGH_WATER_LINE=56'b00110000011000100011000100110000001100010011000100110000
+	LOW_WATER_LINE=56'b00110000011000100011000000110001001100000011000100110000
+	RFIFO_COM_ALIGN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	AUTO_WA_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	SEC_WAPTN_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	ALIGN_2BYTE_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	SYNCDET_FSM_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	VAL_SYNC=32'b00000000000000000000000000000011
+	NUM_VAL_SYNC=80'b00110000011000100011000000110000001100000011000000110000001100000011000100110001
+	BAD_CODE=32'b00000000000000000000000000000100
+	NUM_BAD_CODE=64'b0011000001100010001100000011000000110000001100010011000000110000
+	GOOD_CODE=32'b00000000000000000000000000000100
+	NUM_GOOD_CODE=80'b00110000011000100011000000110000001100000011000000110000001100010011000000110000
+	LALIGN_10B=56'b00111000010000100101111101000011010011110100010001000101
+	LALIGN_PTN_LEN=48'b001100010101111101000010010110010101010001000101
+	MAX_LSKEW=56'b01001110010011110101111101010011010010110100010101010111
+	PRI_LAPTN_B0_DEC=32'b00000000000000000000000101111100
+	PRI_LAPTN_B1_DEC=32'b00000000000000000000000000000000
+	PRI_LAPTN_B2_DEC=32'b00000000000000000000000000000000
+	PRI_LAPTN_B3_DEC=32'b00000000000000000000000000000000
+	PRI_LAPTN_BYTE0=96'b001100000110001000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	PRI_LAPTN_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRI_LAPTN_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRI_LAPTN_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_LAPTN_B0_DEC=32'b00000000000000000000000101111100
+	SEC_LAPTN_B1_DEC=32'b00000000000000000000000000000000
+	SEC_LAPTN_B2_DEC=32'b00000000000000000000000000000000
+	SEC_LAPTN_B3_DEC=32'b00000000000000000000000000000000
+	SEC_LAPTN_BYTE0=96'b001100000110001000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	SEC_LAPTN_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_LAPTN_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_LAPTN_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	CTC_FIFO_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	MISC_CTRL=8'b00110000
+	CLK_COMP_10B=56'b00111000010000100101111101000011010011110100010001000101
+	SKIP_PTN_LEN=48'b001100010101111101000010010110010101010001000101
+	PRI_SKIP_B0_DEC=32'b00000000000000000000000101111100
+	PRI_SKIP_B1_DEC=32'b00000000000000000000000000000000
+	PRI_SKIP_B2_DEC=32'b00000000000000000000000000000000
+	PRI_SKIP_B3_DEC=32'b00000000000000000000000000000000
+	PRI_SKIP_BYTE0=96'b001100000110001000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	PRI_SKIP_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRI_SKIP_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	PRI_SKIP_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SKIP_B0_DEC=32'b00000000000000000000000101111100
+	SEC_SKIP_B1_DEC=32'b00000000000000000000000000000000
+	SEC_SKIP_B2_DEC=32'b00000000000000000000000000000000
+	SEC_SKIP_B3_DEC=32'b00000000000000000000000000000000
+	SEC_SKIP_BYTE0=96'b001100000110001000110000001100010011000000110001001100010011000100110001001100010011000000110000
+	SEC_SKIP_BYTE1=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SKIP_BYTE2=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SKIP_BYTE3=96'b001100000110001000110000001100000011000000110000001100000011000000110000001100000011000000110000
+	SEC_SKIP_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	SKP_MASK_CODE=48'b001100000110001000110000001100000011000000110000
+	CLK_COMP_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	TX_OVRD=32'b00000000000000000000000000000000
+	RX_OVRD=32'b00000000000000000000000000000000
+	SRC_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	END_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	FIFO_AF=32'b00000000000000000000000000001100
+	TX_FIFO_AF=48'b001100000110001000110001001100010011000000110000
+	FIFO_AE=32'b00000000000000000000000000000100
+	TX_FIFO_AE=48'b001100000110001000110000001100010011000000110000
+	DESCR_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	DEC_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	CTC_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	BALIGN_64B66B_DIS=56'b01000101010011100100000101000010010011000100010101000100
+	LOOPBACK_MODE=64'b0100010001001001010100110100000101000010010011000100010101000100
+	PCIELL_MODESEL=3'b101
+	ATXICP_RATE0_DEC=32'b00000000000000000000000000000101
+	ATXICP_RATE1_DEC=32'b00000000000000000000000000000101
+	ATXICP_RATE2_DEC=32'b00000000000000000000000000000101
+	ARXICP_RATE0_DEC=32'b00000000000000000000000000000011
+	ARXICP_RATE1_DEC=32'b00000000000000000000000000000011
+	ARXICP_RATE2_DEC=32'b00000000000000000000000000000011
+	ARXCDRICP_RATE0_DEC=32'b00000000000000000000000000000110
+	ARXCDRICP_RATE1_DEC=32'b00000000000000000000000000000110
+	ARXCDRICP_RATE2_DEC=32'b00000000000000000000000000000110
+	ARXRSVCTL_DEC=32'b00000000000000000000000010000000
+	ATXICP_RATE0=40'b0011000001100010001100010011000000110001
+	ATXICP_RATE1=40'b0011000001100010001100010011000000110001
+	ATXICP_RATE2=40'b0011000001100010001100010011000000110001
+	ARXICP_RATE0=40'b0011000001100010001100000011000100110001
+	ARXICP_RATE1=40'b0011000001100010001100000011000100110001
+	ARXICP_RATE2=40'b0011000001100010001100000011000100110001
+	ARXCDRICP_RATE0=40'b0011000001100010001100010011000100110000
+	ARXCDRICP_RATE1=40'b0011000001100010001100010011000100110000
+	ARXCDRICP_RATE2=40'b0011000001100010001100010011000100110000
+	ARXRSVCTL=80'b00110000011000100011000100110000001100000011000000110000001100000011000000110000
+	FAMILY=48'b010011000100011001000011010100000100111001011000
+	PIPE=1'b0
+	MODE_SEL=80'b00000000000000000000000000000000000000000000000000000000010100000100001101010011
+	TXRX_PCSMODE_SEL=120'b000000000101000001001101010000010101111100111000010000100101111100110001001100000100001001011111010100000100001101010011
+	TX_PCS_MODE_OVRD=184'b0000000000000000000000000000000001010101010100110100010101011111010011010100001100110001010111110101000001000011010100110100110101001111010001000100010101011111010100110100010101001100
+	RX_PCS_MODE_OVRD=184'b0000000000000000000000000000000001010101010100110100010101011111010011010100001100110001010111110101000001000011010100110100110101001111010001000100010101011111010100110100010101001100
+	PIPE_CH0_LANE_EN=56'b01000101010011100100000101000010010011000100010101000100
+	PIPE_CH1_LANE_EN=64'b0000000001000101010011100100000101000010010011000100010101000100
+	PIPE_CH2_LANE_EN=64'b0000000001000101010011100100000101000010010011000100010101000100
+	PIPE_CH3_LANE_EN=64'b0000000001000101010011100100000101000010010011000100010101000100
+	TX_DBUS_20=88'b0011000100110000010000100100100101010100010111110101011101001001010001000101010001001000
+	DATARATE_PCS=40'b0000000000110001001011100011001000110101
+	MULTIRATE=32'b00000000000000000000000000000000
+	TX_DIVMODE0=32'b00110000011000100011000000110000
+	RX_DIVMODE0=40'b0100010001001001010101100101111100110001
+	TXRX_M_A=32'b00110000011000100011000100110001
+	TXRX_F_A=48'b001100000110001000110000001100000011000000110000
+	TXRX_N_A=56'b00110000011000100011000000110001001100000011000000110001
+	TX_DIVMODE1=32'b00110000011000100011000000110000
+	RX_DIVMODE1=32'b00110000011000100011000000110000
+	TXRX_M_B=32'b00110000011000100011000000110001
+	TXRX_F_B=48'b001100000110001000110000001100000011000100110001
+	TXRX_N_B=56'b00110000011000100011000000110001001100000011000000110001
+	TX_DIVMODE2=32'b00110000011000100011000000110000
+	RX_DIVMODE2=32'b00110000011000100011000000110000
+	TXRX_M_C=32'b00110000011000100011000000110001
+	TXRX_F_C=48'b001100000110001000110000001100000011000100110001
+	TXRX_N_C=56'b00110000011000100011000000110001001100000011000000110001
+	NUM_LANES_10GE=32'b00000000000000000000000000000001
+	NUM_LANES_PIPE=32'b00000000000000000000000000000100
+	NUM_LANES_LANEID=32'b00000000000000000000000000000001
+	NUM_LANES_SEL=32'b00000000000000000000000000000001
+	REFCLK_QUAD0=32'b00000000000000000000000000000000
+	NEAR_LP_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	FAR_LP_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	LPBK_EN=64'b0100010001001001010100110100000101000010010011000100010101000100
+	MESO_LPBK=64'b0100010001001001010100110100000101000010010011000100010101000100
+	EXCL_BONDMODE=32'b00000000000000000000000000000000
+	LANE_ID_10GE_L6_L7=8'b00110110
+   Generated name = MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0
+@N: CG364 :"C:\lscc\radiant\2025.2.1\synpbase\lib\lucent\lfcpnx.v":3996:7:3996:11|Synthesizing module PCSX1 in library work.
+Running optimization stage 1 on PCSX1 .......
+Finished optimization stage 1 on PCSX1 (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1653:11:1653:30|Removing wire lmmi_rdata_valid_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1654:11:1654:30|Removing wire lmmi_rdata_valid_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1655:11:1655:30|Removing wire lmmi_rdata_valid_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1656:11:1656:30|Removing wire lmmi_rdata_valid_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1657:11:1657:30|Removing wire lmmi_rdata_valid_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1658:11:1658:30|Removing wire lmmi_rdata_valid_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1659:11:1659:30|Removing wire lmmi_rdata_valid_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1661:11:1661:24|Removing wire lmmi_ready_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1662:11:1662:24|Removing wire lmmi_ready_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1663:11:1663:24|Removing wire lmmi_ready_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1664:11:1664:24|Removing wire lmmi_ready_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1665:11:1665:24|Removing wire lmmi_ready_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1666:11:1666:24|Removing wire lmmi_ready_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1667:11:1667:24|Removing wire lmmi_ready_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1669:17:1669:30|Removing wire lmmi_rdata_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1670:17:1670:30|Removing wire lmmi_rdata_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1671:17:1671:30|Removing wire lmmi_rdata_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1672:17:1672:30|Removing wire lmmi_rdata_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1673:17:1673:30|Removing wire lmmi_rdata_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1674:17:1674:30|Removing wire lmmi_rdata_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1675:17:1675:30|Removing wire lmmi_rdata_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1706:11:1706:18|Removing wire sd7txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1707:11:1707:18|Removing wire sd6txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1708:11:1708:18|Removing wire sd5txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1709:11:1709:18|Removing wire sd4txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1710:11:1710:18|Removing wire sd3txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1711:11:1711:18|Removing wire sd2txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1712:11:1712:18|Removing wire sd1txp_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1714:11:1714:18|Removing wire sd7txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1715:11:1715:18|Removing wire sd6txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1716:11:1716:18|Removing wire sd5txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1717:11:1717:18|Removing wire sd4txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1718:11:1718:18|Removing wire sd3txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1719:11:1719:18|Removing wire sd2txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1720:11:1720:18|Removing wire sd1txn_o, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1789:11:1789:29|Removing wire mpcs_rx_out_clk_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1790:11:1790:29|Removing wire mpcs_rx_out_clk_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1791:11:1791:29|Removing wire mpcs_rx_out_clk_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1792:11:1792:29|Removing wire mpcs_rx_out_clk_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1793:11:1793:29|Removing wire mpcs_rx_out_clk_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1794:11:1794:29|Removing wire mpcs_rx_out_clk_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1795:11:1795:29|Removing wire mpcs_rx_out_clk_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1797:11:1797:29|Removing wire mpcs_tx_out_clk_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1798:11:1798:29|Removing wire mpcs_tx_out_clk_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1799:11:1799:29|Removing wire mpcs_tx_out_clk_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1800:11:1800:29|Removing wire mpcs_tx_out_clk_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1801:11:1801:29|Removing wire mpcs_tx_out_clk_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1802:11:1802:29|Removing wire mpcs_tx_out_clk_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1803:11:1803:29|Removing wire mpcs_tx_out_clk_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1821:17:1821:35|Removing wire mpcs_tx_fifo_st_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1822:17:1822:35|Removing wire mpcs_tx_fifo_st_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1823:17:1823:35|Removing wire mpcs_tx_fifo_st_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1824:17:1824:35|Removing wire mpcs_tx_fifo_st_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1825:17:1825:35|Removing wire mpcs_tx_fifo_st_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1826:17:1826:35|Removing wire mpcs_tx_fifo_st_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1827:17:1827:35|Removing wire mpcs_tx_fifo_st_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1829:18:1829:36|Removing wire mpcs_rx_ch_dout_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1830:18:1830:36|Removing wire mpcs_rx_ch_dout_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1831:18:1831:36|Removing wire mpcs_rx_ch_dout_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1832:18:1832:36|Removing wire mpcs_rx_ch_dout_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1833:18:1833:36|Removing wire mpcs_rx_ch_dout_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1834:18:1834:36|Removing wire mpcs_rx_ch_dout_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1835:18:1835:36|Removing wire mpcs_rx_ch_dout_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1837:17:1837:35|Removing wire mpcs_rx_fifo_st_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1838:17:1838:35|Removing wire mpcs_rx_fifo_st_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1839:17:1839:35|Removing wire mpcs_rx_fifo_st_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1840:17:1840:35|Removing wire mpcs_rx_fifo_st_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1841:17:1841:35|Removing wire mpcs_rx_fifo_st_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1842:17:1842:35|Removing wire mpcs_rx_fifo_st_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1843:17:1843:35|Removing wire mpcs_rx_fifo_st_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1845:11:1845:29|Removing wire mpcs_ebuf_empty_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1846:11:1846:29|Removing wire mpcs_ebuf_empty_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1847:11:1847:29|Removing wire mpcs_ebuf_empty_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1848:11:1848:29|Removing wire mpcs_ebuf_empty_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1849:11:1849:29|Removing wire mpcs_ebuf_empty_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1850:11:1850:29|Removing wire mpcs_ebuf_empty_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1851:11:1851:29|Removing wire mpcs_ebuf_empty_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1853:11:1853:28|Removing wire mpcs_ebuf_full_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1854:11:1854:28|Removing wire mpcs_ebuf_full_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1855:11:1855:28|Removing wire mpcs_ebuf_full_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1856:11:1856:28|Removing wire mpcs_ebuf_full_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1857:11:1857:28|Removing wire mpcs_ebuf_full_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1858:11:1858:28|Removing wire mpcs_ebuf_full_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1859:11:1859:28|Removing wire mpcs_ebuf_full_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1877:11:1877:28|Removing wire mpcs_get_lsync_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1878:11:1878:28|Removing wire mpcs_get_lsync_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1879:11:1879:28|Removing wire mpcs_get_lsync_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1880:11:1880:28|Removing wire mpcs_get_lsync_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1881:11:1881:28|Removing wire mpcs_get_lsync_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1882:11:1882:28|Removing wire mpcs_get_lsync_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1883:11:1883:28|Removing wire mpcs_get_lsync_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1885:11:1885:32|Removing wire mpcs_rx_get_lalign_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1886:11:1886:32|Removing wire mpcs_rx_get_lalign_o_6, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1887:11:1887:32|Removing wire mpcs_rx_get_lalign_o_5, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1888:11:1888:32|Removing wire mpcs_rx_get_lalign_o_4, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1889:11:1889:32|Removing wire mpcs_rx_get_lalign_o_3, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1890:11:1890:32|Removing wire mpcs_rx_get_lalign_o_2, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1891:11:1891:32|Removing wire mpcs_rx_get_lalign_o_1, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1901:11:1901:28|Removing wire mpcs_rx_hi_ber_o_7, as there is no assignment to it.
+@W: CG360 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1902:11:1902:28|Removing wire mpcs_rx_hi_ber_o_6, as there is no assignment to it.
+
+Only the first 100 messages of id 'CG360' are reported. To see all messages use 'report_messages -log C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\synlog\Lattice_MPC_Ex_impl_1_compiler.srr -id CG360' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG360} -count unlimited' in the Tcl shell.
+Running optimization stage 1 on MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 .......
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1653:11:1653:30|*Output lmmi_rdata_valid_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1654:11:1654:30|*Output lmmi_rdata_valid_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1655:11:1655:30|*Output lmmi_rdata_valid_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1656:11:1656:30|*Output lmmi_rdata_valid_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1657:11:1657:30|*Output lmmi_rdata_valid_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1658:11:1658:30|*Output lmmi_rdata_valid_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1659:11:1659:30|*Output lmmi_rdata_valid_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1661:11:1661:24|*Output lmmi_ready_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1662:11:1662:24|*Output lmmi_ready_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1663:11:1663:24|*Output lmmi_ready_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1664:11:1664:24|*Output lmmi_ready_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1665:11:1665:24|*Output lmmi_ready_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1666:11:1666:24|*Output lmmi_ready_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1667:11:1667:24|*Output lmmi_ready_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1669:17:1669:30|*Output lmmi_rdata_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1670:17:1670:30|*Output lmmi_rdata_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1671:17:1671:30|*Output lmmi_rdata_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1672:17:1672:30|*Output lmmi_rdata_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1673:17:1673:30|*Output lmmi_rdata_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1674:17:1674:30|*Output lmmi_rdata_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1675:17:1675:30|*Output lmmi_rdata_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1706:11:1706:18|*Output sd7txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1707:11:1707:18|*Output sd6txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1708:11:1708:18|*Output sd5txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1709:11:1709:18|*Output sd4txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1710:11:1710:18|*Output sd3txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1711:11:1711:18|*Output sd2txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1712:11:1712:18|*Output sd1txp_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1714:11:1714:18|*Output sd7txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1715:11:1715:18|*Output sd6txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1716:11:1716:18|*Output sd5txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1717:11:1717:18|*Output sd4txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1718:11:1718:18|*Output sd3txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1719:11:1719:18|*Output sd2txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1720:11:1720:18|*Output sd1txn_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1789:11:1789:29|*Output mpcs_rx_out_clk_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1790:11:1790:29|*Output mpcs_rx_out_clk_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1791:11:1791:29|*Output mpcs_rx_out_clk_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1792:11:1792:29|*Output mpcs_rx_out_clk_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1793:11:1793:29|*Output mpcs_rx_out_clk_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1794:11:1794:29|*Output mpcs_rx_out_clk_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1795:11:1795:29|*Output mpcs_rx_out_clk_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1797:11:1797:29|*Output mpcs_tx_out_clk_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1798:11:1798:29|*Output mpcs_tx_out_clk_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1799:11:1799:29|*Output mpcs_tx_out_clk_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1800:11:1800:29|*Output mpcs_tx_out_clk_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1801:11:1801:29|*Output mpcs_tx_out_clk_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1802:11:1802:29|*Output mpcs_tx_out_clk_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1803:11:1803:29|*Output mpcs_tx_out_clk_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1821:17:1821:35|*Output mpcs_tx_fifo_st_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1822:17:1822:35|*Output mpcs_tx_fifo_st_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1823:17:1823:35|*Output mpcs_tx_fifo_st_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1824:17:1824:35|*Output mpcs_tx_fifo_st_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1825:17:1825:35|*Output mpcs_tx_fifo_st_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1826:17:1826:35|*Output mpcs_tx_fifo_st_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1827:17:1827:35|*Output mpcs_tx_fifo_st_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1829:18:1829:36|*Output mpcs_rx_ch_dout_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1830:18:1830:36|*Output mpcs_rx_ch_dout_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1831:18:1831:36|*Output mpcs_rx_ch_dout_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1832:18:1832:36|*Output mpcs_rx_ch_dout_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1833:18:1833:36|*Output mpcs_rx_ch_dout_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1834:18:1834:36|*Output mpcs_rx_ch_dout_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1835:18:1835:36|*Output mpcs_rx_ch_dout_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1837:17:1837:35|*Output mpcs_rx_fifo_st_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1838:17:1838:35|*Output mpcs_rx_fifo_st_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1839:17:1839:35|*Output mpcs_rx_fifo_st_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1840:17:1840:35|*Output mpcs_rx_fifo_st_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1841:17:1841:35|*Output mpcs_rx_fifo_st_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1842:17:1842:35|*Output mpcs_rx_fifo_st_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1843:17:1843:35|*Output mpcs_rx_fifo_st_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1845:11:1845:29|*Output mpcs_ebuf_empty_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1846:11:1846:29|*Output mpcs_ebuf_empty_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1847:11:1847:29|*Output mpcs_ebuf_empty_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1848:11:1848:29|*Output mpcs_ebuf_empty_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1849:11:1849:29|*Output mpcs_ebuf_empty_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1850:11:1850:29|*Output mpcs_ebuf_empty_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1851:11:1851:29|*Output mpcs_ebuf_empty_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1853:11:1853:28|*Output mpcs_ebuf_full_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1854:11:1854:28|*Output mpcs_ebuf_full_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1855:11:1855:28|*Output mpcs_ebuf_full_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1856:11:1856:28|*Output mpcs_ebuf_full_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1857:11:1857:28|*Output mpcs_ebuf_full_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1858:11:1858:28|*Output mpcs_ebuf_full_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1859:11:1859:28|*Output mpcs_ebuf_full_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1877:11:1877:28|*Output mpcs_get_lsync_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1878:11:1878:28|*Output mpcs_get_lsync_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1879:11:1879:28|*Output mpcs_get_lsync_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1880:11:1880:28|*Output mpcs_get_lsync_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1881:11:1881:28|*Output mpcs_get_lsync_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1882:11:1882:28|*Output mpcs_get_lsync_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1883:11:1883:28|*Output mpcs_get_lsync_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1885:11:1885:32|*Output mpcs_rx_get_lalign_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1886:11:1886:32|*Output mpcs_rx_get_lalign_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1887:11:1887:32|*Output mpcs_rx_get_lalign_o_5 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1888:11:1888:32|*Output mpcs_rx_get_lalign_o_4 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1889:11:1889:32|*Output mpcs_rx_get_lalign_o_3 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1890:11:1890:32|*Output mpcs_rx_get_lalign_o_2 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1891:11:1891:32|*Output mpcs_rx_get_lalign_o_1 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1901:11:1901:28|*Output mpcs_rx_hi_ber_o_7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1902:11:1902:28|*Output mpcs_rx_hi_ber_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+
+Only the first 100 messages of id 'CL318' are reported. To see all messages use 'report_messages -log C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\synlog\Lattice_MPC_Ex_impl_1_compiler.srr -id CL318' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL318} -count unlimited' in the Tcl shell.
+Finished optimization stage 1 on MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+@N: CG364 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":11:66:11:72|Synthesizing module MPCS_ex in library work.
+Running optimization stage 1 on MPCS_ex .......
+Finished optimization stage 1 on MPCS_ex (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 216MB)
+@N: CG364 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":1:7:1:21|Synthesizing module flashing_lights in library work.
+Running optimization stage 1 on flashing_lights .......
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_control[1] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_control[2] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_control[3] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[6] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[8] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[10] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[12] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[14] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[16] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[18] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[20] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[22] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[24] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[26] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[28] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[30] is always 0.
+@W: CL279 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bits 3 to 1 of tx_control[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 30 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 28 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 26 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 24 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 22 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 20 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 18 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 16 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 14 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 12 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 10 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 8 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 6 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on flashing_lights (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 216MB)
+Running optimization stage 2 on flashing_lights .......
+@W: CL279 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bits 5 to 3 of tx_payload[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on flashing_lights (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
+Running optimization stage 2 on MPCS_ex .......
+Finished optimization stage 2 on MPCS_ex (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
+Running optimization stage 2 on PCSX1 .......
+Finished optimization stage 2 on PCSX1 (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
+Running optimization stage 2 on MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 .......
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1605:10:1605:21|Input lmmi_clk_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1606:10:1606:21|Input lmmi_clk_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1607:10:1607:21|Input lmmi_clk_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1608:10:1608:21|Input lmmi_clk_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1609:10:1609:21|Input lmmi_clk_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1610:10:1610:21|Input lmmi_clk_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1611:10:1611:21|Input lmmi_clk_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1613:10:1613:24|Input lmmi_resetn_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1614:10:1614:24|Input lmmi_resetn_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1615:10:1615:24|Input lmmi_resetn_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1616:10:1616:24|Input lmmi_resetn_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1617:10:1617:24|Input lmmi_resetn_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1618:10:1618:24|Input lmmi_resetn_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1619:10:1619:24|Input lmmi_resetn_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1621:10:1621:25|Input lmmi_request_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1622:10:1622:25|Input lmmi_request_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1623:10:1623:25|Input lmmi_request_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1624:10:1624:25|Input lmmi_request_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1625:10:1625:25|Input lmmi_request_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1626:10:1626:25|Input lmmi_request_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1627:10:1627:25|Input lmmi_request_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1629:10:1629:24|Input lmmi_wr_rdn_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1630:10:1630:24|Input lmmi_wr_rdn_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1631:10:1631:24|Input lmmi_wr_rdn_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1632:10:1632:24|Input lmmi_wr_rdn_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1633:10:1633:24|Input lmmi_wr_rdn_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1634:10:1634:24|Input lmmi_wr_rdn_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1635:10:1635:24|Input lmmi_wr_rdn_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1637:16:1637:30|Input lmmi_offset_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1638:16:1638:30|Input lmmi_offset_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1639:16:1639:30|Input lmmi_offset_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1640:16:1640:30|Input lmmi_offset_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1641:16:1641:30|Input lmmi_offset_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1642:16:1642:30|Input lmmi_offset_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1643:16:1643:30|Input lmmi_offset_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1645:16:1645:29|Input lmmi_wdata_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1646:16:1646:29|Input lmmi_wdata_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1647:16:1647:29|Input lmmi_wdata_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1648:16:1648:29|Input lmmi_wdata_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1649:16:1649:29|Input lmmi_wdata_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1650:16:1650:29|Input lmmi_wdata_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1651:16:1651:29|Input lmmi_wdata_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1686:10:1686:25|Input sdq_refclkp_q0_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1687:10:1687:25|Input sdq_refclkn_q0_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1690:10:1690:17|Input sd7rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1691:10:1691:17|Input sd6rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1692:10:1692:17|Input sd5rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1693:10:1693:17|Input sd4rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1694:10:1694:17|Input sd3rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1695:10:1695:17|Input sd2rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1696:10:1696:17|Input sd1rxp_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1698:10:1698:17|Input sd7rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1699:10:1699:17|Input sd6rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1700:10:1700:17|Input sd5rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1701:10:1701:17|Input sd4rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1702:10:1702:17|Input sd3rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1703:10:1703:17|Input sd2rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1704:10:1704:17|Input sd1rxn_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1722:10:1722:19|Input sd7_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1723:10:1723:19|Input sd6_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1724:10:1724:19|Input sd5_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1725:10:1725:19|Input sd4_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1726:10:1726:19|Input sd3_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1727:10:1727:19|Input sd2_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1728:10:1728:19|Input sd1_rext_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1730:10:1730:21|Input sd7_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1731:10:1731:21|Input sd6_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1732:10:1732:21|Input sd5_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1733:10:1733:21|Input sd4_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1734:10:1734:21|Input sd3_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1735:10:1735:21|Input sd2_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1736:10:1736:21|Input sd1_refret_i is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1749:10:1749:28|Input mpcs_rx_usr_clk_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1750:10:1750:28|Input mpcs_rx_usr_clk_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1751:10:1751:28|Input mpcs_rx_usr_clk_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1752:10:1752:28|Input mpcs_rx_usr_clk_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1753:10:1753:28|Input mpcs_rx_usr_clk_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1754:10:1754:28|Input mpcs_rx_usr_clk_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1755:10:1755:28|Input mpcs_rx_usr_clk_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1757:10:1757:28|Input mpcs_tx_usr_clk_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1758:10:1758:28|Input mpcs_tx_usr_clk_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1759:10:1759:28|Input mpcs_tx_usr_clk_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1760:10:1760:28|Input mpcs_tx_usr_clk_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1761:10:1761:28|Input mpcs_tx_usr_clk_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1762:10:1762:28|Input mpcs_tx_usr_clk_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1763:10:1763:28|Input mpcs_tx_usr_clk_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1765:10:1765:29|Input mpcs_tx_pcs_rstn_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1766:10:1766:29|Input mpcs_tx_pcs_rstn_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1767:10:1767:29|Input mpcs_tx_pcs_rstn_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1768:10:1768:29|Input mpcs_tx_pcs_rstn_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1769:10:1769:29|Input mpcs_tx_pcs_rstn_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1770:10:1770:29|Input mpcs_tx_pcs_rstn_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1771:10:1771:29|Input mpcs_tx_pcs_rstn_i_1 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1773:10:1773:29|Input mpcs_rx_pcs_rstn_i_7 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1774:10:1774:29|Input mpcs_rx_pcs_rstn_i_6 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1775:10:1775:29|Input mpcs_rx_pcs_rstn_i_5 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1776:10:1776:29|Input mpcs_rx_pcs_rstn_i_4 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1777:10:1777:29|Input mpcs_rx_pcs_rstn_i_3 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1778:10:1778:29|Input mpcs_rx_pcs_rstn_i_2 is unused.
+@N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1779:10:1779:29|Input mpcs_rx_pcs_rstn_i_1 is unused.
+
+Only the first 100 messages of id 'CL159' are reported. To see all messages use 'report_messages -log C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\synlog\Lattice_MPC_Ex_impl_1_compiler.srr -id CL159' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL159} -count unlimited' in the Tcl shell.
+Finished optimization stage 2 on MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
+Running optimization stage 2 on PCSREFMUX .......
+Finished optimization stage 2 on PCSREFMUX (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\synwork\layer0.duruntime
+
+

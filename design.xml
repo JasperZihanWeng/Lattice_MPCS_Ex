@@ -16,7 +16,7 @@
                     <ipxact:configurableElementValue referenceId="TX_OVRD">False</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="RX_OVRD">False</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="NUM_LANES">1</ipxact:configurableElementValue>
-                    <ipxact:configurableElementValue referenceId="LANE_ID">AUTO</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="LANE_ID">6</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="TX_RX_BOND_MODE_Q0">0b01100</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="TX_RX_BOND_MODE_Q1">0b00000</ipxact:configurableElementValue>
                     <ipxact:configurableElementValue referenceId="INST_NAME">MPCS_ex_PCSGRP</ipxact:configurableElementValue>

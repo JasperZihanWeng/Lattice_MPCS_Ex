@@ -1,0 +1,36 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: FX493 |Applying initial value "1" on instance switch1_meta.
+@N: FX493 |Applying initial value "1" on instance switch2_meta.
+@N: FX493 |Applying initial value "0" on instance tx_control[0].
+@N: FX493 |Applying initial value "0" on instance tx_payload[7].
+@N: FX493 |Applying initial value "0" on instance tx_payload[9].
+@N: FX493 |Applying initial value "0" on instance tx_payload[11].
+@N: FX493 |Applying initial value "0" on instance tx_payload[13].
+@N: FX493 |Applying initial value "0" on instance tx_payload[15].
+@N: FX493 |Applying initial value "0" on instance tx_payload[17].
+@N: FX493 |Applying initial value "0" on instance tx_payload[19].
+@N: FX493 |Applying initial value "0" on instance tx_payload[21].
+@N: FX493 |Applying initial value "0" on instance tx_payload[23].
+@N: FX493 |Applying initial value "0" on instance tx_payload[25].
+@N: FX493 |Applying initial value "0" on instance tx_payload[27].
+@N: FX493 |Applying initial value "0" on instance tx_payload[29].
+@N: FX493 |Applying initial value "0" on instance tx_payload[31].
+@N: FX493 |Applying initial value "1" on instance switch1_sync.
+@N: FX493 |Applying initial value "1" on instance switch2_sync.
+@N: FX493 |Applying initial value "00" on instance rx_data[1:0].
+@N: FX493 |Applying initial value "0" on instance have_rx_data.
+@N: FX493 |Applying initial value "000" on instance tx_payload[2:0].
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2636:11:2636:24|Tristate driver acjtagnout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2635:11:2635:24|Tristate driver acjtagnout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2634:11:2634:24|Tristate driver acjtagnout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2633:11:2633:24|Tristate driver acjtagnout_o_4 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_4 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2632:11:2632:24|Tristate driver acjtagnout_o_5 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_5 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2631:11:2631:24|Tristate driver acjtagnout_o_6 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_6 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2630:11:2630:24|Tristate driver acjtagnout_o_7 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_7 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2628:11:2628:24|Tristate driver acjtagpout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2627:11:2627:24|Tristate driver acjtagpout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2626:11:2626:24|Tristate driver acjtagpout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: FX1184 |Applying syn_allowed_resources blockrams=208 on top level netlist flashing_lights 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

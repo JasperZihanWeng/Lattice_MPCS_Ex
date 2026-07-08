@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/2025.2.1/ip/pmi/pmi_lfcpnx.v"
+-lib pmi -vhd "C:/lscc/radiant/2025.2.1/ip/pmi/pmi_lfcpnx.vhd"
+-ver "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/rtl/Flashing_Light.v" "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/rtl/MPCS_ex.v"
+-path "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/Lattice_MPC_Ex"
+-top flashing_lights
+-isTop
+-a "LFCPNX"
+-t "LFCPNX-100"

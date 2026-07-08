@@ -1,0 +1,28 @@
+###File created by Lattice CPE. Do not modify.###
+create_clock -name {sdq_refclkn_q0_i} -period 8 [get_ports sdq_refclkn_q0_i] originating in instance u_mpcs in IP MPCS_ex was removed because it is defined at a clock input pin of the IP. User constraints should ensure the corresponding top-level port is correctly constrained at the top-level. If kept it may cause incorrect slack calculation.
+
+create_clock -name {sd_ext_0_refclk_i} -period 8 [get_ports sd_ext_0_refclk_i] originating in instance u_mpcs in IP MPCS_ex was removed because it is defined at a clock input pin of the IP. User constraints should ensure the corresponding top-level port is correctly constrained at the top-level. If kept it may cause incorrect slack calculation.
+
+create_clock -name {sd_ext_1_refclk_i} -period 8 [get_ports sd_ext_1_refclk_i] originating in instance u_mpcs in IP MPCS_ex was removed because it is defined at a clock input pin of the IP. User constraints should ensure the corresponding top-level port is correctly constrained at the top-level. If kept it may cause incorrect slack calculation.
+
+create_clock -name {pll_0_refclk_i} -period 8 [get_ports pll_0_refclk_i] originating in instance u_mpcs in IP MPCS_ex was removed because it is defined at a clock input pin of the IP. User constraints should ensure the corresponding top-level port is correctly constrained at the top-level. If kept it may cause incorrect slack calculation.
+
+create_clock -name {pll_1_refclk_i} -period 8 [get_ports pll_1_refclk_i] originating in instance u_mpcs in IP MPCS_ex was removed because it is defined at a clock input pin of the IP. User constraints should ensure the corresponding top-level port is correctly constrained at the top-level. If kept it may cause incorrect slack calculation.
+
+create_clock -name {sd_pll_refclk_i} -period 8 [get_ports sd_pll_refclk_i] originating in instance u_mpcs in IP MPCS_ex was removed because it is defined at a clock input pin of the IP. User constraints should ensure the corresponding top-level port is correctly constrained at the top-level. If kept it may cause incorrect slack calculation.
+
+create_clock -name {lmmi_clk_i_0} -period 10 [get_ports lmmi_clk_i_0] originating in instance u_mpcs in IP MPCS_ex was removed because it is defined at a clock input pin of the IP. User constraints should ensure the corresponding top-level port is correctly constrained at the top-level. If kept it may cause incorrect slack calculation.
+
+create_clock -name {mpcs_clkin_i_0} -period 8 [get_ports mpcs_clkin_i_0] originating in instance u_mpcs in IP MPCS_ex was removed because it is defined at a clock input pin of the IP. User constraints should ensure the corresponding top-level port is correctly constrained at the top-level. If kept it may cause incorrect slack calculation.
+
+create_clock -name {mpcs_tx_usr_clk_i_0} -period 8 [get_ports mpcs_tx_usr_clk_i_0] originating in instance u_mpcs in IP MPCS_ex was removed because it is defined at a clock input pin of the IP. User constraints should ensure the corresponding top-level port is correctly constrained at the top-level. If kept it may cause incorrect slack calculation.
+
+create_clock -name {mpcs_rx_usr_clk_i_0} -period 8 [get_ports mpcs_rx_usr_clk_i_0] originating in instance u_mpcs in IP MPCS_ex was removed because it is defined at a clock input pin of the IP. User constraints should ensure the corresponding top-level port is correctly constrained at the top-level. If kept it may cause incorrect slack calculation.
+
+create_clock -name {sdq_refclkp_q0_i} -period 8 [get_ports sdq_refclkp_q0_i] originating in instance u_mpcs in IP MPCS_ex was removed because it is defined at a clock input pin of the IP. User constraints should ensure the corresponding top-level port is correctly constrained at the top-level. If kept it may cause incorrect slack calculation.
+
+create_generated_clock -name {mpcs_tx_out_clk_o_0} -source [get_ports sdq_refclkp_q0_i] -divide_by 1000 -multiply_by 1000 [get_ports mpcs_tx_out_clk_o_*] originating in instance u_mpcs in IP MPCS_ex was updated to create_generated_clock -name {u_mpcs_mpcs_tx_out_clk_o_0} -source [get_pins {u_mpcs/sdq_refclkp_q0_i }] -divide_by 1000 -multiply_by 1000 [get_pins {u_mpcs/mpcs_tx_out_clk_o_* }] and kept.
+
+create_generated_clock -name {mpcs_rx_out_clk_o_0} -source [get_ports sdq_refclkp_q0_i] -divide_by 1000 -multiply_by 1000 [get_ports mpcs_rx_out_clk_o_*] originating in instance u_mpcs in IP MPCS_ex was updated to create_generated_clock -name {u_mpcs_mpcs_rx_out_clk_o_0} -source [get_pins {u_mpcs/sdq_refclkp_q0_i }] -divide_by 1000 -multiply_by 1000 [get_pins {u_mpcs/mpcs_rx_out_clk_o_* }] and kept.
+
+

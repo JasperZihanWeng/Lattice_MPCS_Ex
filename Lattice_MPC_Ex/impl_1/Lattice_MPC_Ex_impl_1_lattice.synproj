@@ -1,0 +1,56 @@
+-a "LFCPNX"
+-p LFCPNX-100
+-t LFG672
+-sp "9_High-Performance_1.0V"
+-frequency 200
+-optimization_goal Timing
+-bram_utilization 100
+-ramstyle Auto
+-romstyle auto
+-dsp_utilization 100
+-use_dsp 1
+-use_carry_chain 1
+-carry_chain_length 0
+-resource_sharing 1
+-propagate_constants 1
+-remove_duplicate_regs 1
+
+-max_fanout 1000
+-fsm_encoding_style Auto
+
+-fix_gated_clocks 1
+-loop_limit 1950
+
+
+
+
+
+
+-use_io_reg auto
+-use_dcc_insertion none
+
+
+
+
+
+
+
+
+-drc_cfg 35103300 20
+-use_io_insertion 1
+-force_gsr No
+-resolve_mixed_drivers 0
+-path "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex"
+-path "C:/lscc/radiant/2025.2.1/ispfpga/jd5d00/data" "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/Lattice_MPC_Ex/impl_1" "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/Lattice_MPC_Ex" "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/rtl" "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex"
+-ver "C:/lscc/radiant/2025.2.1/ip/pmi/pmi_lfcpnx.v"
+-lib pmi -vhd "C:/lscc/radiant/2025.2.1/ip/pmi/pmi_lfcpnx.vhd"
+-ver "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/rtl/Flashing_Light.v"
+"C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/rtl/MPCS_ex.v"
+"C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/rtl/MPCS_ex.v"
+
+
+-path "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/Lattice_MPC_Ex"
+-top flashing_lights
+-udb "Lattice_MPC_Ex_impl_1_rtl.udb"
+-output_hdl "Lattice_MPC_Ex_impl_1.vm"
+

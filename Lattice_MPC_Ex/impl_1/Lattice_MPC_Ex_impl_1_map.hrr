@@ -1,0 +1,29 @@
+---------------------------------------------------
+Report for cell flashing_lights
+   Instance path: flashing_lights
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         12        100.0
+                               LUTGATE	         12        100.0
+                                 IOBUF	          7        100.0
+                                PFUREG	         10        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                               MPCS_ex	          1         8.3
+---------------------------------------------------
+Report for cell MPCS_ex
+   Instance path: flashing_lights/u_mpcs
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         8.3
+                               LUTGATE	          1         8.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0	          1         8.3
+---------------------------------------------------
+Report for cell MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0
+   Instance path: flashing_lights/u_mpcs/lscc_mpcs_top_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         8.3
+                               LUTGATE	          1         8.3

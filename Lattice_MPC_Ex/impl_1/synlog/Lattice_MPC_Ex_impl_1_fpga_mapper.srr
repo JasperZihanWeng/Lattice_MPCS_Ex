@@ -1,0 +1,341 @@
+# Wed Jul  8 13:03:01 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03LR-SP1
+Install: C:\lscc\radiant\2025.2.1\synpbase
+OS: Windows 10 or later
+Hostname: ECE-OP7010PC2
+
+Implementation : impl_1
+Synopsys Lattice Technology Mapper, Version map202503latsp1, Build 129R, Built Jan 28 2026 06:38:14, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 200MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 200MB)
+
+Reading custom part data from path: C:\lscc\radiant\2025.2.1\synpbase\lib\lattice_custom\radiant_custom_partdata.txt
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 199MB peak: 200MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 201MB peak: 202MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2636:11:2636:24|Tristate driver acjtagnout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2635:11:2635:24|Tristate driver acjtagnout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2634:11:2634:24|Tristate driver acjtagnout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2633:11:2633:24|Tristate driver acjtagnout_o_4 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_4 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2632:11:2632:24|Tristate driver acjtagnout_o_5 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_5 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2631:11:2631:24|Tristate driver acjtagnout_o_6 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_6 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2630:11:2630:24|Tristate driver acjtagnout_o_7 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagnout_o_7 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2628:11:2628:24|Tristate driver acjtagpout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_1 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2627:11:2627:24|Tristate driver acjtagpout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_2 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":2626:11:2626:24|Tristate driver acjtagpout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) on net acjtagpout_o_3 (in view: work.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0(verilog)) has its enable tied to GND.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 267MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
+
+@N: FX493 |Applying initial value "1" on instance switch1_meta.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "1" on instance switch2_meta.
+@N: FX493 |Applying initial value "0" on instance tx_control[0].
+@N: FX493 |Applying initial value "1" on instance switch1_sync.
+@N: FX493 |Applying initial value "1" on instance switch2_sync.
+@N: FX493 |Applying initial value "0" on instance have_rx_data.
+@N: FX493 |Applying initial value "0" on instance tx_payload[0].
+@N: FX493 |Applying initial value "0" on instance tx_payload[1].
+
+Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     3.87ns		   9 /        10
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 269MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 269MB peak: 269MB)
+
+@W: FX310 |Ignoring option "-dcc_insertion" since the technology does not support DCC. 
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 269MB peak: 269MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 269MB peak: 269MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 208MB peak: 269MB)
+
+Writing Analyst data base C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\synwork\Lattice_MPC_Ex_impl_1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 269MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 269MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 269MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 269MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 269MB)
+
+@W: MT246 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":6194:63:6194:69|Blackbox PCSX1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\mpcs_ex.v":6035:14:6035:24|Blackbox PCSREFMUX is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Jul  8 13:03:03 2026
+#
+
+
+Top view:               flashing_lights
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\lscc\radiant\2025.2.1\scripts\tcl\flow\radiant_synplify_vars.tcl
+                       C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\Lattice_MPC_Ex\impl_1\Lattice_MPC_Ex_impl_1_cpe.ldc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 3.315
+
+                   Requested     Estimated     Requested     Estimated               Clock      Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type       Group          
+---------------------------------------------------------------------------------------------------------------
+System             200.0 MHz     593.5 MHz     5.000         1.685         3.315     system     system_clkgroup
+===============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+System    System  |  5.000       3.315  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                  Starting                                                                           Arrival          
+Instance                                          Reference     Type        Pin                                  Net                 Time        Slack
+                                                  Clock                                                                                               
+------------------------------------------------------------------------------------------------------------------------------------------------------
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_PHY_STATUS                      mpcs_phyrdy         0.000       3.315
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_RX_CLKREQ                       mpcs_ready          0.000       3.315
+have_rx_data                                      System        FD1P3IX     Q                                    have_rx_data        0.883       3.563
+switch1_sync                                      System        FD1P3JX     Q                                    switch1_sync        0.753       3.693
+switch2_sync                                      System        FD1P3JX     Q                                    switch2_sync        0.753       3.693
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_LOCAL_GET_TX_PRESET_COEF[1]     mpcs_lsync          0.000       3.838
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_RX_DATA_PCS_RX_DATA[8]          mpcs_rx_word[8]     0.000       3.838
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_RX_START_BLOCK                  mpcs_rxval          0.000       3.838
+switch1_meta                                      System        FD1P3JX     Q                                    switch1_meta        0.753       4.036
+switch2_meta                                      System        FD1P3JX     Q                                    switch2_meta        0.753       4.036
+======================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                                       Required          
+Instance                                          Reference     Type        Pin                              Net                 Time         Slack
+                                                  Clock                                                                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------
+have_rx_data                                      System        FD1P3IX     D                                N_124_0             4.789        3.315
+rx_data[0]                                        System        FD1P3IX     SP                               rx_data_valid       4.817        3.686
+rx_data[1]                                        System        FD1P3IX     SP                               rx_data_valid       4.817        3.686
+tx_payload[0]                                     System        FD1P3IX     D                                tx_payload_3[0]     4.789        3.693
+tx_payload[1]                                     System        FD1P3IX     D                                tx_payload_3[1]     4.789        3.693
+switch1_sync                                      System        FD1P3JX     D                                switch1_meta        4.789        4.036
+switch2_sync                                      System        FD1P3JX     D                                switch2_meta        4.789        4.036
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_TX_DATAK_PCS_TX_DATA[1]     tx_control[0]       5.000        4.059
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_TX_DATAK_PCS_TX_DATA[3]     tx_control[0]       5.000        4.059
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_TX_DATA_PCS_TX_DATA[2]      tx_control[0]       5.000        4.059
+===================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.789
+
+    - Propagation time:                      1.474
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     3.315
+
+    Number of logic level(s):                3
+    Starting point:                          u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1 / PIPE_PHY_STATUS
+    Ending point:                            have_rx_data / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                                                Pin                 Pin               Arrival     No. of    
+Name                                              Type        Name                Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     PCSX1       PIPE_PHY_STATUS     Out     0.000     0.000 r     -         
+mpcs_phyrdy                                       Net         -                   -       -         -           2         
+rx_data_valid_1                                   LUT4        A                   In      0.000     0.000 r     -         
+rx_data_valid_1                                   LUT4        Z                   Out     0.523     0.523 r     -         
+rx_data_valid_1                                   Net         -                   -       -         -           1         
+rx_data_valid                                     LUT4        D                   In      0.000     0.523 r     -         
+rx_data_valid                                     LUT4        Z                   Out     0.608     1.131 r     -         
+rx_data_valid                                     Net         -                   -       -         -           3         
+have_rx_data_RNO                                  LUT4        B                   In      0.000     1.131 r     -         
+have_rx_data_RNO                                  LUT4        Z                   Out     0.343     1.474 r     -         
+N_124_0                                           Net         -                   -       -         -           1         
+have_rx_data                                      FD1P3IX     D                   In      0.000     1.474 r     -         
+==========================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 269MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 265MB peak: 269MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfcpnx_100-9
+
+Register bits: 10 of 79872 (0%)
+PIC Latch:       0
+I/O cells:       7
+
+
+Details:
+FD1P3IX:        6
+FD1P3JX:        4
+GSR:            1
+IB:             2
+INV:            1
+LUT4:           9
+OB:             5
+PCSREFMUX:      1
+PCSX1:          1
+VHI:            3
+VLO:            3
+
+Resource Usage inside macros:
+Registers: 0
+LUTs: 0
+EBRs: 0
+LRAMs: 0
+DSPs: 0
+Distributed RAMs: 0
+Carry Chains: 0
+Blackboxes: 0
+
+Mapping Summary:
+Total number of registers: 10 + 0 = 10 of 79872 (0.01%)
+Total number of LUTs: 9 + 0 = 9 
+Total number of EBRs: 0 + 0 = 0 of 208 (0.00%)
+Total number of LRAMs: 0 + 0 = 0 of 7 (0.00%)
+Total number of DSPs: 0 + 0 = 0 of 156 (0.00%)
+Total number of Distributed RAMs: 0 + 0 = 0 
+Total number of Carry Chains: 0 + 0 = 0 
+Total number of BlackBoxes: 9 + 0 = 9 
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 125MB peak: 269MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Jul  8 13:03:04 2026
+
+###########################################################]

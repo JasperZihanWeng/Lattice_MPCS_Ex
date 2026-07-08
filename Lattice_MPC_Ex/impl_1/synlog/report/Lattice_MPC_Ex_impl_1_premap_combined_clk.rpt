@@ -1,0 +1,26 @@
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 10 clock pin(s) of sequential element(s)
+0 instances converted, 10 sequential instances remain driven by gated/generated clocks
+
+=============================================================================== Gated/Generated Clocks ================================================================================
+Clock Tree ID     Driving Element                                   Drive Element Type                        Unconverted Fanout     Sample Instance     Explanation                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       u_mpcs.lscc_mpcs_top_inst.mpcs_tx_out_clk_o_0     MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0     7                      tx_payload[1]       Clock Optimization not enabled
+@KP:ckid0_1       u_mpcs.lscc_mpcs_top_inst.mpcs_rx_out_clk_o_0     MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0     3                      have_rx_data        Clock Optimization not enabled
+=======================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+

@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/2025.2.1/ip/pmi/pmi_lfcpnx.v"
+-lib pmi -vhd "C:/lscc/radiant/2025.2.1/ip/pmi/pmi_lfcpnx.vhd"
+-ver "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/rtl/MPCS_ex.v"
+-sdc "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/constraints/MPCS_ex.ldc"
+-path "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex" "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/Lattice_MPC_Ex"
+-top MPCS_ex
+-a "LFCPNX"
+-t "LFCPNX-100"

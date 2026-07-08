@@ -1,0 +1,6 @@
+"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.vhd"
+"C:\lscc\radiant\2025.2.1\synpbase\lib\lucent\lfcpnx.v"
+"C:\lscc\radiant\2025.2.1\synpbase\lib\lucent\pmi_def.v"
+"C:\lscc\radiant\2025.2.1\ip\pmi\pmi_lfcpnx.v"
+"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v"
+"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v"

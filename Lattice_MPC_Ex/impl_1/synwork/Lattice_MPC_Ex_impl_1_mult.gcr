@@ -1,0 +1,22 @@
+i u_mpcs.mpcs_tx_out_clk_o_0_o
+m 0 0
+u 7 7
+n ckid0_0 {t:tx_payload[1].C} Clock Optimization not enabled
+p {p:u_mpcs.mpcs_tx_out_clk_o_0}{t:u_mpcs.mpcs_tx_out_clk_o_0}{t:tx_payload[1].C}
+e ckid0_0 {t:tx_payload[1].C} dffr
+d ckid0_0 {t:u_mpcs.lscc_mpcs_top_inst.mpcs_tx_out_clk_o_0} MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 Clock Optimization not enabled
+i u_mpcs.mpcs_rx_out_clk_o_0_o
+m 0 0
+u 3 3
+n ckid0_1 {t:have_rx_data.C} Clock Optimization not enabled
+p {p:u_mpcs.mpcs_rx_out_clk_o_0}{t:u_mpcs.mpcs_rx_out_clk_o_0}{t:have_rx_data.C}
+e ckid0_1 {t:have_rx_data.C} dffr
+d ckid0_1 {t:u_mpcs.lscc_mpcs_top_inst.mpcs_rx_out_clk_o_0} MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 Clock Optimization not enabled
+i u_mpcs.lscc_mpcs_top_inst.pcs_tx_out_clk_o_w[0]
+m 0 0
+u 0 0
+i u_mpcs.lscc_mpcs_top_inst.pcs_rx_out_clk_o_w[0]
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

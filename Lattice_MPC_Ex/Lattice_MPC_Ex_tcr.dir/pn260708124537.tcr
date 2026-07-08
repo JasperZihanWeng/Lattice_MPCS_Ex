@@ -1,0 +1,8 @@
+#Start recording tcl command: 7/8/2026 12:34:07
+#Project Location: C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/Lattice_MPC_Ex; Project name: Lattice_MPC_Ex
+prj_create -name "Lattice_MPC_Ex" -impl "impl_1" -dev LFCPNX-100-9LFG672I -performance "9_High-Performance_1.0V" -synthesis "synplify"
+prj_add_source "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/rtl/Flashing_Light.v" "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/rtl/MPCS_ex.v" "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/MPCS_ex.ipx"
+prj_save 
+prj_run Synthesis -impl impl_1
+prj_run Map -impl impl_1
+#Stop recording: 7/8/2026 12:45:37

@@ -1,0 +1,6 @@
+#List of actual used RTLs.
+
+File                                                                                                        Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v"                        verilog                      IN PROJECT
+"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v"                               verilog                      IN PROJECT
