@@ -1,0 +1,274 @@
+set device "LFCPNX-100"
+set device_int "jd5d80"
+set package "LFG672"
+set package_int "LFG672"
+set speed "9_High-Performance_1.0V"
+set speed_int "12"
+set operation "Industrial"
+set family "LFCPNX"
+set architecture "jd5d00"
+set partnumber "LFCPNX-100-9LFG672I"
+set WRAPPER_INST "lscc_mpcs_top_inst"
+set PROTOCOL "1KBASEX"
+set PCS_BYPASS 0
+set MODESEL 0
+set TX_OVRD 0
+set RX_OVRD 0
+set NUM_LANES 1
+set LANE_ID "AUTO"
+set TX_RX_BOND_MODE_Q0 "0b01100"
+set TX_RX_BOND_MODE_Q1 "0b00000"
+set GRP_NAME "MPCS_ex_PCSGRP"
+set MODE "Rx_and_Tx"
+set GEAR_EN "DISABLED"
+set GEAR_CONV 1
+set PCS_64B66B_NOFPLL "DISABLED"
+set DATARATE "1.25"
+set DATARATE_BYPASS "3.125"
+set REFCLK 125.000000
+set TX_RX_M_A 8
+set TX_RX_F_A 1
+set TX_RX_N_A 10
+set BUS_WIDTH 10
+set TX_RX_DIVMODE_0 1
+set CLK_OUT 125.000000
+set TX_RX_M_B 2
+set TX_RX_F_B 4
+set TX_RX_N_B 10
+set TX_RX_DIVMODE_1 1
+set TX_RX_M_C 2
+set TX_RX_F_C 4
+set TX_RX_N_C 10
+set TX_RX_DIVMODE_2 1
+set CNT250NS_MAX_DEC 31
+set CNT250NS_MAX "0b000011111"
+set TX_AMP_RATIO_MARGIN0_FULL_DEC 128
+set TX_AMP_RATIO_MARGIN0_FULL "0b10000000"
+set TX_IMPED_RATIO "0b10000000"
+set TX_PRE_RATIO_DEC 0
+set TX_PRE_RATIO "0b00000000"
+set TX_PST_RATIO_DEC 21
+set TX_PST_RATIO "0b00010101"
+set ATXICP_RATE0_DEC 5
+set ATXICP_RATE0 "0b101"
+set ATXICP_RATE1_DEC 5
+set ATXICP_RATE1 "0b101"
+set ATXICP_RATE2_DEC 5
+set ATXICP_RATE2 "0b101"
+set RX_IMPED_RATIO "0b10000000"
+set ARXICP_RATE0_DEC 3
+set ARXICP_RATE0 "0b011"
+set ARXICP_RATE1_DEC 3
+set ARXICP_RATE1 "0b011"
+set ARXICP_RATE2_DEC 3
+set ARXICP_RATE2 "0b011"
+set ARXCDRICP_RATE0_DEC 6
+set ARXCDRICP_RATE0 "0b110"
+set ARXCDRICP_RATE1_DEC 6
+set ARXCDRICP_RATE1 "0b110"
+set ARXCDRICP_RATE2_DEC 6
+set ARXCDRICP_RATE2 "0b110"
+set ARXRSVCTL_DEC 128
+set ARXRSVCTL "0b10000000"
+set RXEQ_ENABLE "0b100"
+set RXEQ_ENABLE_DEC 4
+set RXEQ_ALGO "0b111"
+set RXEQ_ALGO_DEC 7
+set GEN12_ENA_POST_A1A2 "DISABLED"
+set GEN12_ENA_PREA0 "DISABLED"
+set GEN12_ENA_POST_A0 "DISABLED"
+set GEN3_ENA_POST_A1A2 "DISABLED"
+set GEN3_ENA_PREA0 "DISABLED"
+set GEN3_ENA_POST_A0 "DISABLED"
+set PCIELL_MODESEL 5
+set FIFO_AF 12
+set TX_FIFO_AF "0b1100"
+set FIFO_AE 4
+set TX_FIFO_AE "0b0100"
+set END_64B66B_DIS "ENABLED"
+set SRC_64B66B_DIS "ENABLED"
+set TX_POLINV "NORMAL"
+set TX_FIFO_DIS "ENABLED"
+set ENC_8B10B_DIS "ENABLED"
+set TX_PMFIFO_DIS "DISABLED"
+set CTC_64B66B_DIS "ENABLED"
+set BALIGN_64B66B_DIS "ENABLED"
+set DESCR_64B66B_DIS "ENABLED"
+set DEC_64B66B_DIS "ENABLED"
+set RX_DBUS_20 "10BIT_WIDTH"
+set RX_POLINV "NORMAL"
+set WA_DIS "ENABLED"
+set WA_PTN_20B "10BIT_WIDTH"
+set RFIFO_COM_ALIGN "DISABLED"
+set AUTO_WA_DIS "ENABLED"
+set PRI_WA_PTN "0b00000000000101111100"
+set PRI_WA_PTN_DEC 380
+set WA_MASK_CODE "0b00000000000000000000"
+set WA_MASK_CODE_DEC 0
+set SEC_WAPTN_DIS "ENABLED"
+set SEC_WA_PTN "0b00000000001010000011"
+set SEC_WA_PTN_DEC 643
+set ALIGN_2BYTE_DIS "ENABLED"
+set SYNCDET_FSM_DIS "ENABLED"
+set VAL_SYNC 3
+set NUM_VAL_SYNC "0b00000011"
+set BAD_CODE 4
+set NUM_BAD_CODE "0b000100"
+set GOOD_CODE 4
+set NUM_GOOD_CODE "0b00000100"
+set SYNC_PTN_LEN "1"
+set SYNC_PTN_ALIGN "DISABLED"
+set SYNC_PTN_10B "10B_CODE"
+set SEC_SYNC_PTN_DIS "ENABLED"
+set PRE_SDPTN_B0_DEC 643
+set PRE_SDPTN_BYTE0 "0b1010000011"
+set PRE_SDPTN_B1_DEC 0
+set PRE_SDPTN_BYTE1 "0b0000000000"
+set PRE_SDPTN_B2_DEC 0
+set PRE_SDPTN_BYTE2 "0b0000000000"
+set PRE_SDPTN_B3_DEC 0
+set PRE_SDPTN_BYTE3 "0b0000000000"
+set SEC_SDPTN_B0_DEC 380
+set SEC_SDPTN_BYTE0 "0b0101111100"
+set SEC_SDPTN_B1_DEC 0
+set SEC_SDPTN_BYTE1 "0b0000000000"
+set SEC_SDPTN_B2_DEC 0
+set SEC_SDPTN_BYTE2 "0b0000000000"
+set SEC_SDPTN_B3_DEC 0
+set SEC_SDPTN_BYTE3 "0b0000000000"
+set SDPTN_MASK_B0_DEC 0
+set SDPTN_MASK_BYTE0 "0b0000000000"
+set SDPTN_MASK_B1_DEC 0
+set SDPTN_MASK_BYTE1 "0b0000000000"
+set SDPTN_MASK_B2_DEC 0
+set SDPTN_MASK_BYTE2 "0b0000000000"
+set SDPTN_MASK_B3_DEC 0
+set SDPTN_MASK_BYTE3 "0b0000000000"
+set DEC_8B10B_DIS "ENABLED"
+set CLK_COMP_EN "DISABLED"
+set CTC_FIFO_EN "DISABLED"
+set MISC_CTRL "0"
+set SKP_MASK_CODE "0b0000"
+set CLK_COMP_10B "8B_CODE"
+set SKIP_PTN_LEN "1_BYTE"
+set PRI_SKIP_B0_DEC 380
+set PRI_SKIP_BYTE0 "0b0101111100"
+set PRI_SKIP_B1_DEC 0
+set PRI_SKIP_BYTE1 "0b0000000000"
+set PRI_SKIP_B2_DEC 0
+set PRI_SKIP_BYTE2 "0b0000000000"
+set PRI_SKIP_B3_DEC 0
+set PRI_SKIP_BYTE3 "0b0000000000"
+set SEC_SKIP_EN "DISABLED"
+set SEC_SKIP_B0_DEC 380
+set SEC_SKIP_BYTE0 "0b0101111100"
+set SEC_SKIP_B1_DEC 0
+set SEC_SKIP_BYTE1 "0b0000000000"
+set SEC_SKIP_B2_DEC 0
+set SEC_SKIP_BYTE2 "0b0000000000"
+set SEC_SKIP_B3_DEC 0
+set SEC_SKIP_BYTE3 "0b0000000000"
+set LALIGN_EN "DISABLED"
+set LALIGN_10B "8B_CODE"
+set LALIGN_PTN_LEN "1_BYTE"
+set MAX_LSKEW "NO_SKEW"
+set PRI_LAPTN_B0_DEC 380
+set PRI_LAPTN_BYTE0 "0b0101111100"
+set PRI_LAPTN_B1_DEC 0
+set PRI_LAPTN_BYTE1 "0b0000000000"
+set PRI_LAPTN_B2_DEC 0
+set PRI_LAPTN_BYTE2 "0b0000000000"
+set PRI_LAPTN_B3_DEC 0
+set PRI_LAPTN_BYTE3 "0b0000000000"
+set SEC_LAPTN_EN "DISABLED"
+set SEC_LAPTN_B0_DEC 380
+set SEC_LAPTN_BYTE0 "0b0101111100"
+set SEC_LAPTN_B1_DEC 0
+set SEC_LAPTN_BYTE1 "0b0000000000"
+set SEC_LAPTN_B2_DEC 0
+set SEC_LAPTN_BYTE2 "0b0000000000"
+set SEC_LAPTN_B3_DEC 0
+set SEC_LAPTN_BYTE3 "0b0000000000"
+set LALIGN_MASK_CODE "0b0001"
+set HIGH_WATER_LINE_DEC 22
+set HIGH_WATER_LINE "0b10110"
+set LOW_WATER_LINE_DEC 10
+set LOW_WATER_LINE "0b01010"
+set RX_FIFO_DIS "ENABLED"
+set LOOPBACK_MODE "DISABLED"
+set GSR "ENABLED"
+set FAMILY "LFCPNX"
+
+
+set LMMI_PERIOD [expr {double(round(1000000000/100))/1000000}]
+set REFCLK_PERIOD [expr {double(round(1000000000/$REFCLK))/1000000}]
+set USER_PERIOD [expr {double(round(1000000000/$REFCLK))/1000000}]
+set F_SETTING [expr {$TX_RX_F_A*1000}]
+set GEARING [expr {$GEAR_CONV*1000}]
+
+set GEAR_DIVMODE [expr {$GEARING*$TX_RX_DIVMODE_0}]
+set GEAR_DIVMODE_10G [expr {$GEARING*$TX_RX_DIVMODE_0*4}]
+
+##Dedicated PCS Reference Clock
+if {$NUM_LANES <= 4} {
+  create_clock -name {sdq_refclkn_q0_i} -period $REFCLK_PERIOD [get_ports sdq_refclkn_q0_i]
+}
+if {$NUM_LANES > 4} {
+  create_clock -name {sdq_refclkp_q0_i} -period $REFCLK_PERIOD [get_ports sdq_refclkp_q0_i]
+  create_clock -name {sdq_refclkp_q1_i} -period $REFCLK_PERIOD [get_ports sdq_refclkp_q1_i]
+  create_clock -name {sdq_refclkn_q0_i} -period $REFCLK_PERIOD [get_ports sdq_refclkn_q0_i]
+  create_clock -name {sdq_refclkn_q1_i} -period $REFCLK_PERIOD [get_ports sdq_refclkn_q1_i]
+}
+
+##Dynamic Reference Clock
+create_clock -name {sd_ext_0_refclk_i} -period $REFCLK_PERIOD [get_ports sd_ext_0_refclk_i]
+create_clock -name {sd_ext_1_refclk_i} -period $REFCLK_PERIOD [get_ports sd_ext_1_refclk_i]
+create_clock -name {pll_0_refclk_i}    -period $REFCLK_PERIOD [get_ports pll_0_refclk_i]
+create_clock -name {pll_1_refclk_i}    -period $REFCLK_PERIOD [get_ports pll_1_refclk_i]
+create_clock -name {sd_pll_refclk_i}   -period $REFCLK_PERIOD [get_ports sd_pll_refclk_i]
+create_clock -name {lmmi_clk_i_0} -period $LMMI_PERIOD [get_ports lmmi_clk_i_0]
+
+if {$PCS_BYPASS == 0} {
+   create_clock -name {mpcs_clkin_i_0} -period $REFCLK_PERIOD [get_ports mpcs_clkin_i_0]
+   create_clock -name {mpcs_tx_usr_clk_i_0} -period $USER_PERIOD [get_ports mpcs_tx_usr_clk_i_0]
+   create_clock -name {mpcs_rx_usr_clk_i_0} -period $USER_PERIOD [get_ports mpcs_rx_usr_clk_i_0]
+}
+if {$PCS_BYPASS == 1} {
+   create_clock -name {epcs_clkin_i_0} -period $REFCLK_PERIOD [get_ports epcs_clkin_i_0]
+   create_clock -name {epcs_tx_usr_clk_i_0} -period $USER_PERIOD [get_ports epcs_tx_usr_clk_i_0]
+   create_clock -name {epcs_rx_usr_clk_i_0} -period $USER_PERIOD [get_ports epcs_rx_usr_clk_i_0]
+}
+
+##======TX Path I/O Clocks======##
+
+if {$MODE !="Rx_only" && $MODESEL == 1} {
+   create_clock -name {sdq_refclkp_q0_i} -period $REFCLK_PERIOD [get_ports sdq_refclkp_q0_i]
+     create_generated_clock -name {mpcs_tx_out_clk_o_0} -source [get_ports sdq_refclkp_q0_i] -multiply_by $F_SETTING -divide_by $GEAR_DIVMODE_10G [get_ports mpcs_tx_out_clk_o_0]
+}
+
+if {$MODE !="Rx_only" && $MODESEL == 0} {
+   create_clock -name {sdq_refclkp_q0_i} -period $REFCLK_PERIOD [get_ports sdq_refclkp_q0_i]
+     create_generated_clock -name {mpcs_tx_out_clk_o_0} -source [get_ports sdq_refclkp_q0_i] -multiply_by $F_SETTING -divide_by $GEAR_DIVMODE [get_ports mpcs_tx_out_clk_o_*]
+}
+
+if {$MODE !="Rx_only" && $MODESEL == 3} {
+   create_clock -name {sdq_refclkp_q0_i} -period $REFCLK_PERIOD [get_ports sdq_refclkp_q0_i]
+     create_generated_clock -name {epcs_txclk_o_0} -source [get_ports sdq_refclkp_q0_i] -multiply_by $F_SETTING -divide_by $GEAR_DIVMODE [get_ports epcs_txclk_o*]
+}
+
+##======RX Path I/O Clocks======## 
+
+if {$MODE !="Tx_only" && $MODESEL == 1} {
+   create_clock -name {sdq_refclkp_q0_i} -period $REFCLK_PERIOD [get_ports sdq_refclkp_q0_i]
+     create_generated_clock -name {mpcs_rx_out_clk_o_0} -source [get_ports sdq_refclkp_q0_i] -multiply_by $F_SETTING -divide_by $GEAR_DIVMODE_10G [get_ports mpcs_rx_out_clk_o_0]
+}
+
+if {$MODE !="Tx_only" && $MODESEL == 0} {
+   create_clock -name {sdq_refclkp_q0_i} -period $REFCLK_PERIOD [get_ports sdq_refclkp_q0_i]
+     create_generated_clock -name {mpcs_rx_out_clk_o_0} -source [get_ports sdq_refclkp_q0_i] -multiply_by $F_SETTING -divide_by $GEAR_DIVMODE [get_ports mpcs_rx_out_clk_o_*]
+}
+
+if {$MODE !="Tx_only" && $MODESEL == 3} {
+   create_clock -name {sdq_refclkp_q0_i} -period $REFCLK_PERIOD [get_ports sdq_refclkp_q0_i]
+     create_generated_clock -name {epcs_rxclk_o_0} -source [get_ports sdq_refclkp_q0_i] -multiply_by $F_SETTING -divide_by $GEAR_DIVMODE [get_ports epcs_rxclk_o_*]
+}

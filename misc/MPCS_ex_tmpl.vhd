@@ -1,0 +1,145 @@
+component MPCS_ex is
+    port(
+        use_refmux_i: in std_logic;
+        diffioclksel_i: in std_logic;
+        clksel_i: in std_logic_vector(1 downto 0);
+        sdq_refclkp_q0_i: in std_logic;
+        sdq_refclkn_q0_i: in std_logic;
+        sdq_refclkp_q1_i: in std_logic;
+        sdq_refclkn_q1_i: in std_logic;
+        sd_ext_0_refclk_i: in std_logic;
+        sd_ext_1_refclk_i: in std_logic;
+        pll_0_refclk_i: in std_logic;
+        pll_1_refclk_i: in std_logic;
+        sd_pll_refclk_i: in std_logic;
+        acjtag_mode_i: in std_logic;
+        acjtag_enable_i_0: in std_logic;
+        acjtag_acmode_i_0: in std_logic;
+        acjtag_drive1_i_0: in std_logic;
+        acjtag_highz_i_0: in std_logic;
+        acjtagpout_o_0: out std_logic;
+        acjtagnout_o_0: out std_logic;
+        lmmi_clk_i_0: in std_logic;
+        lmmi_resetn_i_0: in std_logic;
+        lmmi_request_i_0: in std_logic;
+        lmmi_wr_rdn_i_0: in std_logic;
+        lmmi_offset_i_0: in std_logic_vector(8 downto 0);
+        lmmi_wdata_i_0: in std_logic_vector(7 downto 0);
+        lmmi_rdata_valid_o_0: out std_logic;
+        lmmi_ready_o_0: out std_logic;
+        lmmi_rdata_o_0: out std_logic_vector(7 downto 0);
+        sd0rxp_i: in std_logic;
+        sd0rxn_i: in std_logic;
+        sd0txp_o: out std_logic;
+        sd0txn_o: out std_logic;
+        sd0_rext_i: in std_logic;
+        sd0_refret_i: in std_logic;
+        mpcs_rx_usr_clk_i_0: in std_logic;
+        mpcs_tx_usr_clk_i_0: in std_logic;
+        mpcs_tx_pcs_rstn_i_0: in std_logic;
+        mpcs_rx_pcs_rstn_i_0: in std_logic;
+        mpcs_rx_out_clk_o_0: out std_logic;
+        mpcs_tx_out_clk_o_0: out std_logic;
+        mpcs_perstn_i_0: in std_logic;
+        mpcs_tx_ch_din_i_0: in std_logic_vector(79 downto 0);
+        mpcs_tx_fifo_st_o_0: out std_logic_vector(3 downto 0);
+        mpcs_rx_ch_dout_o_0: out std_logic_vector(79 downto 0);
+        mpcs_rx_fifo_st_o_0: out std_logic_vector(3 downto 0);
+        mpcs_ebuf_empty_o_0: out std_logic;
+        mpcs_ebuf_full_o_0: out std_logic;
+        mpcs_anxmit_i_0: in std_logic;
+        mpcs_walign_en_i_0: in std_logic;
+        mpcs_get_lsync_o_0: out std_logic;
+        mpcs_rx_get_lalign_o_0: out std_logic;
+        mpcs_rx_deskew_en_i_0: in std_logic;
+        mpcs_clkin_i_0: in std_logic;
+        mpcs_pwrdn_i_0: in std_logic_vector(1 downto 0);
+        mpcs_txhiz_i_0: in std_logic;
+        mpcs_rxidle_o_0: out std_logic;
+        mpcs_rxerr_i_0: in std_logic;
+        mpcs_fomreq_i_0: in std_logic;
+        mpcs_fomack_o_0: out std_logic;
+        mpcs_fomrslt_o_0: out std_logic_vector(7 downto 0);
+        mpcs_speed_o_0: out std_logic_vector(1 downto 0);
+        mpcs_txval_i_0: in std_logic;
+        mpcs_phyrdy_o_0: out std_logic;
+        mpcs_ready_o_0: out std_logic;
+        mpcs_rxoob_i_0: in std_logic;
+        mpcs_txdeemp_i_0: in std_logic;
+        mpcs_pwrst_o_0: out std_logic_vector(1 downto 0);
+        mpcs_skipbit_i_0: in std_logic;
+        mpcs_rxval_o_0: out std_logic
+    );
+end component;
+
+__: MPCS_ex port map(
+    use_refmux_i=>,
+    diffioclksel_i=>,
+    clksel_i=>,
+    sdq_refclkp_q0_i=>,
+    sdq_refclkn_q0_i=>,
+    sdq_refclkp_q1_i=>,
+    sdq_refclkn_q1_i=>,
+    sd_ext_0_refclk_i=>,
+    sd_ext_1_refclk_i=>,
+    pll_0_refclk_i=>,
+    pll_1_refclk_i=>,
+    sd_pll_refclk_i=>,
+    acjtag_mode_i=>,
+    acjtag_enable_i_0=>,
+    acjtag_acmode_i_0=>,
+    acjtag_drive1_i_0=>,
+    acjtag_highz_i_0=>,
+    acjtagpout_o_0=>,
+    acjtagnout_o_0=>,
+    lmmi_clk_i_0=>,
+    lmmi_resetn_i_0=>,
+    lmmi_request_i_0=>,
+    lmmi_wr_rdn_i_0=>,
+    lmmi_offset_i_0=>,
+    lmmi_wdata_i_0=>,
+    lmmi_rdata_valid_o_0=>,
+    lmmi_ready_o_0=>,
+    lmmi_rdata_o_0=>,
+    sd0rxp_i=>,
+    sd0rxn_i=>,
+    sd0txp_o=>,
+    sd0txn_o=>,
+    sd0_rext_i=>,
+    sd0_refret_i=>,
+    mpcs_rx_usr_clk_i_0=>,
+    mpcs_tx_usr_clk_i_0=>,
+    mpcs_tx_pcs_rstn_i_0=>,
+    mpcs_rx_pcs_rstn_i_0=>,
+    mpcs_rx_out_clk_o_0=>,
+    mpcs_tx_out_clk_o_0=>,
+    mpcs_perstn_i_0=>,
+    mpcs_tx_ch_din_i_0=>,
+    mpcs_tx_fifo_st_o_0=>,
+    mpcs_rx_ch_dout_o_0=>,
+    mpcs_rx_fifo_st_o_0=>,
+    mpcs_ebuf_empty_o_0=>,
+    mpcs_ebuf_full_o_0=>,
+    mpcs_anxmit_i_0=>,
+    mpcs_walign_en_i_0=>,
+    mpcs_get_lsync_o_0=>,
+    mpcs_rx_get_lalign_o_0=>,
+    mpcs_rx_deskew_en_i_0=>,
+    mpcs_clkin_i_0=>,
+    mpcs_pwrdn_i_0=>,
+    mpcs_txhiz_i_0=>,
+    mpcs_rxidle_o_0=>,
+    mpcs_rxerr_i_0=>,
+    mpcs_fomreq_i_0=>,
+    mpcs_fomack_o_0=>,
+    mpcs_fomrslt_o_0=>,
+    mpcs_speed_o_0=>,
+    mpcs_txval_i_0=>,
+    mpcs_phyrdy_o_0=>,
+    mpcs_ready_o_0=>,
+    mpcs_rxoob_i_0=>,
+    mpcs_txdeemp_i_0=>,
+    mpcs_pwrst_o_0=>,
+    mpcs_skipbit_i_0=>,
+    mpcs_rxval_o_0=>
+);
