@@ -21,14 +21,6 @@ assign F_SFP1_TX_DISABLE = 1'b0;
 
 // The Versa DIP switches and LEDs are active-low at the board level.
 // Internally, switch_value uses the intuitive meaning: switch on = 1.
-wire ref_clk = sdq_refclkp_q0_i;
-
-reg [7:0] reset_shift = 8'h00;
-wire resetn = &reset_shift;
-
-always @(posedge ref_clk) begin
-    reset_shift <= {reset_shift[6:0], 1'b1};
-end
 
 wire tx_clk;
 wire rx_clk;
@@ -41,29 +33,22 @@ wire mpcs_rxval;
 wire [79:0] mpcs_tx_word;
 wire [79:0] mpcs_rx_word;
 
-reg switch1_meta;
-reg switch1_sync;
-reg switch2_meta;
-reg switch2_sync;
+reg switch1_meta = 1'b1;
+reg switch1_sync = 1'b1;
+reg switch2_meta = 1'b1;
+reg switch2_sync = 1'b1;
 
 wire [1:0] switch_value = {~switch1_sync, ~switch2_sync};
 
-always @(posedge tx_clk or negedge resetn) begin
-    if (!resetn) begin
-        switch1_meta <= 1'b1;
-        switch1_sync <= 1'b1;
-        switch2_meta <= 1'b1;
-        switch2_sync <= 1'b1;
-    end else begin
-        switch1_meta <= Switch1;
-        switch1_sync <= switch1_meta;
-        switch2_meta <= Switch2;
-        switch2_sync <= switch2_meta;
-    end
+always @(posedge tx_clk) begin
+    switch1_meta <= Switch1;
+    switch1_sync <= switch1_meta;
+    switch2_meta <= Switch2;
+    switch2_sync <= switch2_meta;
 end
 
-reg [31:0] tx_payload;
-reg [3:0] tx_control;
+reg [31:0] tx_payload = 32'h00000000;
+reg [3:0] tx_control = 4'b0000;
 
 wire [39:0] tx_pcs_word = {
     1'b0, tx_control[3], tx_payload[31:24],
@@ -74,11 +59,8 @@ wire [39:0] tx_pcs_word = {
 
 assign mpcs_tx_word = {40'd0, tx_pcs_word};
 
-always @(posedge tx_clk or negedge resetn) begin
-    if (!resetn) begin
-        tx_payload <= 32'h00000000;
-        tx_control <= 4'b0000;
-    end else if (!mpcs_lsync) begin
+always @(posedge tx_clk) begin
+    if (!mpcs_lsync) begin
         // Send a K28.5-style comma/control byte while the receiver is looking
         // for word alignment. This mirrors the generated Lattice testbench.
         tx_payload <= 32'hAAAAAABC;
@@ -94,14 +76,11 @@ wire [7:0] rx_byte0 = mpcs_rx_word[7:0];
 wire rx_data_valid = mpcs_ready && mpcs_phyrdy && mpcs_lsync &&
                      mpcs_rxval && !rx_byte0_is_control;
 
-reg [1:0] rx_data;
-reg have_rx_data;
+reg [1:0] rx_data = 2'b00;
+reg have_rx_data = 1'b0;
 
-always @(posedge rx_clk or negedge resetn) begin
-    if (!resetn) begin
-        rx_data <= 2'b00;
-        have_rx_data <= 1'b0;
-    end else if (rx_data_valid) begin
+always @(posedge rx_clk) begin
+    if (rx_data_valid) begin
         rx_data <= rx_byte0[1:0];
         have_rx_data <= 1'b1;
     end
@@ -142,7 +121,7 @@ MPCS_ex u_mpcs (
     .sd_ext_1_refclk_i(1'b0),
     .pll_0_refclk_i(1'b0),
     .pll_1_refclk_i(1'b0),
-    .sd_pll_refclk_i(ref_clk),
+    .sd_pll_refclk_i(1'b0),
 
     .acjtag_mode_i(1'b0),
     .acjtag_enable_i_0(1'b0),
@@ -152,8 +131,8 @@ MPCS_ex u_mpcs (
     .acjtagpout_o_0(),
     .acjtagnout_o_0(),
 
-    .lmmi_clk_i_0(ref_clk),
-    .lmmi_resetn_i_0(resetn),
+    .lmmi_clk_i_0(tx_clk),
+    .lmmi_resetn_i_0(1'b1),
     .lmmi_request_i_0(1'b0),
     .lmmi_wr_rdn_i_0(1'b0),
     .lmmi_offset_i_0(9'd0),
@@ -171,11 +150,11 @@ MPCS_ex u_mpcs (
 
     .mpcs_rx_usr_clk_i_0(rx_clk),
     .mpcs_tx_usr_clk_i_0(tx_clk),
-    .mpcs_tx_pcs_rstn_i_0(resetn),
-    .mpcs_rx_pcs_rstn_i_0(resetn && mpcs_phyrdy),
+    .mpcs_tx_pcs_rstn_i_0(1'b1),
+    .mpcs_rx_pcs_rstn_i_0(mpcs_phyrdy),
     .mpcs_rx_out_clk_o_0(rx_clk),
     .mpcs_tx_out_clk_o_0(tx_clk),
-    .mpcs_perstn_i_0(resetn),
+    .mpcs_perstn_i_0(1'b1),
 
     .mpcs_tx_ch_din_i_0(mpcs_tx_word),
     .mpcs_tx_fifo_st_o_0(),
@@ -189,7 +168,7 @@ MPCS_ex u_mpcs (
     .mpcs_get_lsync_o_0(mpcs_lsync),
     .mpcs_rx_get_lalign_o_0(),
     .mpcs_rx_deskew_en_i_0(1'b1),
-    .mpcs_clkin_i_0(ref_clk),
+    .mpcs_clkin_i_0(tx_clk),
     .mpcs_pwrdn_i_0(2'b00),
     .mpcs_txhiz_i_0(1'b0),
     .mpcs_rxidle_o_0(),
