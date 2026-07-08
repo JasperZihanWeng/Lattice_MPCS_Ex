@@ -21,16 +21,12 @@ assign F_SFP1_TX_DISABLE = 1'b0;
 
 // The Versa DIP switches and LEDs are active-low at the board level.
 // Internally, switch_value uses the intuitive meaning: switch on = 1.
-// LED_MODE:
-//   0 = normal SFP loopback data display
-//   1 = MPCS status display: phyrdy, ready, lsync, rxval
-//   2 = local switch sanity check, bypassing MPCS data
-localparam [1:0] LED_MODE = 2'd0;
+localparam LED_ON = 1'b0;
+localparam LED_OFF = 1'b1;
 
 wire tx_clk;
 wire rx_clk;
 
-wire mpcs_ready;
 wire mpcs_phyrdy;
 wire mpcs_lsync;
 wire mpcs_rxval;
@@ -66,8 +62,7 @@ assign mpcs_tx_word = {40'd0, tx_pcs_word};
 
 always @(posedge tx_clk) begin
     if (!mpcs_lsync) begin
-        // Send a K28.5-style comma/control byte while the receiver is looking
-        // for word alignment. This mirrors the generated Lattice testbench.
+        // Needed only so the receiver can find byte alignment after startup.
         tx_payload <= 32'hAAAAAABC;
         tx_control <= 4'b0001;
     end else begin
@@ -76,66 +71,26 @@ always @(posedge tx_clk) begin
     end
 end
 
-wire rx_byte0_is_control = mpcs_rx_word[8];
-wire [7:0] rx_byte0 = mpcs_rx_word[7:0];
-wire rx_data_valid = mpcs_ready && mpcs_phyrdy && mpcs_lsync &&
-                     mpcs_rxval && !rx_byte0_is_control;
-
-reg [1:0] rx_data = 2'b00;
-reg have_rx_data = 1'b0;
+reg [1:0] rx_switch_value = 2'b00;
 
 always @(posedge rx_clk) begin
-    if (rx_data_valid) begin
-        rx_data <= rx_byte0[1:0];
-        have_rx_data <= 1'b1;
+    if (mpcs_lsync && mpcs_rxval && !mpcs_rx_word[8]) begin
+        rx_switch_value <= mpcs_rx_word[1:0];
     end
 end
 
 always @* begin
-    LED1 = 1'b1;
-    LED2 = 1'b1;
-    LED3 = 1'b1;
-    LED4 = 1'b1;
+    LED1 = LED_OFF;
+    LED2 = LED_OFF;
+    LED3 = LED_OFF;
+    LED4 = LED_OFF;
 
-    case (LED_MODE)
-        2'd1: begin
-            LED1 = ~mpcs_phyrdy;
-            LED2 = ~mpcs_ready;
-            LED3 = ~mpcs_lsync;
-            LED4 = ~mpcs_rxval;
-        end
-
-        2'd2: begin
-            case (switch_value)
-                2'b00: LED1 = 1'b0;
-                2'b01: LED2 = 1'b0;
-                2'b10: LED3 = 1'b0;
-                2'b11: LED4 = 1'b0;
-                default: begin
-                    LED1 = 1'b1;
-                    LED2 = 1'b1;
-                    LED3 = 1'b1;
-                    LED4 = 1'b1;
-                end
-            endcase
-        end
-
-        default: begin
-            if (have_rx_data) begin
-                case (rx_data)
-                    2'b00: LED1 = 1'b0;
-                    2'b01: LED2 = 1'b0;
-                    2'b10: LED3 = 1'b0;
-                    2'b11: LED4 = 1'b0;
-                    default: begin
-                        LED1 = 1'b1;
-                        LED2 = 1'b1;
-                        LED3 = 1'b1;
-                        LED4 = 1'b1;
-                    end
-                endcase
-            end
-        end
+    case (rx_switch_value)
+        2'b00: LED1 = LED_ON;
+        2'b01: LED2 = LED_ON;
+        2'b10: LED3 = LED_ON;
+        2'b11: LED4 = LED_ON;
+        default: LED1 = LED_ON;
     endcase
 end
 
@@ -210,7 +165,7 @@ MPCS_ex u_mpcs (
     .mpcs_speed_o_0(),
     .mpcs_txval_i_0(1'b1),
     .mpcs_phyrdy_o_0(mpcs_phyrdy),
-    .mpcs_ready_o_0(mpcs_ready),
+    .mpcs_ready_o_0(),
     .mpcs_rxoob_i_0(1'b0),
     .mpcs_txdeemp_i_0(1'b0),
     .mpcs_pwrst_o_0(),
