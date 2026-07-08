@@ -14,7 +14,10 @@ module flashing_lights (
     output reg LED1,
     output reg LED2,
     output reg LED3,
-    output reg LED4
+    output reg LED4,
+
+    output reg Debug_LED1,
+    output reg Debug_LED2
 );
 
 assign F_SFP1_TX_DISABLE = 1'b0;
@@ -97,6 +100,13 @@ always @* begin
         2'b11: LED4 = LED_ON;
         default: LED1 = LED_ON;
     endcase
+end
+
+//these are debugging LEDS
+
+always @* begin
+    Debug_LED1 = Switch1;
+    Debug_LED2 = Switch2;
 end
 
 MPCS_ex u_mpcs (

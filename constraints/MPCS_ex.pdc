@@ -11,10 +11,15 @@ ldc_set_location -site {R5} [get_ports {LED1}]
 ldc_set_location -site {R4} [get_ports {LED2}]
 ldc_set_location -site {R8} [get_ports {LED3}]
 ldc_set_location -site {R9} [get_ports {LED4}]
+ldc_set_location -site {R6} [get_ports {Debug_LED1}]
+ldc_set_location -site {P8} [get_ports {Debug_LED2}]
+
 ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {LED1}]
 ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {LED2}]
 ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {LED3}]
 ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {LED4}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {Debug_LED1}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {Debug_LED2}]
 
 # J12 / SFP1 module control.
 ldc_set_location -site {P25} [get_ports {F_SFP1_TX_DISABLE}]
