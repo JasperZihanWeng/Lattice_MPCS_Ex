@@ -19,10 +19,10 @@ module flashing_lights (
 
 assign F_SFP1_TX_DISABLE = 1'b0;
 
-// The Versa DIP switches and LEDs are active-low at the board level.
+// Current board behavior shows these LEDs are active-high.
 // Internally, switch_value uses the intuitive meaning: switch on = 1.
-localparam LED_ON = 1'b0;
-localparam LED_OFF = 1'b1;
+localparam LED_ON = 1'b1;
+localparam LED_OFF = 1'b0;
 
 wire tx_clk;
 wire rx_clk;
@@ -50,6 +50,9 @@ end
 
 reg [31:0] tx_payload = 32'h00000000;
 reg [3:0] tx_control = 4'b0000;
+reg tx_send_align = 1'b1;
+
+wire [7:0] switch_byte = {6'd0, switch_value};
 
 wire [39:0] tx_pcs_word = {
     1'b0, tx_control[3], tx_payload[31:24],
@@ -61,12 +64,14 @@ wire [39:0] tx_pcs_word = {
 assign mpcs_tx_word = {40'd0, tx_pcs_word};
 
 always @(posedge tx_clk) begin
-    if (!mpcs_lsync) begin
-        // Needed only so the receiver can find byte alignment after startup.
+    tx_send_align <= ~tx_send_align;
+
+    if (tx_send_align) begin
+        // K28.5 alignment word, copied from the generated Lattice testbench.
         tx_payload <= 32'hAAAAAABC;
         tx_control <= 4'b0001;
     end else begin
-        tx_payload <= {30'd0, switch_value};
+        tx_payload <= {switch_byte, switch_byte, switch_byte, switch_byte};
         tx_control <= 4'b0000;
     end
 end
@@ -74,7 +79,7 @@ end
 reg [1:0] rx_switch_value = 2'b00;
 
 always @(posedge rx_clk) begin
-    if (mpcs_lsync && mpcs_rxval && !mpcs_rx_word[8]) begin
+    if (mpcs_rxval && !mpcs_rx_word[8]) begin
         rx_switch_value <= mpcs_rx_word[1:0];
     end
 end
