@@ -30,61 +30,16 @@ localparam LED_OFF = 1'b0;
 wire tx_clk;
 wire rx_clk;
 
-wire mpcs_phyrdy;
-wire mpcs_lsync;
-wire mpcs_rxval;
-
 wire [79:0] mpcs_tx_word;
 wire [79:0] mpcs_rx_word;
 
-reg switch1_meta = 1'b1;
-reg switch1_sync = 1'b1;
-reg switch2_meta = 1'b1;
-reg switch2_sync = 1'b1;
 
-wire [1:0] switch_value = {~switch1_sync, ~switch2_sync};
-
-always @(posedge tx_clk) begin
-    switch1_meta <= Switch1;
-    switch1_sync <= switch1_meta;
-    switch2_meta <= Switch2;
-    switch2_sync <= switch2_meta;
-end
-
-reg [31:0] tx_payload = 32'h00000000;
-reg [3:0] tx_control = 4'b0000;
-reg tx_send_align = 1'b1;
-
-wire [7:0] switch_byte = {6'd0, switch_value};
-
-wire [39:0] tx_pcs_word = {
-    1'b0, tx_control[3], tx_payload[31:24],
-    1'b0, tx_control[2], tx_payload[23:16],
-    1'b0, tx_control[1], tx_payload[15:8],
-    1'b0, tx_control[0], tx_payload[7:0]
-};
-
-assign mpcs_tx_word = {40'd0, tx_pcs_word};
-
-always @(posedge tx_clk) begin
-    tx_send_align <= ~tx_send_align;
-
-    if (tx_send_align) begin
-        // K28.5 alignment word, copied from the generated Lattice testbench.
-        tx_payload <= 32'hAAAAAABC;
-        tx_control <= 4'b0001;
-    end else begin
-        tx_payload <= {switch_byte, switch_byte, switch_byte, switch_byte};
-        tx_control <= 4'b0000;
-    end
-end
-
+assign mpcs_tx_word = {78'h0, Switch1, Switch2};
+//rx_switch_value is the received signal for which light to turn on
 reg [1:0] rx_switch_value = 2'b00;
 
 always @(posedge rx_clk) begin
-    if (mpcs_rxval && !mpcs_rx_word[8]) begin
         rx_switch_value <= mpcs_rx_word[1:0];
-    end
 end
 
 always @* begin
@@ -103,11 +58,11 @@ always @* begin
 end
 
 //these are debugging LEDS
-
 always @* begin
     Debug_LED1 = Switch1;
     Debug_LED2 = Switch2;
 end
+
 
 MPCS_ex u_mpcs (
     .use_refmux_i(1'b0),
@@ -152,7 +107,7 @@ MPCS_ex u_mpcs (
     .mpcs_rx_usr_clk_i_0(rx_clk),
     .mpcs_tx_usr_clk_i_0(tx_clk),
     .mpcs_tx_pcs_rstn_i_0(1'b1),
-    .mpcs_rx_pcs_rstn_i_0(mpcs_phyrdy),
+    .mpcs_rx_pcs_rstn_i_0(1'b1),
     .mpcs_rx_out_clk_o_0(rx_clk),
     .mpcs_tx_out_clk_o_0(tx_clk),
     .mpcs_perstn_i_0(1'b1),
@@ -166,7 +121,7 @@ MPCS_ex u_mpcs (
 
     .mpcs_anxmit_i_0(1'b1),
     .mpcs_walign_en_i_0(1'b1),
-    .mpcs_get_lsync_o_0(mpcs_lsync),
+    .mpcs_get_lsync_o_0(),
     .mpcs_rx_get_lalign_o_0(),
     .mpcs_rx_deskew_en_i_0(1'b1),
     .mpcs_clkin_i_0(tx_clk),
@@ -179,13 +134,13 @@ MPCS_ex u_mpcs (
     .mpcs_fomrslt_o_0(),
     .mpcs_speed_o_0(),
     .mpcs_txval_i_0(1'b1),
-    .mpcs_phyrdy_o_0(mpcs_phyrdy),
+    .mpcs_phyrdy_o_0(),
     .mpcs_ready_o_0(),
     .mpcs_rxoob_i_0(1'b0),
     .mpcs_txdeemp_i_0(1'b0),
     .mpcs_pwrst_o_0(),
     .mpcs_skipbit_i_0(1'b0),
-    .mpcs_rxval_o_0(mpcs_rxval)
+    .mpcs_rxval_o_0()
 );
 
 endmodule
