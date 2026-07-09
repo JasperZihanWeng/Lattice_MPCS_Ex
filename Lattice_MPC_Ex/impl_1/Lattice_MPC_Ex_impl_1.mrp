@@ -8,7 +8,7 @@ Package: LFG672
 Performance Grade:  9_High-Performance_1.0V
 
 Mapper:    version Radiant Software (64-bit) 2025.2.1.321.0
-Mapped on: Wed Jul  8 13:03:13 2026
+Mapped on: Wed Jul  8 14:22:59 2026
 
 Design Information
 ------------------
@@ -22,23 +22,23 @@ Command line:   map -pdc C:/Users/Kumar Lab/Desktop/Jasper/Lattice
 Design Summary
 --------------
 
-   Number of registers:          10 out of 80769 (<1%)
-      Number of SLICE         registers:   10 out of 79872 (<1%)
+   Number of registers:          11 out of 80769 (<1%)
+      Number of SLICE         registers:   11 out of 79872 (<1%)
       Number of PIO Input     registers:    0 out of   299 (0%)
       Number of PIO Output    registers:    0 out of   299 (0%)
       Number of PIO Tri-State registers:    0 out of   299 (0%)
-   Number of LUT4s:              12 out of 79872 (<1%)
-      Number used as logic LUT4s:                         12
+   Number of LUT4s:              11 out of 79872 (<1%)
+      Number used as logic LUT4s:                         11
       Number used as distributed RAM:                      0 (6 per 16X4 RAM)
       Number used as ripple logic:                         0 (2 per CCU2)
-   Number of PIOs used/reserved:   14 out of   299 (5%)
+   Number of PIOs used/reserved:   16 out of   299 (5%)
       Number of PIOs reserved:      7 (per sysConfig and/or prohibit constraint)
-      Number of PIOs used:          7
-        Number of PIOs used for single ended IO:         7
+      Number of PIOs used:          9
+        Number of PIOs used for single ended IO:         9
         Number of PIO pairs used for differential IO:    0
         Number allocated to regular speed PIOs:     7 out of  167 (4%)
-        Number allocated to high speed PIOs:        0 out of  132 (0%)
-   Number of Dedicated IO used for ADC/PCS/PCIE:    4 out of   60 (7%)
+        Number allocated to high speed PIOs:        2 out of  132 (2%)
+   Number of Dedicated IO used for ADC/PCS/PCIE:    6 out of   60 (10%)
    Number of IDDR/ODDR/TDDR functions used:      0 out of   730 (0%)
    Number of IOs using at least one DDR function: 0 (0 differential)
    Number of Block RAMs:          0 out of 208 (0%)
@@ -97,35 +97,35 @@ Design Summary (cont)
    Number of Config WDT:          0 out of 1 (0%)
    Number of PCSs:                1 out of 2 (50%)
    Number of PCIE Link Layers:    0 out of 1 (0%)
-   Number of Clocks:  3
+   Number of Clocks:  5
       Net u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4
      _merge_merge_clkout_sig: 1 loads, 1 rising, 0 falling (Driver: Pin u_mpcs.l
      scc_mpcs_top_inst.u_pcsrefmux_pcs_merge_pcs_merge.PCSREFMUX8_CORE_pcs_merge
      /Q1CLKOUT)
-      Net MPCS_ex.PIPE_PCS_TXCLKOUT.tx_clk_pcs_merge: 10 loads, 10 rising, 0
+      Net MPCS_ex.PIPE_PCS_TXCLKOUT.tx_clk_pcs_merge: 12 loads, 12 rising, 0
      falling (Driver: Pin u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge
      _pcs_merge_pcsx4_merge.PCSX4_inst/CH2_PIPE_PCS_TXCLKOUT)
-      Net rx_clk: 4 loads, 4 rising, 0 falling (Driver: Pin u_mpcs.lscc_mpcs_top
+      Net rx_clk: 3 loads, 3 rising, 0 falling (Driver: Pin u_mpcs.lscc_mpcs_top
      _inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst/CH2_RXO
      UTCLK)
+      Net sdq_refclkp_q1_i: 1 load, 1 rising, 0 falling (Driver: Port
+     sdq_refclkp_q1_i)
+      Net sdq_refclkn_q1_i: 1 load, 1 rising, 0 falling (Driver: Port
+     sdq_refclkn_q1_i)
    Number of Clock Enables:  1
-      Net rx_data_valid: 2 loads, 2 SLICEs
+      Net rx_switch_value3: 2 loads, 2 SLICEs
    Number of LSRs:  2
       Net VCC: 3 loads, 0 SLICEs
-      Net mpcs_phyrdy: 1 loads, 0 SLICEs
+      Net MPCS_ex.MPCS_RX_URSTN.MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0.MPCS_RX_UR
+     STN.mpcs_phyrdy_pcs_merge_pcs_merge: 1 loads, 0 SLICEs
    Top 10 highest fanout non-clock nets:
-      Net tx_control[0]: 18 loads
+      Net tx_control[0]: 15 loads
       Net VCC: 9 loads
-      Net have_rx_data: 5 loads
-      Net MPCS_ex.PIPE_LOCAL_GET_TX_PRESET_COEF[1].MPCS_ex_ipgen_lscc_mpcs_top_Z
-     1_layer0.PIPE_LOCAL_GET_TX_PRESET_COEF[1].mpcs_lsync_pcs_merge_pcs_merge: 4
-     loads
-      Net rx_data[0]: 4 loads
-      Net rx_data[1]: 4 loads
-      Net rx_data_valid: 3 loads
-      Net mpcs_phyrdy: 2 loads
-      Net mpcs_rxval: 1 loads
-      Net mpcs_rx_word[8]: 1 loads
+      Net tx_send_align: 5 loads
+      Net rx_switch_value[0]: 4 loads
+      Net rx_switch_value[1]: 4 loads
+      Net tx_payload[0]: 4 loads
+      Net tx_payload[9]: 3 loads
 
                                     Page 2
 
@@ -133,28 +133,27 @@ Design Summary (cont)
 
 
 
+Design Summary (cont)
+---------------------
+      Net rx_switch_value3: 2 loads
+      Net switch1_sync: 2 loads
+      Net Switch2_c: 2 loads
 
 
 
 
 
-   Number of warnings:  5
+   Number of warnings:  2
    Number of criticals: 0
    Number of errors:    0
 
 Design Errors/Criticals/Warnings
 --------------------------------
 
-WARNING <51001264> - map: File 'C:/Users/Kumar Lab/Desktop/Jasper/Lattice
-     Projects/MPCS_ex/constraints/MPCS_ex.pdc' doesn't exist.
-WARNING <71003020> - map: Top module port 'sdq_refclkp_q0_i' does not connect to
-     anything.
-WARNING <71003020> - map: Top module port 'sdq_refclkn_q0_i' does not connect to
-     anything.
-WARNING <71003020> - map: Top module port 'sdq_refclkp_q0_i' does not connect to
-     anything.
-WARNING <71003020> - map: Top module port 'sdq_refclkn_q0_i' does not connect to
-     anything.
+WARNING <51011064> - map: Constraint/Attribute IO_TYPE = LVCMOS33 cannot be set
+     on port 'Switch2', it is ignored.
+WARNING <51011064> - map: Constraint/Attribute IO_TYPE = LVCMOS33 cannot be set
+     on port 'Switch1', it is ignored.
 
 IO (PIO) Attributes
 -------------------
@@ -163,15 +162,19 @@ IO (PIO) Attributes
 | IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
 |                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| LED4                | OUTPUT    |           |       |       |           |
+| Debug_LED2          | OUTPUT    | LVCMOS33  |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| LED3                | OUTPUT    |           |       |       |           |
+| Debug_LED1          | OUTPUT    | LVCMOS33  |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| LED2                | OUTPUT    |           |       |       |           |
+| LED4                | OUTPUT    | LVCMOS33  |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| LED1                | OUTPUT    |           |       |       |           |
+| LED3                | OUTPUT    | LVCMOS33  |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| F_SFP1_TX_DISABLE   | OUTPUT    |           |       |       |           |
+| LED2                | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| LED1                | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| F_SFP1_TX_DISABLE   | OUTPUT    | LVCMOS33  |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | Switch2             | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
@@ -190,9 +193,6 @@ ASIC Components
 Instance Name: u_mpcs.lscc_mpcs_top_inst.u_pcsrefmux_pcs_merge_pcs_merge.PCSREFM
      UX8_CORE_pcs_merge
          Type: PCSREFMUX8_CORE
-Instance Name: u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_
-     pcsx4_merge.PCSX4_inst
-         Type: PCS_CORE
 
                                     Page 3
 
@@ -202,12 +202,15 @@ Instance Name: u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_
 
 ASIC Components (cont)
 ----------------------
+Instance Name: u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_
+     pcsx4_merge.PCSX4_inst
+         Type: PCS_CORE
                CH2_PROTOCOL(LANE ID 6): used as 1KBASEX
 
 Constraint Summary
 ------------------
 
-   Total number of constraints: 0
+   Total number of constraints: 24
    Total number of constraints dropped: 0
 
 Run Time and Memory Usage
@@ -215,11 +218,8 @@ Run Time and Memory Usage
 
    Total CPU Time: 4 secs
    Total REAL Time: 4 secs
-   Peak Memory Usage: 600 MB
-Checksum -- map: a22e5c5936a0f9b2c7f5c3b8718ea55643dc07ca
-
-
-
+   Peak Memory Usage: 604 MB
+Checksum -- map: 4d1bda70fd1cc29c71fbcc6d24bd4fbe3f097f4
 
 
 

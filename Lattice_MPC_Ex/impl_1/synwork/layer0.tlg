@@ -445,39 +445,33 @@ Running optimization stage 1 on MPCS_ex .......
 Finished optimization stage 1 on MPCS_ex (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 216MB)
 @N: CG364 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":1:7:1:21|Synthesizing module flashing_lights in library work.
 Running optimization stage 1 on flashing_lights .......
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_control[1] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_control[2] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_control[3] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[6] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[8] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[10] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[12] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[14] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[16] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[18] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[20] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[22] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[24] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[26] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[28] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[30] is always 0.
-@W: CL279 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bits 3 to 1 of tx_control[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 30 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 28 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 26 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 24 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 22 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 20 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 18 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 16 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 14 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 12 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 10 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 8 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bit 6 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_control[1] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_control[2] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_control[3] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[6] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[10] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[12] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[14] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[18] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[20] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[22] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[26] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[28] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[30] is always 0.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bit 30 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bit 28 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bit 26 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bit 22 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bit 20 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bit 18 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bit 14 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bit 12 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bit 10 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bit 6 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bits 3 to 1 of tx_control[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 Finished optimization stage 1 on flashing_lights (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 216MB)
 Running optimization stage 2 on flashing_lights .......
-@W: CL279 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Pruning register bits 5 to 3 of tx_payload[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Pruning register bits 5 to 3 of tx_payload[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 Finished optimization stage 2 on flashing_lights (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)
 Running optimization stage 2 on MPCS_ex .......
 Finished optimization stage 2 on MPCS_ex (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 217MB)

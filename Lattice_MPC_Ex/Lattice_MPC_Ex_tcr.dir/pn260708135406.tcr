@@ -1,0 +1,5 @@
+#Start recording tcl command: 7/8/2026 13:30:47
+#Project Location: C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/Lattice_MPC_Ex; Project name: Lattice_MPC_Ex
+prj_open "C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/Lattice_MPC_Ex/Lattice_MPC_Ex.rdf"
+prj_run Export -impl impl_1
+#Stop recording: 7/8/2026 13:54:06

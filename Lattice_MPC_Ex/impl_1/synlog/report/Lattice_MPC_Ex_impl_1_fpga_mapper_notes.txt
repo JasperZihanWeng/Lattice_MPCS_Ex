@@ -14,11 +14,12 @@
 @N: FX493 |Applying initial value "1" on instance switch1_meta.
 @N: FX493 |Applying initial value "1" on instance switch2_meta.
 @N: FX493 |Applying initial value "0" on instance tx_control[0].
+@N: FX493 |Applying initial value "1" on instance tx_send_align.
 @N: FX493 |Applying initial value "1" on instance switch1_sync.
 @N: FX493 |Applying initial value "1" on instance switch2_sync.
-@N: FX493 |Applying initial value "0" on instance have_rx_data.
 @N: FX493 |Applying initial value "0" on instance tx_payload[0].
 @N: FX493 |Applying initial value "0" on instance tx_payload[1].
+@N: FX493 |Applying initial value "0" on instance tx_payload[17].
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 

@@ -1,6 +1,6 @@
 ###File created by Lattice CPE. Do not modify.###
 set_hierarchy_separator /
-create_generated_clock -name {u_mpcs_mpcs_tx_out_clk_o_0} -source [get_pins {u_mpcs/sdq_refclkp_q0_i }] -divide_by 1000 -multiply_by 1000 [get_pins {u_mpcs/mpcs_tx_out_clk_o_* }]
+create_generated_clock -name {u_mpcs_mpcs_tx_out_clk_o_0} -source [get_pins {u_mpcs/sdq_refclkp_q1_i }] -divide_by 1000 -multiply_by 1000 [get_pins {u_mpcs/mpcs_tx_out_clk_o_* }]
 ##Original File: C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/constraints/MPCS_ex.ldc
-create_generated_clock -name {u_mpcs_mpcs_rx_out_clk_o_0} -source [get_pins {u_mpcs/sdq_refclkp_q0_i }] -divide_by 1000 -multiply_by 1000 [get_pins {u_mpcs/mpcs_rx_out_clk_o_* }]
+create_generated_clock -name {u_mpcs_mpcs_rx_out_clk_o_0} -source [get_pins {u_mpcs/sdq_refclkp_q1_i }] -divide_by 1000 -multiply_by 1000 [get_pins {u_mpcs/mpcs_rx_out_clk_o_* }]
 ##Original File: C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/constraints/MPCS_ex.ldc

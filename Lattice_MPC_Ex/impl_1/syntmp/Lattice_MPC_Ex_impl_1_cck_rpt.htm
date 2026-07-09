@@ -1,5 +1,5 @@
 <html><body><samp><pre>
-<!@TC:1783533775>
+<!@TC:1783538561>
 
 Copyright (C) 1994-2025 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
@@ -14,7 +14,7 @@ Hostname: ECE-OP7010PC2
 
 Implementation : impl_1
 
-# Written on Wed Jul  8 13:03:00 2026
+# Written on Wed Jul  8 14:22:47 2026
 
 ##### DESIGN INFO #######################################################
 
@@ -27,7 +27,7 @@ Constraint File(s):      "C:\lscc\radiant\2025.2.1\scripts\tcl\flow\radiant_synp
 
 ##### SUMMARY ############################################################
 
-Found 2 issues in 2 out of 3 constraints
+Found 4 issues in 2 out of 3 constraints
 
 
 ##### DETAILS ############################################################
@@ -66,6 +66,8 @@ System       System     |     5.000            |     No paths         |     No p
 <a name=UnconstrainedStartEndPointsCCK40></a>Unconstrained Start/End Points</a>
 ******************************
 
+p:Debug_LED1
+p:Debug_LED2
 p:F_SFP1_TX_DISABLE
 p:LED1
 p:LED2
@@ -77,17 +79,19 @@ p:sd0rxn_i
 p:sd0rxp_i
 p:sd0txn_o
 p:sd0txp_o
-p:sdq_refclkn_q0_i
-p:sdq_refclkp_q0_i
+p:sdq_refclkn_q1_i
+p:sdq_refclkp_q1_i
 
 
 <a name=InapplicableconstraintsCCK41></a>Inapplicable constraints</a>
 ************************
 
-create_generated_clock -name u_mpcs_mpcs_tx_out_clk_o_0 -source [get_pins u_mpcs/sdq_refclkp_q0_i] -divide_by 1000 -multiply_by 1000 [get_pins u_mpcs/mpcs_tx_out_clk_o_*]
-	@E:MT549:"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":3:0:3:0|Master source pin for clock u_mpcs_mpcs_tx_out_clk_o_0 not found in netlist.
-create_generated_clock -name u_mpcs_mpcs_rx_out_clk_o_0 -source [get_pins u_mpcs/sdq_refclkp_q0_i] -divide_by 1000 -multiply_by 1000 [get_pins u_mpcs/mpcs_rx_out_clk_o_*]
-	@E:MT549:"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":5:0:5:0|Master source pin for clock u_mpcs_mpcs_rx_out_clk_o_0 not found in netlist.
+create_generated_clock -name u_mpcs_mpcs_tx_out_clk_o_0 -source [get_pins u_mpcs/sdq_refclkp_q1_i] -divide_by 1000 -multiply_by 1000 [get_pins u_mpcs/mpcs_tx_out_clk_o_*]
+	@E:MT481:"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":3:0:3:0|Unable to generate clock u_mpcs_mpcs_tx_out_clk_o_0 because no clock was found on its master pin. Make sure that a valid pin or port is defined by the -source option for the create_generated_clock command.
+	@W:MT688:"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":3:0:3:0|No path from master pin (-source) to source of clock u_mpcs_mpcs_tx_out_clk_o_0 due to black box u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1
+create_generated_clock -name u_mpcs_mpcs_rx_out_clk_o_0 -source [get_pins u_mpcs/sdq_refclkp_q1_i] -divide_by 1000 -multiply_by 1000 [get_pins u_mpcs/mpcs_rx_out_clk_o_*]
+	@E:MT481:"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":5:0:5:0|Unable to generate clock u_mpcs_mpcs_rx_out_clk_o_0 because no clock was found on its master pin. Make sure that a valid pin or port is defined by the -source option for the create_generated_clock command.
+	@W:MT688:"c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc":5:0:5:0|No path from master pin (-source) to source of clock u_mpcs_mpcs_rx_out_clk_o_0 due to black box u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1
 
 <a name=ApplicableConstraintsWithIssuesCCK42></a>Applicable constraints with issues</a>
 **********************************

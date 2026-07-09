@@ -1,0 +1,36 @@
+# Board-level pin constraints for CertusPro-NX Versa SFP1 loopback demo.
+
+# SW1 DIP switches. The switches are pulled up on the board and close to GND.
+ldc_set_location -site {AA23} [get_ports {Switch1}]
+ldc_set_location -site {AB22} [get_ports {Switch2}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {Switch1}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {Switch2}]
+
+# General-purpose LEDs LED_0 through LED_3.
+ldc_set_location -site {R5} [get_ports {LED1}]
+ldc_set_location -site {R4} [get_ports {LED2}]
+ldc_set_location -site {R8} [get_ports {LED3}]
+ldc_set_location -site {R9} [get_ports {LED4}]
+ldc_set_location -site {R6} [get_ports {Debug_LED1}]
+ldc_set_location -site {P8} [get_ports {Debug_LED2}]
+
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {LED1}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {LED2}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {LED3}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {LED4}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {Debug_LED1}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {Debug_LED2}]
+
+# J12 / SFP1 module control.
+ldc_set_location -site {P25} [get_ports {F_SFP1_TX_DISABLE}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {F_SFP1_TX_DISABLE}]
+
+# J12 / SFP1 high-speed serial lane: SD6.
+ldc_set_location -site {B13} [get_ports {sd0rxp_i}]
+ldc_set_location -site {C12} [get_ports {sd0rxn_i}]
+ldc_set_location -site {A12} [get_ports {sd0txp_o}]
+ldc_set_location -site {A11} [get_ports {sd0txn_o}]
+
+# Quad-1 SERDES reference clock for SFP lanes: F_SFP_161.1328Mhz_CLK_P/N.
+ldc_set_location -site {C14} [get_ports {sdq_refclkp_q1_i}]
+ldc_set_location -site {D13} [get_ports {sdq_refclkn_q1_i}]

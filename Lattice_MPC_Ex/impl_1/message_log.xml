@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BaliMessageLog>
-    <Task name="PAR">
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>sdq_refclkp_q0_i</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>sdq_refclkn_q0_i</Dynamic>
-        </Message>
-    </Task>
     <Task name="Synthesis">
         <Message>
             <ID>35901328</ID>
@@ -5963,182 +5951,146 @@
             <Navigation>*Output mpcs_rx_hi_ber_o_6 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.</Navigation>
         </Message>
         <Message>
-            <ID>2012918</ID>
-            <Severity>16</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bits 3 to 1 of tx_control[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
-            <Navigation>CL279</Navigation>
-            <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
-            <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
-            <Navigation>5</Navigation>
-            <Navigation>Pruning register bits 3 to 1 of tx_control[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
-        </Message>
-        <Message>
             <ID>2012913</ID>
             <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 30 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bit 30 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
             <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
             <Navigation>Pruning register bit 30 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2012913</ID>
             <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 28 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bit 28 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
             <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
             <Navigation>Pruning register bit 28 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2012913</ID>
             <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 26 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bit 26 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
             <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
             <Navigation>Pruning register bit 26 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2012913</ID>
             <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 24 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bit 22 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
             <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
-            <Navigation>5</Navigation>
-            <Navigation>Pruning register bit 24 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
-        </Message>
-        <Message>
-            <ID>2012913</ID>
-            <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 22 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
-            <Navigation>CL260</Navigation>
-            <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
-            <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
             <Navigation>Pruning register bit 22 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2012913</ID>
             <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 20 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bit 20 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
             <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
             <Navigation>Pruning register bit 20 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2012913</ID>
             <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 18 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bit 18 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
             <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
             <Navigation>Pruning register bit 18 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2012913</ID>
             <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 16 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bit 14 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
             <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
-            <Navigation>5</Navigation>
-            <Navigation>Pruning register bit 16 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
-        </Message>
-        <Message>
-            <ID>2012913</ID>
-            <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 14 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
-            <Navigation>CL260</Navigation>
-            <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
-            <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
             <Navigation>Pruning register bit 14 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2012913</ID>
             <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 12 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bit 12 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
             <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
             <Navigation>Pruning register bit 12 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2012913</ID>
             <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 10 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bit 10 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
             <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
             <Navigation>Pruning register bit 10 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2012913</ID>
             <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 8 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bit 6 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
             <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
-            <Navigation>5</Navigation>
-            <Navigation>Pruning register bit 8 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
-        </Message>
-        <Message>
-            <ID>2012913</ID>
-            <Severity>16</Severity>
-            <Dynamic>CL260 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bit 6 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
-            <Navigation>CL260</Navigation>
-            <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
-            <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
             <Navigation>Pruning register bit 6 of tx_payload[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2012918</ID>
             <Severity>16</Severity>
-            <Dynamic>CL279 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:62:0:62:5|Pruning register bits 5 to 3 of tx_payload[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bits 3 to 1 of tx_control[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 3 to 1 of tx_control[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012918</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v&quot;:69:0:69:5|Pruning register bits 5 to 3 of tx_payload[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
             <Navigation>Pruning register bits 5 to 3 of tx_payload[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
@@ -6152,206 +6104,254 @@
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[31] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[25] because it is equivalent to instance tx_payload[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[31] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[25] because it is equivalent to instance tx_payload[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[29] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[9] because it is equivalent to instance tx_payload[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[29] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[9] because it is equivalent to instance tx_payload[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[27] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[24] because it is equivalent to instance tx_payload[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[27] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[24] because it is equivalent to instance tx_payload[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[25] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[8] because it is equivalent to instance tx_payload[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[25] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[8] because it is equivalent to instance tx_payload[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[23] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[16] because it is equivalent to instance tx_payload[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[23] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[16] because it is equivalent to instance tx_payload[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[21] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[23] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[21] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[23] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[19] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[7] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[19] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[7] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[17] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[2] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[17] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[2] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[15] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[31] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[15] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[31] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[13] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[29] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[13] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[29] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[11] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[27] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[11] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[27] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[9] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[21] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[9] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[21] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[7] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[19] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[7] because it is equivalent to instance tx_payload[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[19] because it is equivalent to instance tx_payload[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2012025</ID>
             <Severity>16</Severity>
-            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Removing sequential instance tx_payload[2] because it is equivalent to instance tx_control[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[15] because it is equivalent to instance tx_payload[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
             <Navigation>BN132</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Removing sequential instance tx_payload[2] because it is equivalent to instance tx_control[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+            <Navigation>Removing sequential instance tx_payload[15] because it is equivalent to instance tx_payload[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[13] because it is equivalent to instance tx_payload[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing sequential instance tx_payload[13] because it is equivalent to instance tx_payload[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Removing sequential instance tx_payload[11] because it is equivalent to instance tx_control[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing sequential instance tx_payload[11] because it is equivalent to instance tx_control[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>16</Severity>
-            <Dynamic>MT549 :&quot;c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc&quot;:3:0:3:0|Master source pin for clock u_mpcs_mpcs_tx_out_clk_o_0 not found in netlist.</Dynamic>
-            <Navigation>MT549</Navigation>
+            <Dynamic>MT688 :&quot;c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc&quot;:3:0:3:0|No path from master pin (-source) to source of clock u_mpcs_mpcs_tx_out_clk_o_0 due to black box u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1</Dynamic>
+            <Navigation>MT688</Navigation>
             <Navigation>c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc</Navigation>
             <Navigation>3</Navigation>
             <Navigation>0</Navigation>
             <Navigation>3</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>Master source pin for clock u_mpcs_mpcs_tx_out_clk_o_0 not found in netlist.</Navigation>
+            <Navigation>No path from master pin (-source) to source of clock u_mpcs_mpcs_tx_out_clk_o_0 due to black box u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1 </Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>16</Severity>
-            <Dynamic>MT549 :&quot;c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc&quot;:5:0:5:0|Master source pin for clock u_mpcs_mpcs_rx_out_clk_o_0 not found in netlist.</Dynamic>
-            <Navigation>MT549</Navigation>
+            <Dynamic>MT688 :&quot;c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc&quot;:5:0:5:0|No path from master pin (-source) to source of clock u_mpcs_mpcs_rx_out_clk_o_0 due to black box u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1</Dynamic>
+            <Navigation>MT688</Navigation>
             <Navigation>c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc</Navigation>
             <Navigation>5</Navigation>
             <Navigation>0</Navigation>
             <Navigation>5</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>Master source pin for clock u_mpcs_mpcs_rx_out_clk_o_0 not found in netlist.</Navigation>
+            <Navigation>No path from master pin (-source) to source of clock u_mpcs_mpcs_rx_out_clk_o_0 due to black box u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1 </Navigation>
+        </Message>
+        <Message>
+            <ID>2013196</ID>
+            <Severity>16</Severity>
+            <Dynamic>MT481 :&quot;c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc&quot;:3:0:3:0|Unable to generate clock u_mpcs_mpcs_tx_out_clk_o_0 because no clock was found on its master pin. Make sure that a valid pin or port is defined by the -source option for the create_generated_clock command.</Dynamic>
+            <Navigation>MT481</Navigation>
+            <Navigation>c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Unable to generate clock u_mpcs_mpcs_tx_out_clk_o_0 because no clock was found on its master pin. Make sure that a valid pin or port is defined by the -source option for the create_generated_clock command.</Navigation>
+        </Message>
+        <Message>
+            <ID>2013196</ID>
+            <Severity>16</Severity>
+            <Dynamic>MT481 :&quot;c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc&quot;:5:0:5:0|Unable to generate clock u_mpcs_mpcs_rx_out_clk_o_0 because no clock was found on its master pin. Make sure that a valid pin or port is defined by the -source option for the create_generated_clock command.</Dynamic>
+            <Navigation>MT481</Navigation>
+            <Navigation>c:/users/kumar lab/desktop/jasper/lattice projects/mpcs_ex/lattice_mpc_ex/impl_1/lattice_mpc_ex_impl_1_cpe.ldc</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>Unable to generate clock u_mpcs_mpcs_rx_out_clk_o_0 because no clock was found on its master pin. Make sure that a valid pin or port is defined by the -source option for the create_generated_clock command.</Navigation>
         </Message>
         <Message>
             <ID>2013204</ID>
             <Severity>16</Severity>
-            <Dynamic>MT532 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:62:0:62:5|Found signal identified as System clock which controls 10 sequential elements including tx_payload[1].  Using this clock, which has no specified timing constraint, can adversely impact design performance.</Dynamic>
+            <Dynamic>MT532 :&quot;c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v&quot;:69:0:69:5|Found signal identified as System clock which controls 11 sequential elements including tx_payload[17].  Using this clock, which has no specified timing constraint, can adversely impact design performance.</Dynamic>
             <Navigation>MT532</Navigation>
             <Navigation>c:\users\kumar lab\desktop\jasper\lattice projects\mpcs_ex\rtl\flashing_light.v</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>0</Navigation>
-            <Navigation>62</Navigation>
+            <Navigation>69</Navigation>
             <Navigation>5</Navigation>
-            <Navigation>Found signal identified as System clock which controls 10 sequential elements including tx_payload[1].  Using this clock, which has no specified timing constraint, can adversely impact design performance. </Navigation>
+            <Navigation>Found signal identified as System clock which controls 11 sequential elements including tx_payload[17].  Using this clock, which has no specified timing constraint, can adversely impact design performance. </Navigation>
         </Message>
         <Message>
             <ID>2019993</ID>
@@ -6419,6 +6419,11 @@
             <Dynamic>6</Dynamic>
         </Message>
         <Message>
+            <ID>35811145</ID>
+            <Severity>1</Severity>
+            <Dynamic>u_mpcs/lscc_mpcs_top_inst</Dynamic>
+        </Message>
+        <Message>
             <ID>35811146</ID>
             <Severity>1</Severity>
             <Dynamic>NC0</Dynamic>
@@ -6431,12 +6436,22 @@
         <Message>
             <ID>35811146</ID>
             <Severity>1</Severity>
+            <Dynamic>tx_send_align_reg.intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
             <Dynamic>tx_payload_reg[0].intGnd</Dynamic>
         </Message>
         <Message>
             <ID>35811146</ID>
             <Severity>1</Severity>
             <Dynamic>tx_payload_reg[1].intGnd</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>tx_payload[17].intGnd</Dynamic>
         </Message>
         <Message>
             <ID>35811146</ID>
@@ -6457,16 +6472,6 @@
             <ID>35811146</ID>
             <Severity>1</Severity>
             <Dynamic>switch1_sync_reg.intGnd</Dynamic>
-        </Message>
-        <Message>
-            <ID>35811146</ID>
-            <Severity>1</Severity>
-            <Dynamic>switch1_meta_reg.intGnd</Dynamic>
-        </Message>
-        <Message>
-            <ID>35811146</ID>
-            <Severity>1</Severity>
-            <Dynamic>rx_data_reg[0].intGnd</Dynamic>
         </Message>
         <Message>
             <ID>35811149</ID>
@@ -6491,29 +6496,18 @@
     </Task>
     <Task name="Map">
         <Message>
-            <ID>51001264</ID>
+            <ID>51011064</ID>
             <Severity>16</Severity>
-            <Dynamic>C:/Users/Kumar Lab/Desktop/Jasper/Lattice Projects/MPCS_ex/constraints/MPCS_ex.pdc</Dynamic>
+            <Dynamic>IO_TYPE</Dynamic>
+            <Dynamic>LVCMOS33</Dynamic>
+            <Dynamic>Switch2</Dynamic>
         </Message>
         <Message>
-            <ID>71003020</ID>
+            <ID>51011064</ID>
             <Severity>16</Severity>
-            <Dynamic>sdq_refclkp_q0_i</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>sdq_refclkn_q0_i</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>sdq_refclkp_q0_i</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>sdq_refclkn_q0_i</Dynamic>
+            <Dynamic>IO_TYPE</Dynamic>
+            <Dynamic>LVCMOS33</Dynamic>
+            <Dynamic>Switch1</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

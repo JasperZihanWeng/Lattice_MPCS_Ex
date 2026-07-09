@@ -46,7 +46,7 @@ if (a)
 <A name="Timing_rpt_top">Timing Report</A><B><U><big></big></U></B>
 Lattice Timing Report -  Setup  and Hold, Version Radiant Software (64-bit) 2025.2.1.321.0
 
-Wed Jul  8 13:04:13 2026
+Wed Jul  8 14:23:58 2026
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -137,14 +137,14 @@ u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCS
                                         |    No arrival or required
 u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst/CH2_PIPE_TX_DATA_PCS_TX_DATA8                           
                                         |    No arrival or required
-u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst/CH2_PIPE_TX_DATA_PCS_TX_DATA11                           
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst/CH2_PIPE_TX_DATA_PCS_TX_DATA10                           
                                         |    No arrival or required
-u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst/CH2_PIPE_TX_DATA_PCS_TX_DATA13                           
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst/CH2_PIPE_TX_DATA_PCS_TX_DATA11                           
                                         |    No arrival or required
 -------------------------------------------------------------------
                                         |                          
 Number of unconstrained timing end poin |                          
-ts                                      |                        20
+ts                                      |                        23
                                         |                          
 -------------------------------------------------------------------
 
@@ -165,8 +165,8 @@ create_generated_clock,
 -------------------------------------------------------------------
 Switch2                                 |                     input
 Switch1                                 |                     input
-sdq_refclkp_q0_i                        |                     input
-sdq_refclkn_q0_i                        |                     input
+Debug_LED2                              |                    output
+Debug_LED1                              |                    output
 LED4                                    |                    output
 LED3                                    |                    output
 LED2                                    |                    output
@@ -182,9 +182,9 @@ Define a clock on a top level port or a generated clock on a clock divider pin a
 -------------------------------------------------------------------
             Listing 2 Net(s)            |        Source pin        
 -------------------------------------------------------------------
-rx_clk                                  |u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst/CH2_RXOUTCLK
 MPCS_ex.PIPE_PCS_TXCLKOUT.tx_clk_pcs_merge                           
                                         |u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst/CH2_PIPE_PCS_TXCLKOUT
+rx_clk                                  |u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst/CH2_RXOUTCLK
 -------------------------------------------------------------------
                                         |                          
 Number of clock nets without clock defi |                          

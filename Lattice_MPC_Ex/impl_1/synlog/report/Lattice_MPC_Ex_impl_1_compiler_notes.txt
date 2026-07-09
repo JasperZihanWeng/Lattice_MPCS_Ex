@@ -228,22 +228,19 @@
 @N: CG364 :"C:\lscc\radiant\2025.2.1\synpbase\lib\lucent\lfcpnx.v":3996:7:3996:11|Synthesizing module PCSX1 in library work.
 @N: CG364 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":11:66:11:72|Synthesizing module MPCS_ex in library work.
 @N: CG364 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":1:7:1:21|Synthesizing module flashing_lights in library work.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_control[1] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_control[2] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_control[3] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[6] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[8] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[10] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[12] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[14] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[16] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[18] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[20] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[22] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[24] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[26] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[28] is always 0.
-@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":62:0:62:5|Register bit tx_payload[30] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_control[1] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_control[2] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_control[3] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[6] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[10] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[12] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[14] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[18] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[20] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[22] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[26] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[28] is always 0.
+@N: CL189 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\Flashing_Light.v":69:0:69:5|Register bit tx_payload[30] is always 0.
 @N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1605:10:1605:21|Input lmmi_clk_i_7 is unused.
 @N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1606:10:1606:21|Input lmmi_clk_i_6 is unused.
 @N: CL159 :"C:\Users\Kumar Lab\Desktop\Jasper\Lattice Projects\MPCS_ex\rtl\MPCS_ex.v":1607:10:1607:21|Input lmmi_clk_i_5 is unused.
