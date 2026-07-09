@@ -1,4 +1,7 @@
 module flashing_lights (
+    input  F_125Mhz_P,
+    input  F_125Mhz_N,
+
     input  sdq_refclkp_q1_i,
     input  sdq_refclkn_q1_i,
 
@@ -26,6 +29,7 @@ localparam LED_OFF = 1'b0;
 
 wire tx_clk;
 wire rx_clk;
+wire fabric_clk;
 
 wire [79:0] mpcs_tx_word;
 wire [79:0] mpcs_rx_word;
@@ -35,6 +39,7 @@ wire mpcs_phyrdy;
 wire mpcs_ready;
 wire mpcs_rx_val;
 
+assign fabric_clk = F_125Mhz_P;
 
 assign mpcs_tx_word = {78'h0, Switch1, Switch2};
 //rx_switch_value is the received signal for which light to turn on
@@ -76,7 +81,7 @@ MPCS_ex u_mpcs (
     .acjtagpout_o_0(),
     .acjtagnout_o_0(),
 
-    .lmmi_clk_i_0(tx_clk),
+    .lmmi_clk_i_0(fabric_clk),
     .lmmi_resetn_i_0(1'b1),
     .lmmi_request_i_0(1'b0),
     .lmmi_wr_rdn_i_0(1'b0),
@@ -113,7 +118,7 @@ MPCS_ex u_mpcs (
     .mpcs_get_lsync_o_0(mpcs_lsync),
     .mpcs_rx_get_lalign_o_0(),
     .mpcs_rx_deskew_en_i_0(1'b1),
-    .mpcs_clkin_i_0(tx_clk),
+    .mpcs_clkin_i_0(fabric_clk),
     .mpcs_pwrdn_i_0(2'b00),
     .mpcs_txhiz_i_0(1'b0),
     .mpcs_rxidle_o_0(),

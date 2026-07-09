@@ -1,5 +1,10 @@
 # Board-level pin constraints for CertusPro-NX Versa SFP1 loopback demo.
 
+# Board 125 MHz clock used as the MPCS fabric/control clock.
+ldc_set_location -site {W24} [get_ports {F_125Mhz_P}]
+ldc_set_location -site {W23} [get_ports {F_125Mhz_N}]
+create_clock -name {F_125Mhz_P} -period 8.000 [get_ports {F_125Mhz_P}]
+
 # SW1 DIP switches. The switches are pulled up on the board and close to GND.
 ldc_set_location -site {AA23} [get_ports {Switch1}]
 ldc_set_location -site {AB22} [get_ports {Switch2}]
