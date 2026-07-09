@@ -17,7 +17,9 @@ module flashing_lights (
     output reg LED1,
     output reg LED2,
     output reg LED3,
-    output reg LED4
+    output reg LED4,
+    output Debug_LED1,
+    output Debug_LED2
 );
 
 assign F_SFP1_TX_DISABLE = 1'b0;
@@ -39,20 +41,36 @@ wire mpcs_phyrdy;
 wire mpcs_ready;
 wire mpcs_rx_val;
 wire mpcs_resetn;
+wire mpcs_tx_enable;
 
 assign fabric_clk = F_125Mhz_P;
 
-reg [15:0] reset_count = 16'd0;
+(* syn_preserve = 1 *) reg [15:0] reset_count = 16'd0;
+(* syn_preserve = 1 *) reg [25:0] fabric_clk_count = 26'd0;
 
 always @(posedge fabric_clk) begin
+    fabric_clk_count <= fabric_clk_count + 1'b1;
+
     if (!mpcs_resetn) begin
         reset_count <= reset_count + 1'b1;
     end
 end
 
 assign mpcs_resetn = &reset_count;
+assign mpcs_tx_enable = mpcs_resetn && mpcs_phyrdy;
 
-assign mpcs_tx_word = {78'h0, Switch1, Switch2};
+(* syn_preserve = 1 *) reg [25:0] tx_clk_count = 26'd0;
+
+always @(posedge tx_clk) begin
+    tx_clk_count <= tx_clk_count + 1'b1;
+end
+
+assign Debug_LED1 = fabric_clk_count[25];
+assign Debug_LED2 = tx_clk_count[25];
+
+// 64B/66B mapping: bit 79 writes the Tx FIFO, bit 72 leaves the encoder enabled,
+// bits 71:64 mark all payload bytes as data, and bits 63:0 carry the payload.
+assign mpcs_tx_word = {1'b1, 6'b0, 1'b0, 8'h00, 62'd0, Switch1, Switch2};
 //rx_switch_value is the received signal for which light to turn on
 reg [1:0] rx_switch_value = 2'b00;
 
@@ -70,9 +88,9 @@ end
 
 
 MPCS_ex u_mpcs (
-    .use_refmux_i(1'b1),
+    .use_refmux_i(1'b0),
     .diffioclksel_i(1'b0),
-    .clksel_i(2'b11),
+    .clksel_i(2'b00),
 
     .sdq_refclkp_q0_i(1'b0),
     .sdq_refclkn_q0_i(1'b0),
@@ -82,7 +100,7 @@ MPCS_ex u_mpcs (
     .sd_ext_1_refclk_i(1'b0),
     .pll_0_refclk_i(1'b0),
     .pll_1_refclk_i(1'b0),
-    .sd_pll_refclk_i(fabric_clk),
+    .sd_pll_refclk_i(1'b0),
 
     .acjtag_mode_i(1'b0),
     .acjtag_enable_i_0(1'b0),
@@ -111,7 +129,7 @@ MPCS_ex u_mpcs (
 
     .mpcs_rx_usr_clk_i_0(rx_clk),
     .mpcs_tx_usr_clk_i_0(tx_clk),
-    .mpcs_tx_pcs_rstn_i_0(mpcs_resetn),
+    .mpcs_tx_pcs_rstn_i_0(mpcs_tx_enable),
     .mpcs_rx_pcs_rstn_i_0(mpcs_resetn && mpcs_phyrdy),
     .mpcs_rx_out_clk_o_0(rx_clk),
     .mpcs_tx_out_clk_o_0(tx_clk),
@@ -138,7 +156,7 @@ MPCS_ex u_mpcs (
     .mpcs_fomack_o_0(),
     .mpcs_fomrslt_o_0(),
     .mpcs_speed_o_0(),
-    .mpcs_txval_i_0(1'b1),
+    .mpcs_txval_i_0(mpcs_tx_enable),
     .mpcs_phyrdy_o_0(mpcs_phyrdy),
     .mpcs_ready_o_0(mpcs_ready),
     .mpcs_rxoob_i_0(1'b0),
