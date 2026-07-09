@@ -1,6 +1,6 @@
                          Lattice PAR Report File
 Radiant Software (64-bit) 2025.2.1.321.0
-Wed Jul  8 13:03:20 2026
+Wed Jul  8 14:23:06 2026
 
 Command Line: par -w -n 1 -t 1 -s 1 -cores 1 -hsp m -exp parPathBased=ON \
 	Lattice_MPC_Ex_impl_1_map.udb Lattice_MPC_Ex_impl_1.udb 
@@ -9,16 +9,16 @@ Command Line: par -w -n 1 -t 1 -s 1 -cores 1 -hsp m -exp parPathBased=ON \
 Level/       Number       Estimated       Timing       Estimated Worst    Timing          Run      Run
 Cost [udb]   Unrouted     Worst Slack     Score        Slack(hold)        Score(hold)     Time     Status
 ----------   --------     -----------     ------       ---------------    -----------     ----     ------
-5_1   *      0            -               -            -                  -               51       Completed
+5_1   *      0            -               -            -                  -               49       Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 51 secs 
+Total (real) run time for 1-seed: 49 secs 
 
 par done!
 
 PAR: Place And Route Radiant Software (64-bit) 2025.2.1.321.0.
-PARed on: Wed Jul  8 13:03:20 2026
+PARed on: Wed Jul  8 14:23:06 2026
 
 Command Line: par -w -t 1 -cores 1 -hsp m -exp parPathBased=ON \
 	Lattice_MPC_Ex_impl_1_map.udb Lattice_MPC_Ex_impl_1_par.dir/5_1.udb 
@@ -37,49 +37,48 @@ Package: LFG672
 Performance Grade:   9_High-Performance_1.0V
 
 Constraint Summary
-   Total number of constraints: 1
+   Total number of constraints: 16
    Total number of constraints dropped: 0
 
-WARNING <71003020> - par: Top module port 'sdq_refclkp_q0_i' does not connect to anything.
-WARNING <71003020> - par: Top module port 'sdq_refclkn_q0_i' does not connect to anything.
 
 Device SLICE utilization summary after final SLICE packing:
-   SLICE             19/39936        <1% used
+   SLICE             18/39936        <1% used
 
 Number of Signals: 39
-Number of Connections: 220
+Number of Connections: 218
 Device utilization summary:
 
    VHI                   1/1           100% used
+   SEIO18A               2/132           2% used
+                         2/132           1% bonded
    SEIO33                7/299           2% used
                          7/167           4% bonded
-   APIO                  4/60            7% used
+   APIO                  6/60           10% used
    PCS                   1/2            50% used
    PCSREFMUX8            1/1           100% used
-   SLICE                19/39936        <1% used
-     LUT                12/79872        <1% used
-     REG                10/79872        <1% used
+   SLICE                18/39936        <1% used
+     LUT                11/79872        <1% used
+     REG                11/79872        <1% used
 
 
 Pin Constraint Summary:
-   0 out of 7 pins locked (0% locked).
-.
+   9 out of 9 pins locked (100% locked).
 Starting Placer Phase 0 (HIER). CPU time: 4 secs , REAL time: 5 secs 
-..............
+..........
 Finished Placer Phase 0 (HIER). CPU time: 4 secs , REAL time: 5 secs 
 
-Starting Placer Phase 1. CPU time: 5 secs , REAL time: 5 secs 
+Starting Placer Phase 1. CPU time: 4 secs , REAL time: 5 secs 
 ..  ..
 ....................
 
-Placer score = 12016.
-Finished Placer Phase 1. CPU time: 12 secs , REAL time: 13 secs 
+Placer score = 31818.
+Finished Placer Phase 1. CPU time: 10 secs , REAL time: 11 secs 
 
 Starting Placer Phase 2.
 .
 
-Placer score =  11961
-Finished Placer Phase 2.  CPU time: 12 secs , REAL time: 13 secs 
+Placer score =  31780
+Finished Placer Phase 2.  CPU time: 10 secs , REAL time: 11 secs 
 
 
 ------------------ Clock Report ------------------
@@ -95,8 +94,8 @@ Global Clock Resources:
   OSC        : 0 out of 1 (0%)
 
 Global Clocks:
-  PRIMARY "MPCS_ex.PIPE_PCS_TXCLKOUT.tx_clk_pcs_merge" from CH2_PIPE_PCS_TXCLKOUT on comp "u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst" on PCS_CORE site "PCS_CORE_R1C68", clk load = 10, ce load = 0, sr load = 0
-  PRIMARY "rx_clk" from CH2_RXOUTCLK on comp "u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst" on PCS_CORE site "PCS_CORE_R1C68", clk load = 4, ce load = 0, sr load = 0
+  PRIMARY "MPCS_ex.PIPE_PCS_TXCLKOUT.tx_clk_pcs_merge" from CH2_PIPE_PCS_TXCLKOUT on comp "u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst" on PCS_CORE site "PCS_CORE_R1C68", clk load = 12, ce load = 0, sr load = 0
+  PRIMARY "rx_clk" from CH2_RXOUTCLK on comp "u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst" on PCS_CORE site "PCS_CORE_R1C68", clk load = 3, ce load = 0, sr load = 0
   PRIMARY "GND" from F0 on comp "GND_cZ" on site "R38C74A", clk load = 1, ce load = 0, sr load = 0
   PRIMARY "GND_sig_u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst" from F0 on comp "GND_for_u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst" on site "R38C74C", clk load = 1, ce load = 0, sr load = 1
 
@@ -115,9 +114,9 @@ I/O Usage Summary (final):
    7 out of 167 (4.2%) bonded SEIO33 sites used.
    Number of SEIO33 components: 7; differential: 0
    Number of Vref pins used: 0
-   0 out of 132 (0.0%) SEIO18 sites used.
-   0 out of 132 (0.0%) bonded SEIO18 sites used.
-   Number of SEIO18 components: 0; differential: 0
+   2 out of 132 (1.5%) SEIO18 sites used.
+   2 out of 132 (1.5%) bonded SEIO18 sites used.
+   Number of SEIO18 components: 2; differential: 0
    0 out of 66 (0.0%) DIFFIO18 sites used.
    0 out of 66 (0.0%) bonded DIFFIO18 sites used.
    Number of DIFFIO18 components: 0; differential: 0
@@ -126,20 +125,20 @@ I/O Bank Usage Summary:
 +----------+---------------+------------+------------+------------+
 | I/O Bank | Usage         | Bank Vccio | Bank Vref1 | Bank Vref2 |
 +----------+---------------+------------+------------+------------+
-| 0        | 4 / 24 ( 16%) | 3.3V       | -          | -          |
-| 1        | 2 / 39 (  5%) | 3.3V       | -          | -          |
-| 2        | 1 / 32 (  3%) | 3.3V       | -          | -          |
+| 0        | 0 / 24 (  0%) | -          | -          | -          |
+| 1        | 6 / 39 ( 15%) | 3.3V       | -          | -          |
+| 2        | 0 / 32 (  0%) | -          | -          | -          |
 | 3        | 0 / 48 (  0%) | -          | -          | -          |
 | 4        | 0 / 48 (  0%) | -          | -          | -          |
-| 5        | 0 / 36 (  0%) | -          | -          | -          |
-| 6        | 0 / 32 (  0%) | -          | -          | -          |
+| 5        | 2 / 36 (  5%) | 1.8V       | -          | -          |
+| 6        | 1 / 32 (  3%) | 3.3V       | -          | -          |
 | 7        | 0 / 40 (  0%) | -          | -          | -          |
 +----------+---------------+------------+------------+------------+
 
-Total Placer CPU time: 12 secs , REAL time: 13 secs 
+Total Placer CPU time: 10 secs , REAL time: 11 secs 
 
 
-Checksum -- place: 3527f2e09e5a497f8b15e103861301860f4f3fd
+Checksum -- place: 103f422d7c1ff86a80cfb82065cda65fb72aeffd
 Writing design to file Lattice_MPC_Ex_impl_1_par.dir/5_1.udb ...
 
 
@@ -148,7 +147,7 @@ INFO - par: ASE feature is off due to non timing-driven settings.
 -----------------------------------------------------------------
 
 
-Start NBR router at 13:03:33 07/08/26
+Start NBR router at 14:23:17 07/08/26
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -166,9 +165,9 @@ Note: NBR uses a different method to calculate timing slacks. The
 Starting routing resource preassignment
 Preassignment Summary:
 --------------------------------------------------------------------------------
-7 connections routed with dedicated routing resources
+10 connections routed with dedicated routing resources
 4 global clock signals routed
-34 connections routed (of 220 total) (15.45%)
+38 connections routed (of 218 total) (17.43%)
 ---------------------------------------------------------
 Clock routing summary:
 Primary clocks (16 used out of 64 available):
@@ -176,17 +175,22 @@ Primary clocks (16 used out of 64 available):
        Clock   loads: 1     out of     1 routed (100.00%)
        Data    loads: 0     out of     4 routed (  0.00%)
     Signal "MPCS_ex.PIPE_PCS_TXCLKOUT.tx_clk_pcs_merge" (2, 18, 34, 50)
-       Clock   loads: 10    out of    10 routed (100.00%)
+       Clock   loads: 12    out of    12 routed (100.00%)
     Signal "rx_clk" (4, 20, 36, 52)
-       Clock   loads: 4     out of     4 routed (100.00%)
+       Clock   loads: 3     out of     3 routed (100.00%)
     Signal "GND_sig_u_mpcs.lscc_mpcs_top_inst.PCSX1_inst.u_PCSX1_pcs_merge_pcs_merge_pcsx4_merge.PCSX4_inst" (10, 26, 42, 58)
        Clock   loads: 1     out of     1 routed (100.00%)
        Control loads: 1     out of     1 routed (100.00%)
-       Data    loads: 0     out of   123 routed (  0.00%)
+       Data    loads: 0     out of   120 routed (  0.00%)
 Constant clocks:
     Signal "GND"
        Clock   loads: 1     out of     1 routed (100.00%)
        Data    loads: 0     out of     4 routed (  0.00%)
+Other clocks:
+    Signal "sdq_refclkp_q1_i"
+       Clock   loads: 1     out of     1 routed (100.00%)
+    Signal "sdq_refclkn_q1_i"
+       Clock   loads: 1     out of     1 routed (100.00%)
 ---------------------------------------------------------
 --------------------------------------------------------------------------------
 Completed routing resource preassignment
@@ -194,26 +198,26 @@ Completed routing resource preassignment
 Routing in Serial Mode ......
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Start NBR section for initial routing at 13:04:07 07/08/26
+Start NBR section for initial routing at 14:23:51 07/08/26
 Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 37 secs 
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 37 secs 
 
 Info: Initial congestion level at 75.00% usage is 0
 Info: Initial congestion area  at 75.00% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 13:04:10 07/08/26
+Start NBR section for normal routing at 14:23:54 07/08/26
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 37 secs 
 
-Start NBR section for post-routing at 13:04:10 07/08/26
+Start NBR section for post-routing at 14:23:54 07/08/26
 
 End NBR router with 0 unrouted connection(s)
 
-Checksum -- route: 353eaa82a277c96a63f5c90a6e895b1496314c5
+Checksum -- route: e03a463486adf40a6482c634c6b95aec70b154fb
 
 Total Router CPU time 34 secs , REAL time: 37 secs 
 Completely routed.
-End of route.  220 routed (100.00%); 0 unrouted.
+End of route.  218 routed (100.00%); 0 unrouted.
 
 Writing design to file Lattice_MPC_Ex_impl_1_par.dir/5_1.udb ...
 
@@ -231,9 +235,9 @@ PAR_SUMMARY::Number of errors = 0
 
 Note: user must run 'timing' for timing closure signoff.
 
-Total CPU  Time: 48 secs 
-Total REAL Time: 51 secs 
-Peak Memory Usage: 1169.54 MB
+Total CPU  Time: 45 secs 
+Total REAL Time: 49 secs 
+Peak Memory Usage: 1172.38 MB
 
 
 par done!

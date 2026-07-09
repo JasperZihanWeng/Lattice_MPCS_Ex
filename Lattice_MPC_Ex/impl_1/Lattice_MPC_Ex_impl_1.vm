@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "W-2025.03LR-SP1"
 // Program "Synplify Pro", Mapper "map202503latsp1, Build 129R"
-// Wed Jul  8 13:03:03 2026
+// Wed Jul  8 14:22:49 2026
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -90,58 +90,59 @@ module MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 (
   mpcs_rx_word_0,
   mpcs_rx_word_1,
   mpcs_rx_word_8,
+  tx_payload_0,
+  tx_payload_1,
+  tx_payload_9,
   tx_control_0,
-  tx_payload,
   mpcs_rxval,
-  mpcs_ready,
+  sdq_refclkn_q1_i,
+  sdq_refclkp_q1_i,
   sd0txn_o,
   sd0txp_o,
   sd0rxn_i,
   sd0rxp_i,
-  mpcs_phyrdy,
   mpcs_rx_out_clk_o_0,
   mpcs_tx_out_clk_o_0,
   rx_clk,
-  tx_clk,
-  mpcs_lsync_i,
-  mpcs_lsync
+  tx_clk
 )
 ;
 output mpcs_rx_word_0 ;
 output mpcs_rx_word_1 ;
 output mpcs_rx_word_8 ;
+input tx_payload_0 ;
+input tx_payload_1 ;
+input tx_payload_9 ;
 input tx_control_0 ;
-input [1:0] tx_payload ;
 output mpcs_rxval ;
-output mpcs_ready ;
+input sdq_refclkn_q1_i ;
+input sdq_refclkp_q1_i ;
 output sd0txn_o ;
 output sd0txp_o ;
 input sd0rxn_i ;
 input sd0rxp_i ;
-output mpcs_phyrdy ;
 output mpcs_rx_out_clk_o_0 ;
 output mpcs_tx_out_clk_o_0 ;
 input rx_clk ;
 input tx_clk ;
-output mpcs_lsync_i ;
-output mpcs_lsync ;
 wire mpcs_rx_word_0 ;
 wire mpcs_rx_word_1 ;
 wire mpcs_rx_word_8 ;
+wire tx_payload_0 ;
+wire tx_payload_1 ;
+wire tx_payload_9 ;
 wire tx_control_0 ;
 wire mpcs_rxval ;
-wire mpcs_ready ;
+wire sdq_refclkn_q1_i ;
+wire sdq_refclkp_q1_i ;
 wire sd0txn_o ;
 wire sd0txp_o ;
 wire sd0rxn_i ;
 wire sd0rxp_i ;
-wire mpcs_phyrdy ;
 wire mpcs_rx_out_clk_o_0 ;
 wire mpcs_tx_out_clk_o_0 ;
 wire rx_clk ;
 wire tx_clk ;
-wire mpcs_lsync_i ;
-wire mpcs_lsync ;
 wire [0:0] lmmi_rdata_valid_o_w;
 wire [0:0] lmmi_ready_o_w;
 wire [7:0] lmmi_rdata_o_0;
@@ -151,6 +152,7 @@ wire [1:0] mpcs_pwrst_o_0;
 wire [1:0] mpcs_speed_o_0;
 wire [7:0] mpcs_fomrslt_o_0;
 wire [0:0] pcs_rxidle_o_w;
+wire [0:0] pcs_ready_o_w;
 wire [0:0] pcs_fomack_o_w;
 wire [3:0] pcs_ebuf_lsync_lalign_o_w;
 wire [79:2] pcs_rx_ch_dout_o_w;
@@ -178,6 +180,7 @@ wire GND ;
 wire un1_u_PCSX1_6 ;
 wire un1_u_PCSX1_5 ;
 wire VCC ;
+wire mpcs_phyrdy ;
 wire un1_u_PCSX1_4 ;
 wire alt_clk_in_w ;
 wire un1_u_PCSX1 ;
@@ -192,10 +195,6 @@ wire un1_u_PCSX1_16 ;
 wire un1_u_PCSX1_14 ;
 wire un1_u_PCSX1_23 ;
 wire un1_u_PCSX1_18 ;
-  INV \PCSX1_inst.u_PCSX1_RNI6LVU1  (
-	.A(mpcs_lsync),
-	.Z(mpcs_lsync_i)
-);
 // @73:6194
   PCSX1 \PCSX1_inst.u_PCSX1  (
 	.PMACLKIN(tx_clk),
@@ -226,8 +225,8 @@ wire un1_u_PCSX1_18 ;
 	.SDTXN(sd0txn_o),
 	.SDREXT(GND),
 	.SDREFRET(GND),
-	.SDQ_REFCLKP(GND),
-	.SDQ_REFCLKN(GND),
+	.SDQ_REFCLKP(sdq_refclkp_q1_i),
+	.SDQ_REFCLKN(sdq_refclkn_q1_i),
 	.AUXCLK(GND),
 	.PCLKAUX_SEL_LL(un1_u_PCSX1_4),
 	.ALTCLKIN(alt_clk_in_w),
@@ -259,7 +258,7 @@ wire un1_u_PCSX1_18 ;
 	.PIPE_LOCAL_GET_PRESET_COEF(VCC),
 	.PIPE_TX_DATA_VLD(VCC),
 	.PIPE_TX_EI(GND),
-	.PIPE_TX_DATA_PCS_TX_DATA({tx_control_0, GND, GND, GND, tx_control_0, GND, tx_control_0, GND, tx_control_0, GND, tx_control_0, GND, GND, GND, tx_control_0, GND, tx_control_0, GND, tx_control_0, GND, tx_control_0, GND, GND, tx_control_0, tx_control_0, GND, tx_control_0, tx_control_0, tx_control_0, tx_control_0, tx_payload[1:0]}),
+	.PIPE_TX_DATA_PCS_TX_DATA({tx_payload_9, tx_payload_0, GND, GND, tx_control_0, GND, tx_control_0, GND, tx_control_0, GND, tx_payload_9, tx_payload_0, GND, GND, tx_control_0, GND, tx_control_0, GND, tx_control_0, GND, tx_payload_9, tx_payload_0, GND, tx_control_0, tx_control_0, GND, tx_control_0, tx_control_0, tx_control_0, tx_control_0, tx_payload_1, tx_payload_0}),
 	.PIPE_TX_DATAK_PCS_TX_DATA({tx_control_0, GND, tx_control_0, GND}),
 	.PIPE_TX_COMP_PCS_TX_DATA(GND),
 	.PIPE_TX_START_BLK_PCS_TX_DATA(tx_control_0),
@@ -271,9 +270,9 @@ wire un1_u_PCSX1_18 ;
 	.PIPE_RXEQ_FOM(mpcs_fomrslt_o_0[7:0]),
 	.PIPE_PHY_STATUS(mpcs_phyrdy),
 	.PIPE_RX_EI(pcs_rxidle_o_w[0]),
-	.PIPE_RX_CLKREQ(mpcs_ready),
+	.PIPE_RX_CLKREQ(pcs_ready_o_w[0]),
 	.PIPE_L1X_ENTRY_ACK(pcs_fomack_o_w[0]),
-	.PIPE_LOCAL_GET_TX_PRESET_COEF({pcs_ebuf_lsync_lalign_o_w[3:2], mpcs_lsync, pcs_ebuf_lsync_lalign_o_w[0]}),
+	.PIPE_LOCAL_GET_TX_PRESET_COEF(pcs_ebuf_lsync_lalign_o_w[3:0]),
 	.PIPE_TX_PRESET_COEF_PCS_RX_DATA(pcs_rx_ch_dout_o_w[69:56]),
 	.PIPE_RX_START_BLOCK(mpcs_rxval),
 	.PIPE_RX_DATA_PCS_RX_DATA({pcs_rx_ch_dout_o_w[31:9], mpcs_rx_word_8, pcs_rx_ch_dout_o_w[7:2], mpcs_rx_word_1, mpcs_rx_word_0}),
@@ -528,79 +527,81 @@ defparam \PCSX1_inst.u_PCSX1 .FAR_LP_EN = "DISABLED";
 endmodule /* MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 */
 
 (* LATTICE_IP_GENERATED="1" , ORIG_MODULE_NAME="MPCS_ex" *)module MPCS_ex (
-  tx_payload,
   tx_control_0,
+  tx_payload_0,
+  tx_payload_1,
+  tx_payload_9,
   mpcs_rx_word_0,
   mpcs_rx_word_1,
   mpcs_rx_word_8,
-  mpcs_lsync,
-  mpcs_lsync_i,
-  mpcs_phyrdy,
   sd0rxp_i,
   sd0rxn_i,
   sd0txp_o,
   sd0txn_o,
-  mpcs_ready,
+  sdq_refclkn_q1_i,
   mpcs_rxval,
+  sdq_refclkp_q1_i_0,
   tx_clk,
   rx_clk
 )
 ;
-input [1:0] tx_payload ;
 input tx_control_0 ;
+input tx_payload_0 ;
+input tx_payload_1 ;
+input tx_payload_9 ;
 output mpcs_rx_word_0 ;
 output mpcs_rx_word_1 ;
 output mpcs_rx_word_8 ;
-output mpcs_lsync ;
-output mpcs_lsync_i ;
-output mpcs_phyrdy ;
 input sd0rxp_i ;
 input sd0rxn_i ;
 output sd0txp_o ;
 output sd0txn_o ;
-output mpcs_ready ;
+input sdq_refclkn_q1_i ;
 output mpcs_rxval ;
+input sdq_refclkp_q1_i_0 ;
 output tx_clk ;
 output rx_clk ;
 wire tx_control_0 ;
+wire tx_payload_0 ;
+wire tx_payload_1 ;
+wire tx_payload_9 ;
 wire mpcs_rx_word_0 ;
 wire mpcs_rx_word_1 ;
 wire mpcs_rx_word_8 ;
-wire mpcs_lsync ;
-wire mpcs_lsync_i ;
-wire mpcs_phyrdy ;
 wire sd0rxp_i ;
 wire sd0rxn_i ;
 wire sd0txp_o ;
 wire sd0txn_o ;
-wire mpcs_ready ;
+wire sdq_refclkn_q1_i ;
 wire mpcs_rxval ;
+wire sdq_refclkp_q1_i_0 ;
 wire tx_clk ;
 wire rx_clk ;
 wire GND ;
 wire VCC ;
-//@72:111
-//@72:111
+//@72:112
+//@72:112
+//@72:112
 // @73:337
   MPCS_ex_ipgen_lscc_mpcs_top_Z1_layer0 lscc_mpcs_top_inst (
 	.mpcs_rx_word_0(mpcs_rx_word_0),
 	.mpcs_rx_word_1(mpcs_rx_word_1),
 	.mpcs_rx_word_8(mpcs_rx_word_8),
+	.tx_payload_0(tx_payload_0),
+	.tx_payload_1(tx_payload_1),
+	.tx_payload_9(tx_payload_9),
 	.tx_control_0(tx_control_0),
-	.tx_payload(tx_payload[1:0]),
 	.mpcs_rxval(mpcs_rxval),
-	.mpcs_ready(mpcs_ready),
+	.sdq_refclkn_q1_i(sdq_refclkn_q1_i),
+	.sdq_refclkp_q1_i(sdq_refclkp_q1_i_0),
 	.sd0txn_o(sd0txn_o),
 	.sd0txp_o(sd0txp_o),
 	.sd0rxn_i(sd0rxn_i),
 	.sd0rxp_i(sd0rxp_i),
-	.mpcs_phyrdy(mpcs_phyrdy),
 	.mpcs_rx_out_clk_o_0(rx_clk),
 	.mpcs_tx_out_clk_o_0(tx_clk),
 	.rx_clk(rx_clk),
-	.tx_clk(tx_clk),
-	.mpcs_lsync_i(mpcs_lsync_i),
-	.mpcs_lsync(mpcs_lsync)
+	.tx_clk(tx_clk)
 );
 // @0:1
   VHI VCC_cZ (
@@ -613,8 +614,8 @@ wire VCC ;
 endmodule /* MPCS_ex */
 
 module flashing_lights (
-  sdq_refclkp_q0_i,
-  sdq_refclkn_q0_i,
+  sdq_refclkp_q1_i,
+  sdq_refclkn_q1_i,
   Switch1,
   Switch2,
   sd0rxp_i,
@@ -625,11 +626,13 @@ module flashing_lights (
   LED1,
   LED2,
   LED3,
-  LED4
+  LED4,
+  Debug_LED1,
+  Debug_LED2
 )
 ;
-input sdq_refclkp_q0_i ;
-input sdq_refclkn_q0_i ;
+input sdq_refclkp_q1_i ;
+input sdq_refclkn_q1_i ;
 input Switch1 ;
 input Switch2 ;
 input sd0rxp_i ;
@@ -641,8 +644,10 @@ output LED1 ;
 output LED2 ;
 output LED3 ;
 output LED4 ;
-wire sdq_refclkp_q0_i ;
-wire sdq_refclkn_q0_i ;
+output Debug_LED1 ;
+output Debug_LED2 ;
+wire sdq_refclkp_q1_i ;
+wire sdq_refclkn_q1_i ;
 wire Switch1 ;
 wire Switch2 ;
 wire sd0rxp_i ;
@@ -654,42 +659,39 @@ wire LED1 ;
 wire LED2 ;
 wire LED3 ;
 wire LED4 ;
-wire [1:0] tx_payload;
+wire Debug_LED1 ;
+wire Debug_LED2 ;
+wire [9:0] tx_payload;
 wire [0:0] tx_control;
 wire [8:0] mpcs_rx_word;
-wire [1:0] rx_data;
-wire [1:0] tx_payload_3;
-wire [1:0] rx_data_QN;
+wire [1:0] rx_switch_value;
+wire [9:0] tx_payload_3;
+wire [1:0] rx_switch_value_QN;
 wire [0:0] tx_control_QN;
-wire [1:0] tx_payload_QN;
+wire [17:0] tx_payload_QN;
 wire GND ;
 wire tx_clk ;
 wire VCC ;
 wire rx_clk ;
-wire mpcs_phyrdy ;
-wire mpcs_lsync ;
-wire mpcs_ready ;
 wire mpcs_rxval ;
 wire switch2_sync ;
 wire switch1_sync ;
+wire tx_send_align ;
 wire switch1_meta ;
 wire switch2_meta ;
-wire rx_data_valid ;
-wire have_rx_data ;
-wire rx_data_valid_1 ;
+wire rx_switch_value3 ;
 wire Switch1_c ;
 wire Switch2_c ;
 wire LED1_c ;
 wire LED2_c ;
 wire LED3_c ;
 wire LED4_c ;
-wire have_rx_data_QN ;
 wire switch1_meta_QN ;
 wire switch1_sync_QN ;
 wire switch2_meta_QN ;
 wire switch2_sync_QN ;
-wire N_124_0 ;
-wire mpcs_lsync_i ;
+wire tx_send_align_QN ;
+wire tx_send_align_i ;
 wire NC0 ;
 // @0:1
   VHI VCC_cZ (
@@ -705,14 +707,17 @@ wire NC0 ;
 	.CLK(NC0)
 );
 defparam GSR_INST.SYNCMODE="ASYNC";
-  LUT4 have_rx_data_RNO (
-	.A(have_rx_data),
-	.B(rx_data_valid),
-	.C(GND),
-	.D(GND),
-	.Z(N_124_0)
+  INV tx_send_align_RNO (
+	.A(tx_send_align),
+	.Z(tx_send_align_i)
 );
-defparam have_rx_data_RNO.INIT="0xEEEE";
+  FD1P3JX tx_send_align_reg (
+	.D(tx_send_align_i),
+	.SP(VCC),
+	.CK(tx_clk),
+	.PD(GND),
+	.Q(tx_send_align)
+);
   FD1P3IX \tx_payload_reg[0]  (
 	.D(tx_payload_3[0]),
 	.SP(VCC),
@@ -727,8 +732,15 @@ defparam have_rx_data_RNO.INIT="0xEEEE";
 	.CD(GND),
 	.Q(tx_payload[1])
 );
+  FD1P3IX \tx_payload[17]  (
+	.D(tx_payload_3[9]),
+	.SP(VCC),
+	.CK(tx_clk),
+	.CD(GND),
+	.Q(tx_payload[9])
+);
   FD1P3IX \tx_control_reg[0]  (
-	.D(mpcs_lsync_i),
+	.D(tx_send_align),
 	.SP(VCC),
 	.CK(tx_clk),
 	.CD(GND),
@@ -762,26 +774,29 @@ defparam have_rx_data_RNO.INIT="0xEEEE";
 	.PD(GND),
 	.Q(switch1_meta)
 );
-  FD1P3IX \rx_data_reg[0]  (
+  FD1P3IX \rx_switch_value_reg[0]  (
 	.D(mpcs_rx_word[0]),
-	.SP(rx_data_valid),
+	.SP(rx_switch_value3),
 	.CK(rx_clk),
 	.CD(GND),
-	.Q(rx_data[0])
+	.Q(rx_switch_value[0])
 );
-  FD1P3IX \rx_data_reg[1]  (
+  FD1P3IX \rx_switch_value_reg[1]  (
 	.D(mpcs_rx_word[1]),
-	.SP(rx_data_valid),
+	.SP(rx_switch_value3),
 	.CK(rx_clk),
 	.CD(GND),
-	.Q(rx_data[1])
+	.Q(rx_switch_value[1])
 );
-  FD1P3IX have_rx_data_reg (
-	.D(N_124_0),
-	.SP(VCC),
-	.CK(rx_clk),
-	.CD(GND),
-	.Q(have_rx_data)
+// @72:20
+  OB Debug_LED2_pad (
+	.I(Switch2_c),
+	.O(Debug_LED2)
+);
+// @72:19
+  OB Debug_LED1_pad (
+	.I(Switch1_c),
+	.O(Debug_LED1)
 );
 // @72:17
   OB LED4_pad (
@@ -818,94 +833,94 @@ defparam have_rx_data_RNO.INIT="0xEEEE";
 	.I(Switch1),
 	.O(Switch1_c)
 );
-// @72:76
-  LUT4 rx_data_valid_cZ (
-	.A(mpcs_lsync),
-	.B(mpcs_rx_word[8]),
-	.C(mpcs_rxval),
-	.D(rx_data_valid_1),
-	.Z(rx_data_valid)
-);
-defparam rx_data_valid_cZ.INIT="0x2000";
-// @72:95
-  LUT4 LED3_cZ (
-	.A(have_rx_data),
-	.B(rx_data[0]),
-	.C(rx_data[1]),
+// @72:85
+  LUT4 rx_switch_value3_cZ (
+	.A(mpcs_rx_word[8]),
+	.B(mpcs_rxval),
+	.C(GND),
 	.D(GND),
-	.Z(LED3_c)
+	.Z(rx_switch_value3)
 );
-defparam LED3_cZ.INIT="0xDFDF";
-// @72:95
-  LUT4 LED1_cZ (
-	.A(have_rx_data),
-	.B(rx_data[0]),
-	.C(rx_data[1]),
-	.D(GND),
-	.Z(LED1_c)
-);
-defparam LED1_cZ.INIT="0xFDFD";
-// @72:95
-  LUT4 LED2_cZ (
-	.A(have_rx_data),
-	.B(rx_data[0]),
-	.C(rx_data[1]),
-	.D(GND),
-	.Z(LED2_c)
-);
-defparam LED2_cZ.INIT="0xF7F7";
-// @72:95
-  LUT4 LED4_cZ (
-	.A(have_rx_data),
-	.B(rx_data[0]),
-	.C(rx_data[1]),
-	.D(GND),
-	.Z(LED4_c)
-);
-defparam LED4_cZ.INIT="0x7F7F";
-// @72:63
+defparam rx_switch_value3_cZ.INIT="0x4444";
+// @72:72
   LUT4 \tx_payload_3_cZ[0]  (
-	.A(mpcs_lsync),
-	.B(switch2_sync),
+	.A(switch2_sync),
+	.B(tx_send_align),
 	.C(GND),
 	.D(GND),
 	.Z(tx_payload_3[0])
 );
-defparam \tx_payload_3_cZ[0] .INIT="0x2222";
-// @72:63
+defparam \tx_payload_3_cZ[0] .INIT="0x1111";
+// @72:72
   LUT4 \tx_payload_3_cZ[1]  (
-	.A(mpcs_lsync),
-	.B(switch1_sync),
+	.A(switch1_sync),
+	.B(tx_send_align),
 	.C(GND),
 	.D(GND),
 	.Z(tx_payload_3[1])
 );
-defparam \tx_payload_3_cZ[1] .INIT="0x2222";
-// @72:76
-  LUT4 rx_data_valid_1_cZ (
-	.A(mpcs_phyrdy),
-	.B(mpcs_ready),
+defparam \tx_payload_3_cZ[1] .INIT="0x1111";
+// @72:72
+  LUT4 \tx_payload_3_cZ[9]  (
+	.A(switch1_sync),
+	.B(tx_send_align),
 	.C(GND),
 	.D(GND),
-	.Z(rx_data_valid_1)
+	.Z(tx_payload_3[9])
 );
-defparam rx_data_valid_1_cZ.INIT="0x8888";
-// @72:111
+defparam \tx_payload_3_cZ[9] .INIT="0xDDDD";
+// @72:99
+  LUT4 LED3_cZ (
+	.A(rx_switch_value[0]),
+	.B(rx_switch_value[1]),
+	.C(GND),
+	.D(GND),
+	.Z(LED3_c)
+);
+defparam LED3_cZ.INIT="0x4444";
+// @72:98
+  LUT4 LED2_cZ (
+	.A(rx_switch_value[0]),
+	.B(rx_switch_value[1]),
+	.C(GND),
+	.D(GND),
+	.Z(LED2_c)
+);
+defparam LED2_cZ.INIT="0x2222";
+// @72:97
+  LUT4 LED1_cZ (
+	.A(rx_switch_value[0]),
+	.B(rx_switch_value[1]),
+	.C(GND),
+	.D(GND),
+	.Z(LED1_c)
+);
+defparam LED1_cZ.INIT="0x1111";
+// @72:100
+  LUT4 LED4_cZ (
+	.A(rx_switch_value[0]),
+	.B(rx_switch_value[1]),
+	.C(GND),
+	.D(GND),
+	.Z(LED4_c)
+);
+defparam LED4_cZ.INIT="0x8888";
+// @72:112
   MPCS_ex u_mpcs (
-	.tx_payload(tx_payload[1:0]),
 	.tx_control_0(tx_control[0]),
+	.tx_payload_0(tx_payload[0]),
+	.tx_payload_1(tx_payload[1]),
+	.tx_payload_9(tx_payload[9]),
 	.mpcs_rx_word_0(mpcs_rx_word[0]),
 	.mpcs_rx_word_1(mpcs_rx_word[1]),
 	.mpcs_rx_word_8(mpcs_rx_word[8]),
-	.mpcs_lsync(mpcs_lsync),
-	.mpcs_lsync_i(mpcs_lsync_i),
-	.mpcs_phyrdy(mpcs_phyrdy),
 	.sd0rxp_i(sd0rxp_i),
 	.sd0rxn_i(sd0rxn_i),
 	.sd0txp_o(sd0txp_o),
 	.sd0txn_o(sd0txn_o),
-	.mpcs_ready(mpcs_ready),
+	.sdq_refclkn_q1_i(sdq_refclkn_q1_i),
 	.mpcs_rxval(mpcs_rxval),
+	.sdq_refclkp_q1_i_0(sdq_refclkp_q1_i),
 	.tx_clk(tx_clk),
 	.rx_clk(rx_clk)
 );

@@ -1,4 +1,4 @@
-# Wed Jul  8 13:03:01 2026
+# Wed Jul  8 14:22:47 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -25,7 +25,7 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 200MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 200MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 200MB)
 
 Reading custom part data from path: C:\lscc\radiant\2025.2.1\synpbase\lib\lattice_custom\radiant_custom_partdata.txt
 
@@ -58,11 +58,12 @@ Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
 @N: FX493 |Applying initial value "1" on instance switch2_meta.
 @N: FX493 |Applying initial value "0" on instance tx_control[0].
+@N: FX493 |Applying initial value "1" on instance tx_send_align.
 @N: FX493 |Applying initial value "1" on instance switch1_sync.
 @N: FX493 |Applying initial value "1" on instance switch2_sync.
-@N: FX493 |Applying initial value "0" on instance have_rx_data.
 @N: FX493 |Applying initial value "0" on instance tx_payload[0].
 @N: FX493 |Applying initial value "0" on instance tx_payload[1].
+@N: FX493 |Applying initial value "0" on instance tx_payload[17].
 
 Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
 
@@ -84,7 +85,7 @@ Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CP
 Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 268MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
 
 
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 268MB peak: 268MB)
@@ -97,7 +98,7 @@ Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		     3.87ns		   9 /        10
+   1		0h:00m:01s		     3.74ns		   9 /        11
 
 Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 269MB)
 
@@ -139,7 +140,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Jul  8 13:03:03 2026
+# Timing report written on Wed Jul  8 14:22:50 2026
 #
 
 
@@ -160,12 +161,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 3.315
+Worst slack in design: 3.551
 
                    Requested     Estimated     Requested     Estimated               Clock      Clock          
 Starting Clock     Frequency     Frequency     Period        Period        Slack     Type       Group          
 ---------------------------------------------------------------------------------------------------------------
-System             200.0 MHz     593.5 MHz     5.000         1.685         3.315     system     system_clkgroup
+System             200.0 MHz     690.1 MHz     5.000         1.449         3.551     system     system_clkgroup
 ===============================================================================================================
 
 
@@ -179,7 +180,7 @@ Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fal
 --------------------------------------------------------------------------------------------------------
 Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
 --------------------------------------------------------------------------------------------------------
-System    System  |  5.000       3.315  |  No paths    -      |  No paths    -      |  No paths    -    
+System    System  |  5.000       3.551  |  No paths    -      |  No paths    -      |  No paths    -    
 ========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -202,21 +203,21 @@ Detailed Report for Clock: System
 Starting Points with Worst Slack
 ********************************
 
-                                                  Starting                                                                           Arrival          
-Instance                                          Reference     Type        Pin                                  Net                 Time        Slack
-                                                  Clock                                                                                               
-------------------------------------------------------------------------------------------------------------------------------------------------------
-u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_PHY_STATUS                      mpcs_phyrdy         0.000       3.315
-u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_RX_CLKREQ                       mpcs_ready          0.000       3.315
-have_rx_data                                      System        FD1P3IX     Q                                    have_rx_data        0.883       3.563
-switch1_sync                                      System        FD1P3JX     Q                                    switch1_sync        0.753       3.693
-switch2_sync                                      System        FD1P3JX     Q                                    switch2_sync        0.753       3.693
-u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_LOCAL_GET_TX_PRESET_COEF[1]     mpcs_lsync          0.000       3.838
-u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_RX_DATA_PCS_RX_DATA[8]          mpcs_rx_word[8]     0.000       3.838
-u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_RX_START_BLOCK                  mpcs_rxval          0.000       3.838
-switch1_meta                                      System        FD1P3JX     Q                                    switch1_meta        0.753       4.036
-switch2_meta                                      System        FD1P3JX     Q                                    switch2_meta        0.753       4.036
-======================================================================================================================================================
+                                                  Starting                                                                      Arrival          
+Instance                                          Reference     Type        Pin                             Net                 Time        Slack
+                                                  Clock                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------------------------
+tx_send_align                                     System        FD1P3JX     Q                               tx_send_align       0.883       3.551
+switch1_sync                                      System        FD1P3JX     Q                               switch1_sync        0.798       3.648
+switch2_sync                                      System        FD1P3JX     Q                               switch2_sync        0.753       3.693
+switch1_meta                                      System        FD1P3JX     Q                               switch1_meta        0.753       4.036
+switch2_meta                                      System        FD1P3JX     Q                               switch2_meta        0.753       4.036
+tx_control[0]                                     System        FD1P3IX     Q                               tx_control[0]       0.933       4.067
+tx_payload[0]                                     System        FD1P3IX     Q                               tx_payload[0]       0.863       4.137
+tx_payload[17]                                    System        FD1P3IX     Q                               tx_payload[9]       0.838       4.162
+tx_payload[1]                                     System        FD1P3IX     Q                               tx_payload[1]       0.753       4.247
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_RX_DATA_PCS_RX_DATA[8]     mpcs_rx_word[8]     0.000       4.249
+=================================================================================================================================================
 
 
 Ending Points with Worst Slack
@@ -226,16 +227,16 @@ Ending Points with Worst Slack
 Instance                                          Reference     Type        Pin                              Net                 Time         Slack
                                                   Clock                                                                                            
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-have_rx_data                                      System        FD1P3IX     D                                N_124_0             4.789        3.315
-rx_data[0]                                        System        FD1P3IX     SP                               rx_data_valid       4.817        3.686
-rx_data[1]                                        System        FD1P3IX     SP                               rx_data_valid       4.817        3.686
-tx_payload[0]                                     System        FD1P3IX     D                                tx_payload_3[0]     4.789        3.693
-tx_payload[1]                                     System        FD1P3IX     D                                tx_payload_3[1]     4.789        3.693
+tx_send_align                                     System        FD1P3JX     D                                tx_send_align_i     4.789        3.551
+tx_payload[0]                                     System        FD1P3IX     D                                tx_payload_3[0]     4.789        3.563
+tx_payload[1]                                     System        FD1P3IX     D                                tx_payload_3[1]     4.789        3.563
+tx_payload[17]                                    System        FD1P3IX     D                                tx_payload_3[9]     4.789        3.563
+tx_control[0]                                     System        FD1P3IX     D                                tx_send_align       4.789        3.906
 switch1_sync                                      System        FD1P3JX     D                                switch1_meta        4.789        4.036
 switch2_sync                                      System        FD1P3JX     D                                switch2_meta        4.789        4.036
-u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_TX_DATAK_PCS_TX_DATA[1]     tx_control[0]       5.000        4.059
-u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_TX_DATAK_PCS_TX_DATA[3]     tx_control[0]       5.000        4.059
-u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_TX_DATA_PCS_TX_DATA[2]      tx_control[0]       5.000        4.059
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_TX_DATAK_PCS_TX_DATA[1]     tx_control[0]       5.000        4.067
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_TX_DATAK_PCS_TX_DATA[3]     tx_control[0]       5.000        4.067
+u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     System        PCSX1       PIPE_TX_DATA_PCS_TX_DATA[2]      tx_control[0]       5.000        4.067
 ===================================================================================================================================================
 
 
@@ -251,33 +252,27 @@ Path information for path number 1:
     + Estimated clock delay at ending point: 0.000
     = Required time:                         4.789
 
-    - Propagation time:                      1.474
+    - Propagation time:                      1.238
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (critical) :                     3.315
+    = Slack (critical) :                     3.551
 
-    Number of logic level(s):                3
-    Starting point:                          u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1 / PIPE_PHY_STATUS
-    Ending point:                            have_rx_data / D
-    The start point is clocked by            System [rising]
+    Number of logic level(s):                1
+    Starting point:                          tx_send_align / Q
+    Ending point:                            tx_send_align / D
+    The start point is clocked by            System [rising] on pin CK
     The end   point is clocked by            System [rising] on pin CK
 
-Instance / Net                                                Pin                 Pin               Arrival     No. of    
-Name                                              Type        Name                Dir     Delay     Time        Fan Out(s)
---------------------------------------------------------------------------------------------------------------------------
-u_mpcs.lscc_mpcs_top_inst.PCSX1_inst\.u_PCSX1     PCSX1       PIPE_PHY_STATUS     Out     0.000     0.000 r     -         
-mpcs_phyrdy                                       Net         -                   -       -         -           2         
-rx_data_valid_1                                   LUT4        A                   In      0.000     0.000 r     -         
-rx_data_valid_1                                   LUT4        Z                   Out     0.523     0.523 r     -         
-rx_data_valid_1                                   Net         -                   -       -         -           1         
-rx_data_valid                                     LUT4        D                   In      0.000     0.523 r     -         
-rx_data_valid                                     LUT4        Z                   Out     0.608     1.131 r     -         
-rx_data_valid                                     Net         -                   -       -         -           3         
-have_rx_data_RNO                                  LUT4        B                   In      0.000     1.131 r     -         
-have_rx_data_RNO                                  LUT4        Z                   Out     0.343     1.474 r     -         
-N_124_0                                           Net         -                   -       -         -           1         
-have_rx_data                                      FD1P3IX     D                   In      0.000     1.474 r     -         
-==========================================================================================================================
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+tx_send_align         FD1P3JX     Q        Out     0.883     0.883 r     -         
+tx_send_align         Net         -        -       -         -           5         
+tx_send_align_RNO     INV         A        In      0.000     0.883 r     -         
+tx_send_align_RNO     INV         Z        Out     0.355     1.238 f     -         
+tx_send_align_i       Net         -        -       -         -           1         
+tx_send_align         FD1P3JX     D        In      0.000     1.238 f     -         
+===================================================================================
 
 
 
@@ -288,25 +283,25 @@ Timing exceptions that could not be applied
 Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 269MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 265MB peak: 269MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 269MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lfcpnx_100-9
 
-Register bits: 10 of 79872 (0%)
+Register bits: 11 of 79872 (0%)
 PIC Latch:       0
-I/O cells:       7
+I/O cells:       9
 
 
 Details:
 FD1P3IX:        6
-FD1P3JX:        4
+FD1P3JX:        5
 GSR:            1
 IB:             2
 INV:            1
-LUT4:           9
-OB:             5
+LUT4:           8
+OB:             7
 PCSREFMUX:      1
 PCSX1:          1
 VHI:            3
@@ -323,8 +318,8 @@ Carry Chains: 0
 Blackboxes: 0
 
 Mapping Summary:
-Total number of registers: 10 + 0 = 10 of 79872 (0.01%)
-Total number of LUTs: 9 + 0 = 9 
+Total number of registers: 11 + 0 = 11 of 79872 (0.01%)
+Total number of LUTs: 8 + 0 = 8 
 Total number of EBRs: 0 + 0 = 0 of 208 (0.00%)
 Total number of LRAMs: 0 + 0 = 0 of 7 (0.00%)
 Total number of DSPs: 0 + 0 = 0 of 156 (0.00%)
@@ -333,9 +328,9 @@ Total number of Carry Chains: 0 + 0 = 0
 Total number of BlackBoxes: 9 + 0 = 9 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 125MB peak: 269MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 125MB peak: 269MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Wed Jul  8 13:03:04 2026
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Wed Jul  8 14:22:50 2026
 
 ###########################################################]
