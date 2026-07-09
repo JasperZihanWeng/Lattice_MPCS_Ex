@@ -14,10 +14,7 @@ module flashing_lights (
     output reg LED1,
     output reg LED2,
     output reg LED3,
-    output reg LED4,
-
-    output reg Debug_LED1,
-    output reg Debug_LED2
+    output reg LED4
 );
 
 assign F_SFP1_TX_DISABLE = 1'b0;
@@ -33,6 +30,11 @@ wire rx_clk;
 wire [79:0] mpcs_tx_word;
 wire [79:0] mpcs_rx_word;
 
+wire mpcs_lsync;
+wire mpcs_phyrdy;
+wire mpcs_ready;
+wire mpcs_rx_val;
+
 
 assign mpcs_tx_word = {78'h0, Switch1, Switch2};
 //rx_switch_value is the received signal for which light to turn on
@@ -43,25 +45,12 @@ always @(posedge rx_clk) begin
 end
 
 always @* begin
-    LED1 = LED_OFF;
-    LED2 = LED_OFF;
-    LED3 = LED_OFF;
-    LED4 = LED_OFF;
-
-    case (rx_switch_value)
-        2'b00: LED1 = LED_ON;
-        2'b01: LED2 = LED_ON;
-        2'b10: LED3 = LED_ON;
-        2'b11: LED4 = LED_ON;
-        default: LED1 = LED_ON;
-    endcase
+    LED1 = mpcs_lsync;
+    LED2 = mpcs_phyrdy;
+    LED3 = mpcs_ready;
+    LED4 = mpcs_rx_val;
 end
 
-//these are debugging LEDS
-always @* begin
-    Debug_LED1 = Switch1;
-    Debug_LED2 = Switch2;
-end
 
 
 MPCS_ex u_mpcs (
@@ -121,7 +110,7 @@ MPCS_ex u_mpcs (
 
     .mpcs_anxmit_i_0(1'b1),
     .mpcs_walign_en_i_0(1'b1),
-    .mpcs_get_lsync_o_0(),
+    .mpcs_get_lsync_o_0(mpcs_lsync),
     .mpcs_rx_get_lalign_o_0(),
     .mpcs_rx_deskew_en_i_0(1'b1),
     .mpcs_clkin_i_0(tx_clk),
@@ -134,13 +123,13 @@ MPCS_ex u_mpcs (
     .mpcs_fomrslt_o_0(),
     .mpcs_speed_o_0(),
     .mpcs_txval_i_0(1'b1),
-    .mpcs_phyrdy_o_0(),
-    .mpcs_ready_o_0(),
+    .mpcs_phyrdy_o_0(mpcs_phyrdy),
+    .mpcs_ready_o_0(mpcs_ready),
     .mpcs_rxoob_i_0(1'b0),
     .mpcs_txdeemp_i_0(1'b0),
     .mpcs_pwrst_o_0(),
     .mpcs_skipbit_i_0(1'b0),
-    .mpcs_rxval_o_0()
+    .mpcs_rxval_o_0(mpcs_rx_val)
 );
 
 endmodule
