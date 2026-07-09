@@ -47,6 +47,7 @@ assign fabric_clk = F_125Mhz_P;
 
 (* syn_preserve = 1 *) reg [15:0] reset_count = 16'd0;
 (* syn_preserve = 1 *) reg [25:0] fabric_clk_count = 26'd0;
+(* syn_preserve = 1 *) reg [25:0] fabric_clk_n_count = 26'd0;
 
 always @(posedge fabric_clk) begin
     fabric_clk_count <= fabric_clk_count + 1'b1;
@@ -61,12 +62,16 @@ assign mpcs_tx_enable = mpcs_resetn && mpcs_phyrdy;
 
 (* syn_preserve = 1 *) reg [25:0] tx_clk_count = 26'd0;
 
+always @(posedge F_125Mhz_N) begin
+    fabric_clk_n_count <= fabric_clk_n_count + 1'b1;
+end
+
 always @(posedge tx_clk) begin
     tx_clk_count <= tx_clk_count + 1'b1;
 end
 
 assign Debug_LED1 = fabric_clk_count[25];
-assign Debug_LED2 = tx_clk_count[25];
+assign Debug_LED2 = fabric_clk_n_count[25];
 
 // 64B/66B mapping: bit 79 writes the Tx FIFO, bit 72 leaves the encoder enabled,
 // bits 71:64 mark all payload bytes as data, and bits 63:0 carry the payload.
